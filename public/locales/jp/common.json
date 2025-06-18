@@ -1,0 +1,797 @@
+{
+  "common": {
+    "language_selector_label": "言語を選択",
+    "goBack": "戻る"
+  },
+  "menuButton": {
+    "h2title": "本当にいいですか？",
+    "confirmButton": "はい",
+    "cancelButton": "いいえ"
+  },
+  "home": {
+    "sign_in_button": "ログイン",
+    "sign_up_button": "登録"
+  },
+  "index": {
+    "random_button": "ランダム",
+    "category_title": "カテゴリー"
+  },
+  "login": {
+    "title": "ログイン",
+    "emailPlaceholder": "メールアドレス",
+    "passwordPlaceholder": "パスワード",
+    "enterButton": "ログイン",
+    "emailRequired": "メールアドレスとパスワードを入力してください。",
+    "emailInvalid": "有効なメールアドレスを入力してください。",
+    "passwordTooShort": "パスワードは6文字以上で入力してください。"
+  },
+  "register": {
+    "title": "新規登録",
+    "namePlaceholder": "名前",
+    "emailPlaceholder": "メールアドレス",
+    "passwordPlaceholder": "パスワード",
+    "confirmPasswordPlaceholder": "パスワードの確認",
+    "signUpButton": "登録する",
+    "passwordsDoNotMatch": "パスワードが一致しません",
+    "nameRequired": "名前は必須です",
+    "emailRequired": "メールアドレスは必須です。",
+    "passwordRequired": "パスワードは必須です。"
+  },
+  "isekaiPage": {
+    "title": "異世界クイズ",
+    "loadingQuestions": "質問を読み込み中..."
+  },
+  "seinenPage": {
+    "title": "青年クイズ",
+    "loadingQuestions": "質問を読み込み中..."
+  },
+  "shonenPage": {
+    "title": "少年クイズ",
+    "loadingQuestions": "質問を読み込み中..."
+  },
+  "shojoPage": {
+    "title": "少女クイズ",
+    "loadingQuestions": "質問を読み込み中..."
+  },
+  "spokonPage": {
+    "title": "スポ根クイズ",
+    "loadingQuestions": "質問を読み込み中..."
+  },
+  "buttonLeave": {
+    "Leave_Game": "ゲームをやめる",
+    "message": "ゲームをやめてもよろしいですか？進行状況が失われます。",
+    "confirmButtonText": "はい、やめる",
+    "cancelButtonText": "いいえ、続ける",
+    "title": "ゲームをやめる"
+  },
+  "quiz": {
+    "noQuestionsAvailable": "利用可能な質問がありません。",
+    "congratulationsTitle": "🎉 おめでとうございます！ 🎉",
+    "congratulationsMessage": "すべてのクイズの質問に答えました！",
+    "backToHome": "ホームに戻る",
+    "correctFeedback": "✅ 正解！",
+    "incorrectFeedback": "❌ 不正解。正解は：",
+    "nextQuestion": "次の質問"
+  },
+  "plans": {
+    "name": "私たちのプラン",
+    "basic_plan": "ベーシックプラン",
+    "premium_plan": "プレミアムプラン",
+    "pro_plan": "プロプラン",
+    "selectButton": "選択する"
+  },
+  "our_plans_title": "私たちのプラン",
+  "loading_prices": "価格を読み込み中...",
+  "error_loading_prices": "価格の読み込み中にエラーが発生しました。後でもう一度お試しください。",
+  "trivia": {
+    "title": "アニメトリビア",
+    "correct": "正解！",
+    "incorrect": "不正解！",
+    "correct_answer": "正解",
+    "next_question": "次の質問"
+  },
+  "questions": {
+    "isekai": {
+      "q1": {
+        "question": "Re:ゼロの主人公の名前は？",
+        "option1": "ナツキ・スバル",
+        "option2": "カズマ・サトウ",
+        "option3": "イワタニ・ナオフミ",
+        "option4": "キリト"
+      },
+      "q2": {
+        "question": "主人公が無能な女神と異世界に転送されるアニメは？",
+        "option1": "この素晴らしい世界に祝福を！",
+        "option2": "ノーゲーム・ノーライフ",
+        "option3": "オーバーロード",
+        "option4": "転生したらスライムだった件"
+      },
+      "q3": {
+        "question": "『転生したらスライムだった件』の主人公の名前は？",
+        "option1": "カズト・キリガヤ",
+        "option2": "ミカミ・サトル",
+        "option3": "イワタニ・ナオフミ",
+        "option4": "シロエ"
+      },
+      "q4": {
+        "question": "次のうち、異世界アニメではないものは？",
+        "option1": "ソードアート・オンライン",
+        "option2": "進撃の巨人",
+        "option3": "Re:ゼロ",
+        "option4": "ノーゲーム・ノーライフ"
+      },
+      "q5": {
+        "question": "Re:ゼロで主人公を異世界に召喚する一般的なアイテムは？",
+        "option1": "魔法の本",
+        "option2": "魔法の扉",
+        "option3": "ゲームコンソール",
+        "option4": "なし"
+      },
+      "q6": {
+        "question": "アインズ・ウール・ゴウンとは誰？",
+        "option1": "ギルドのリーダー",
+        "option2": "スライム",
+        "option3": "放浪の騎士",
+        "option4": "学校の先生"
+      },
+      "q7": {
+        "question": "兄妹の主人公が絶対に負けないゲームを描いたアニメは？",
+        "option1": "ノーゲーム・ノーライフ",
+        "option2": "オーバーロード",
+        "option3": "ログ・ホライズン",
+        "option4": "ありふれた職業で世界最強"
+      },
+      "q8": {
+        "question": "『ありふれた職業で世界最強』のジャンルは？",
+        "option1": "異世界",
+        "option2": "学園ロマンス",
+        "option3": "ミステリー",
+        "option4": "コメディ"
+      },
+      "q9": {
+        "question": "盾の勇者として召喚される主人公が登場するアニメは？",
+        "option1": "盾の勇者の成り上がり",
+        "option2": "Re:ゼロ",
+        "option3": "ダンまち",
+        "option4": "幼女戦記"
+      },
+      "q10": {
+        "question": "リムル・テンペストはどんな存在？",
+        "option1": "騎士",
+        "option2": "ドラゴン",
+        "option3": "スライム",
+        "option4": "魔法使い"
+      },
+      "q11": {
+        "question": "ソードアート・オンラインの作者は？",
+        "option1": "川原 礫",
+        "option2": "赤坂 アカ",
+        "option3": "長月 達平",
+        "option4": "ONE"
+      },
+      "q12": {
+        "question": "ターニャ・デグレチャフが主人公の異世界アニメは？",
+        "option1": "幼女戦記",
+        "option2": "ノーゲーム・ノーライフ",
+        "option3": "この素晴らしい世界に祝福を！",
+        "option4": "オーバーロード"
+      },
+      "q13": {
+        "question": "このすばでカズマのあだ名は？",
+        "option1": "カズトラッシュ",
+        "option2": "カズラック",
+        "option3": "カズゴッド",
+        "option4": "カズミーム"
+      },
+      "q14": {
+        "question": "Re:ゼロでスバルの能力は？",
+        "option1": "死に戻り",
+        "option2": "召喚",
+        "option3": "テレパシー",
+        "option4": "回復魔法"
+      },
+      "q15": {
+        "question": "主人公が仮想現実ゲームに閉じ込められるアニメは？",
+        "option1": "ソードアート・オンライン",
+        "option2": "ブリーチ",
+        "option3": "ナルト",
+        "option4": "デスノート"
+      },
+      "q16": {
+        "question": "オーバーロードでアインズのギルド名は？",
+        "option1": "アインズ・ウール・ゴウン",
+        "option2": "ブラック・ブルズ",
+        "option3": "血盟騎士団",
+        "option4": "クリムゾン・ブレード"
+      },
+      "q17": {
+        "question": "このすばで爆裂魔法で知られるキャラクターは？",
+        "option1": "アクア",
+        "option2": "ダクネス",
+        "option3": "めぐみん",
+        "option4": "ゆんゆん"
+      },
+      "q18": {
+        "question": "ログ・ホライズンでシロエの目的は？",
+        "option1": "ゲームを支配する",
+        "option2": "プレイヤーを解放する",
+        "option3": "妹を探す",
+        "option4": "新しい社会を築く"
+      },
+      "q19": {
+        "question": "異世界チート魔術師の舞台となる世界のタイプは？",
+        "option1": "現代",
+        "option2": "未来",
+        "option3": "中世ファンタジー",
+        "option4": "ポストアポカリプス"
+      },
+      "q20": {
+        "question": "交通事故から始まる異世界アニメは？",
+        "option1": "Re:ゼロ",
+        "option2": "この素晴らしい世界に祝福を！",
+        "option3": "幼女戦記",
+        "option4": "オーバーロード"
+      }
+    },
+    "seinen":{
+      "q1": {
+    "question": "『ベルセルク』の主人公は誰？",
+    "option1": "ガッツ",
+    "option2": "グリフィス",
+    "option3": "キャスカ",
+    "option4": "スカルナイト"
+  },
+  "q2": {
+    "question": "『モンスター』の主人公の職業は？",
+    "option1": "外科医",
+    "option2": "探偵",
+    "option3": "弁護士",
+    "option4": "教授"
+  },
+  "q3": {
+    "question": "『モンスター』の物語はどの都市から始まる？",
+    "option1": "ベルリン",
+    "option2": "デュッセルドルフ",
+    "option3": "東京",
+    "option4": "プラハ"
+  },
+  "q4": {
+    "question": "どのアニメが主に心理的トラウマと存在の虚無を探求している？",
+    "option1": "ナルト",
+    "option2": "進撃の巨人",
+    "option3": "妄想代理人",
+    "option4": "デス・パレード"
+  },
+  "q5": {
+    "question": "『モンスター』でヨハンの目的は？",
+    "option1": "王になること",
+    "option2": "世界を滅ぼすこと",
+    "option3": "復讐",
+    "option4": "混乱を引き起こすこと"
+  },
+  "q6": {
+    "question": "『バガボンド』の作者は誰？",
+    "option1": "浦沢直樹",
+    "option2": "浅野いにお",
+    "option3": "井上雄彦",
+    "option4": "三浦建太郎"
+  },
+  "q7": {
+    "question": "『ヴィンランド・サガ』は何についての物語？",
+    "option1": "宇宙旅行",
+    "option2": "バイキング",
+    "option3": "侍",
+    "option4": "ゾンビ"
+  },
+  "q8": {
+    "question": "『東京喰種トーキョーグール』で鱗赫を持つキャラは？",
+    "option1": "カネキケン",
+    "option2": "ツキヤマシュウ",
+    "option3": "アモン",
+    "option4": "ウタ"
+  },
+  "q9": {
+    "question": "どのアニメが漫画家が過去と向き合う姿を描いている？",
+    "option1": "兄に付ける薬はない！",
+    "option2": "おやすみプンプン",
+    "option3": "ReLIFE",
+    "option4": "聲の形"
+  },
+  "q10": {
+    "question": "『PSYCHO-PASS サイコパス』で組織の名前は？",
+    "option1": "シビュラシステム",
+    "option2": "アンドロイド",
+    "option3": "霧雨八海会",
+    "option4": "局"
+  },
+  "q11": {
+    "question": "ガッツが主に使う武器は？",
+    "option1": "刀",
+    "option2": "槍",
+    "option3": "大剣",
+    "option4": "ハンマー"
+  },
+  "q12": {
+    "question": "『モンスター』の作者は誰？",
+    "option1": "井上雄彦",
+    "option2": "浦沢直樹",
+    "option3": "石田スイ",
+    "option4": "諫山創"
+  },
+  "q13": {
+    "question": "アラタ・タカクラが登場するアニメはどれ？",
+    "option1": "モブサイコ100",
+    "option2": "DEATH NOTE",
+    "option3": "ブラック・ラグーン",
+    "option4": "エルフェンリート"
+  },
+  "q14": {
+    "question": "『寄生獣』のテーマは？",
+    "option1": "友情",
+    "option2": "宇宙人",
+    "option3": "恋愛",
+    "option4": "タイムトラベル"
+  },
+  "q15": {
+    "question": "どの主人公がエイリアン寄生生物と共存している？",
+    "option1": "シンイチ",
+    "option2": "L",
+    "option3": "夜神月",
+    "option4": "シンジ"
+  },
+  "q16": {
+    "question": "『Ergo Proxy』でリル・メイヤーの職業は？",
+    "option1": "探偵",
+    "option2": "警官",
+    "option3": "調査官",
+    "option4": "兵士"
+  },
+  "q17": {
+    "question": "心理スリラーとして評価される青年漫画はどれ？",
+    "option1": "ナルト",
+    "option2": "新世紀エヴァンゲリオン",
+    "option3": "モンスター",
+    "option4": "ワンピース"
+  },
+  "q18": {
+    "question": "『東京喰種トーキョーグール』で重要な都市はどこ？",
+    "option1": "大阪",
+    "option2": "横浜",
+    "option3": "東京",
+    "option4": "京都"
+  },
+  "q19": {
+    "question": "『20世紀少年』の作者は誰？",
+    "option1": "浦沢直樹",
+    "option2": "井上雄彦",
+    "option3": "石田スイ",
+    "option4": "諫山創"
+  },
+  "q20": {
+    "question": "『モンスター』の物語のテーマは？",
+    "option1": "正義と悪",
+    "option2": "恋愛物語",
+    "option3": "友情と成長",
+    "option4": "タイムトラベル"
+  }
+    },
+    "shojo": {
+  "q1": {
+    "question": "『美少女戦士セーラームーン』の主人公は誰？",
+    "option1": "月野うさぎ",
+    "option2": "水野亜美",
+    "option3": "火野レイ",
+    "option4": "木野まこと"
+  },
+  "q2": {
+    "question": "月の王国のプリンセスになるキャラクターは誰？",
+    "option1": "水野亜美",
+    "option2": "月野うさぎ",
+    "option3": "木野まこと",
+    "option4": "火野レイ"
+  },
+  "q3": {
+    "question": "恋愛と魔法の物語で有名な漫画はどれ？",
+    "option1": "フルーツバスケット",
+    "option2": "NANA",
+    "option3": "カードキャプターさくら",
+    "option4": "美少女戦士セーラームーン"
+  },
+  "q4": {
+    "question": "『フルーツバスケット』の男性主人公は誰？",
+    "option1": "草摩夾（きょう）",
+    "option2": "草摩由希（ゆき）",
+    "option3": "草摩紫呉（しぐれ）",
+    "option4": "草摩潑春（はつはる）"
+  },
+  "q5": {
+    "question": "囚われた王子を助けようとする主人公が登場する漫画はどれ？",
+    "option1": "君に届け",
+    "option2": "暁のヨナ",
+    "option3": "彼氏彼女の事情",
+    "option4": "桜蘭高校ホスト部"
+  },
+  "q6": {
+    "question": "異世界に迷い込んでしまう主人公が登場するアニメはどれ？",
+    "option1": "犬夜叉",
+    "option2": "フルーツバスケット",
+    "option3": "スキップ・ビート！",
+    "option4": "のだめカンタービレ"
+  },
+  "q7": {
+    "question": "主人公がアイドルになるアニメはどれ？",
+    "option1": "ラブ★コン",
+    "option2": "のだめカンタービレ",
+    "option3": "会長はメイド様！",
+    "option4": "スキップ・ビート！"
+  },
+  "q8": {
+    "question": "『カードキャプターさくら』でケルベロスという猫のような存在を飼っているのは誰？",
+    "option1": "木之本さくら",
+    "option2": "大道寺知世",
+    "option3": "李小狼（リ・シャオラン）",
+    "option4": "ケロ"
+  },
+  "q9": {
+    "question": "『神様はじめました』で主人公の親友的存在なのは誰？",
+    "option1": "ミカゲ",
+    "option2": "クラマ",
+    "option3": "ダイコク",
+    "option4": "巴衛（ともえ）"
+  },
+  "q10": {
+    "question": "『花より男子』で一番内向的なキャラクターは誰？",
+    "option1": "牧野つくし",
+    "option2": "花沢類",
+    "option3": "道明寺司",
+    "option4": "西門総二郎"
+  },
+  "q11": {
+    "question": "霊が見える特別な力を持つ主人公が登場するアニメはどれ？",
+    "option1": "のだめカンタービレ",
+    "option2": "美少女戦士セーラームーン",
+    "option3": "ヤマトナデシコ七変化♥",
+    "option4": "会長はメイド様！"
+  },
+  "q12": {
+    "question": "冷たく見えるが実は優しい男の子に恋する少女を描いたアニメはどれ？",
+    "option1": "君に届け",
+    "option2": "ラブ★コン",
+    "option3": "フルーツバスケット",
+    "option4": "好きっていいなよ。"
+  },
+  "q13": {
+    "question": "複数の男性が一人の少女を巡って恋のバトルを繰り広げる作品はどれ？",
+    "option1": "桜蘭高校ホスト部",
+    "option2": "君に届け",
+    "option3": "スキップ・ビート！",
+    "option4": "暁のヨナ"
+  },
+  "q14": {
+    "question": "『桜蘭高校ホスト部』で無欲な性格で知られるキャラクターは誰？",
+    "option1": "藤岡ハルヒ",
+    "option2": "須王環",
+    "option3": "鳳鏡夜",
+    "option4": "埴之塚光邦"
+  },
+  "q15": {
+    "question": "男の子としてふるまう女子高生が主人公のアニメはどれ？",
+    "option1": "のだめカンタービレ",
+    "option2": "フルーツバスケット",
+    "option3": "桜蘭高校ホスト部",
+    "option4": "君に届け"
+  },
+  "q16": {
+    "question": "『暁のヨナ』で特別な能力を持っているキャラクターは誰？",
+    "option1": "ヨナ",
+    "option2": "ハク",
+    "option3": "キジャ",
+    "option4": "ジェハ"
+  },
+  "q17": {
+    "question": "アイドルになる女性の人生を描いた漫画はどれ？",
+    "option1": "スキップ・ビート！",
+    "option2": "のだめカンタービレ",
+    "option3": "ラブ★コン",
+    "option4": "桜蘭高校ホスト部"
+  },
+  "q18": {
+    "question": "異なる世界に生きる少年たちの恋愛を描いたアニメはどれ？",
+    "option1": "ユーリ!!! on ICE",
+    "option2": "フルーツバスケット",
+    "option3": "君に届け",
+    "option4": "好きっていいなよ。"
+  },
+  "q19": {
+    "question": "気の強い女の子が主人公のアニメはどれ？",
+    "option1": "会長はメイド様！",
+    "option2": "のだめカンタービレ",
+    "option3": "スキップ・ビート！",
+    "option4": "ラブ★コン"
+  },
+  "q20": {
+    "question": "『カードキャプターさくら』で片思いしているキャラクターは誰？",
+    "option1": "木之本さくら",
+    "option2": "李小狼（リ・シャオラン）",
+    "option3": "大道寺知世",
+    "option4": "メイリン"
+  }
+},
+"shonen": {
+  "q1": {
+    "question": "『ドラゴンボール』の主人公は誰？",
+    "option1": "ベジータ",
+    "option2": "悟飯",
+    "option3": "悟空",
+    "option4": "ピッコロ"
+  },
+  "q2": {
+    "question": "海賊王を目指しているキャラクターは誰？",
+    "option1": "ルフィ",
+    "option2": "ゾロ",
+    "option3": "ナルト",
+    "option4": "一護"
+  },
+  "q3": {
+    "question": "ナルトの目標は何？",
+    "option1": "火影になること",
+    "option2": "海賊になること",
+    "option3": "家族の仇を討つこと",
+    "option4": "ドラゴンボールを見つけること"
+  },
+  "q4": {
+    "question": "『ブリーチ』で一護の斬魄刀の名前は？",
+    "option1": "ホロウ",
+    "option2": "斬月",
+    "option3": "卍解",
+    "option4": "死神"
+  },
+  "q5": {
+    "question": "ルフィが食べた悪魔の実は何？",
+    "option1": "悪魔の実",
+    "option2": "火の実",
+    "option3": "ゴムゴムの実",
+    "option4": "竜の実"
+  },
+  "q6": {
+    "question": "悟空の代表的な技は？",
+    "option1": "千鳥",
+    "option2": "螺旋丸",
+    "option3": "かめはめ波",
+    "option4": "月牙天衝"
+  },
+  "q7": {
+    "question": "ナルトの最大のライバルは誰？",
+    "option1": "サスケ",
+    "option2": "カカシ",
+    "option3": "マダラ",
+    "option4": "オビト"
+  },
+  "q8": {
+    "question": "『フェアリーテイル』や『セイバートゥース』といったギルドが登場するアニメは？",
+    "option1": "ブリーチ",
+    "option2": "ワンピース",
+    "option3": "フェアリーテイル",
+    "option4": "ブラッククローバー"
+  },
+  "q9": {
+    "question": "『僕のヒーローアカデミア』でオールマイトは誰？",
+    "option1": "ヴィラン",
+    "option2": "出久の師匠",
+    "option3": "爆豪の兄",
+    "option4": "轟の父"
+  },
+  "q10": {
+    "question": "『呪術廻戦』の主人公の名前は？",
+    "option1": "五条",
+    "option2": "虎杖悠仁",
+    "option3": "伏黒",
+    "option4": "七海"
+  },
+  "q11": {
+    "question": "『卍解』とは何？",
+    "option1": "パワーレベル",
+    "option2": "最終変身",
+    "option3": "斬魄刀の最終解放",
+    "option4": "火の技"
+  },
+  "q12": {
+    "question": "悟飯の父親は誰？",
+    "option1": "ベジータ",
+    "option2": "悟天",
+    "option3": "悟空",
+    "option4": "クリリン"
+  },
+  "q13": {
+    "question": "写輪眼とは何？",
+    "option1": "武器",
+    "option2": "特別な目",
+    "option3": "火遁の術",
+    "option4": "忍の里"
+  },
+  "q14": {
+    "question": "『フェアリーテイル』のライバルギルドは？",
+    "option1": "ファントムロード",
+    "option2": "セイバートゥース",
+    "option3": "ブルーペガサス",
+    "option4": "マーメイドヒール"
+  },
+  "q15": {
+    "question": "緑谷出久の“個性”は何？",
+    "option1": "爆破",
+    "option2": "半冷半熱",
+    "option3": "ワン・フォー・オール",
+    "option4": "なし"
+  },
+  "q16": {
+    "question": "『鬼滅の刃』で黒い日輪刀を持つのは誰？",
+    "option1": "善逸",
+    "option2": "伊之助",
+    "option3": "炭治郎",
+    "option4": "煉獄"
+  },
+  "q17": {
+    "question": "『ハンターハンター』で使用されるエネルギーは？",
+    "option1": "チャクラ",
+    "option2": "念",
+    "option3": "霊圧",
+    "option4": "マナ"
+  },
+  "q18": {
+    "question": "『鋼の錬金術師』でエドワードの名字は？",
+    "option1": "スミス",
+    "option2": "エルリック",
+    "option3": "ウォーカー",
+    "option4": "マスタング"
+  },
+  "q19": {
+    "question": "『螺旋丸』を使えるキャラクターは？",
+    "option1": "サスケ",
+    "option2": "悟空",
+    "option3": "ナルト",
+    "option4": "一護"
+  },
+  "q20": {
+    "question": "『僕のヒーローアカデミア』に登場する敵の組織は？",
+    "option1": "ヴィラン連合",
+    "option2": "ワンピース",
+    "option3": "ナルト",
+    "option4": "ブリーチ"
+  }
+},"spokon": {
+  "q1": {
+    "question": "『ハイキュー!!』の主人公は何のスポーツをしている？",
+    "option1": "バレーボール",
+    "option2": "サッカー",
+    "option3": "バスケットボール",
+    "option4": "野球"
+  },
+  "q2": {
+    "question": "『黒子のバスケ』のキャプテンは誰？",
+    "option1": "火神大我",
+    "option2": "黒子テツヤ",
+    "option3": "青峰大輝",
+    "option4": "緑間真太郎"
+  },
+  "q3": {
+    "question": "『ダイヤのA』は何のスポーツ？",
+    "option1": "サッカー",
+    "option2": "野球",
+    "option3": "テニス",
+    "option4": "バスケットボール"
+  },
+  "q4": {
+    "question": "『スラムダンク』のスポーツは何？",
+    "option1": "バスケットボール",
+    "option2": "サッカー",
+    "option3": "バレーボール",
+    "option4": "野球"
+  },
+  "q5": {
+    "question": "主人公が水泳選手のアニメは？",
+    "option1": "Free!",
+    "option2": "ハイキュー!!",
+    "option3": "黒子のバスケ",
+    "option4": "ダイヤのA"
+  },
+  "q6": {
+    "question": "『テニスの王子様』はどのスポーツ？",
+    "option1": "テニス",
+    "option2": "バスケットボール",
+    "option3": "サッカー",
+    "option4": "バレーボール"
+  },
+  "q7": {
+    "question": "『メジャー』の主人公の野球チームは？",
+    "option1": "東京",
+    "option2": "星鳳",
+    "option3": "沖縄",
+    "option4": "湘南"
+  },
+  "q8": {
+    "question": "ボクシングで一番になることを目指すアニメは？",
+    "option1": "はじめの一歩",
+    "option2": "ダイヤのA",
+    "option3": "黒子のバスケ",
+    "option4": "ハイキュー!!"
+  },
+  "q9": {
+    "question": "『弱虫ペダル』のスポーツは？",
+    "option1": "自転車競技",
+    "option2": "サッカー",
+    "option3": "バスケットボール",
+    "option4": "テニス"
+  },
+  "q10": {
+    "question": "主人公たちがレースを競うアニメは？",
+    "option1": "頭文字D",
+    "option2": "弱虫ペダル",
+    "option3": "ハイキュー!!",
+    "option4": "テニスの王子様"
+  },
+  "q11": {
+    "question": "『はじめの一歩』のスポーツは？",
+    "option1": "ボクシング",
+    "option2": "サッカー",
+    "option3": "テニス",
+    "option4": "バスケットボール"
+  },
+  "q12": {
+    "question": "サッカーチームがテーマのアニメは？",
+    "option1": "キャプテン翼",
+    "option2": "ダイヤのA",
+    "option3": "ハイキュー!!",
+    "option4": "スラムダンク"
+  },
+  "q13": {
+    "question": "『イナズマイレブン』のサッカー日本代表のキャプテンは？",
+    "option1": "マーク・エバンス",
+    "option2": "豪炎寺修也",
+    "option3": "円堂守",
+    "option4": "青山"
+  },
+  "q14": {
+    "question": "『ALL OUT!!』の主人公がするスポーツは？",
+    "option1": "ラグビー",
+    "option2": "サッカー",
+    "option3": "バスケットボール",
+    "option4": "バレーボール"
+  },
+  "q15": {
+    "question": "学校のバスケットボールチームが主人公のアニメは？",
+    "option1": "黒子のバスケ",
+    "option2": "ハイキュー!!",
+    "option3": "テニスの王子様",
+    "option4": "弱虫ペダル"
+  },
+  "q16": {
+    "question": "バレーボールがテーマのアニメは？",
+    "option1": "ハイキュー!!",
+    "option2": "スラムダンク",
+    "option3": "ダイヤのA",
+    "option4": "黒子のバスケ"
+  },
+  "q17": {
+    "question": "主人公がサッカーの最高選手を目指すアニメは？",
+    "option1": "キャプテン翼",
+    "option2": "ハイキュー!!",
+    "option3": "ダイヤのA",
+    "option4": "黒子のバスケ"
+  },
+  "q18": {
+    "question": "バスケットボールで特殊な技を使う主人公のアニメは？",
+    "option1": "黒子のバスケ",
+    "option2": "ハイキュー!!",
+    "option3": "ダイヤのA",
+    "option4": "弱虫ペダル"
+  },
+  "q19": {
+    "question": "高校のサッカーチームがテーマのアニメは？",
+    "option1": "イナズマイレブン",
+    "option2": "キャプテン翼",
+    "option3": "ハイキュー!!",
+    "option4": "ダイヤのA"
+  }
+}
+  }
+}

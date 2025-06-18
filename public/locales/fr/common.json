@@ -1,0 +1,804 @@
+{
+  "common": {
+    "language_selector_label": "Sélectionner la langue",
+    "goBack": "Retour"
+  },
+  "menuButton": {
+    "h2title": "Êtes-vous sûr·e ?",
+    "confirmButton": "oui",
+    "cancelButton": "non"
+  },
+  "home": {
+    "sign_in_button": "Se connecter",
+    "sign_up_button": "S'inscrire"
+  },
+  "index": {
+    "random_button": "Aléatoire",
+    "category_title": "Catégorie"
+  },
+  "login": {
+    "title": "Connexion",
+    "emailPlaceholder": "Adresse e-mail",
+    "passwordPlaceholder": "Mot de passe",
+    "enterButton": "Entrer",
+    "emailRequired": "Veuillez entrer votre e-mail et mot de passe.",
+    "emailInvalid": "Veuillez entrer une adresse e-mail valide.",
+    "passwordTooShort": "Le mot de passe doit contenir au moins 6 caractères."
+  },
+  "register": {
+    "title": "Inscription",
+    "namePlaceholder": "Nom",
+    "emailPlaceholder": "Adresse e-mail",
+    "passwordPlaceholder": "Mot de passe",
+    "confirmPasswordPlaceholder": "Confirmer le mot de passe",
+    "signUpButton": "S'inscrire",
+    "passwordsDoNotMatch": "Les mots de passe ne correspondent pas",
+    "nameRequired": "Le nom est obligatoire",
+    "emailRequired": "L'adresse e-mail est obligatoire.",
+    "passwordRequired": "Le mot de passe est obligatoire."
+  },
+  "isekaiPage": {
+    "title": "Quiz Isekai",
+    "loadingQuestions": "Chargement des questions..."
+  },
+  "seinenPage": {
+    "title": "Quiz Seinen",
+    "loadingQuestions": "Chargement des questions..."
+  },
+  "shonenPage": {
+    "title": "Quiz Shonen",
+    "loadingQuestions": "Chargement des questions..."
+  },
+  "shojoPage": {
+    "title": "Quiz Shojo",
+    "loadingQuestions": "Chargement des questions..."
+  },
+  "spokonPage": {
+    "title": "Quiz Spokon",
+    "loadingQuestions": "Chargement des questions..."
+  },
+  "buttonLeave": {
+    "Leave_Game": "Quitter le jeu",
+    "message": "Êtes-vous sûr·e de vouloir quitter le jeu ? Vous perdrez votre progression.",
+    "confirmButtonText": "Oui, quitter",
+    "cancelButtonText": "Non, continuer",
+    "title": "Quitter le jeu"
+  },
+  "quiz": {
+    "noQuestionsAvailable": "Aucune question disponible.",
+    "congratulationsTitle": "🎉 Félicitations ! 🎉",
+    "congratulationsMessage": "Vous avez terminé toutes les questions du quiz !",
+    "backToHome": "Retour à l'accueil",
+    "correctFeedback": "✅ Correct !",
+    "incorrectFeedback": "❌ Incorrect. La bonne réponse est : ",
+    "nextQuestion": "Question suivante"
+  },
+  "plans": {
+    "name": "nos plans",
+    "basic_plan": "Plan Basique",
+    "premium_plan": "Plan Premium",
+    "pro_plan": "Plan Pro",
+    "selectButton": "sélectionner"
+  },
+  "our_plans_title": "Nos Plans",
+  "loading_prices": "Chargement des prix...",
+  "error_loading_prices": "Erreur lors du chargement des prix. Veuillez réessayer plus tard.",
+  "trivia": {
+    "title": "Trivia Anime",
+    "correct": "Correct !",
+    "incorrect": "Incorrect !",
+    "correct_answer": "Réponse correcte",
+    "next_question": "Question suivante"
+  },
+  "questions": {
+    "isekai": {
+      "q1": {
+        "question": "Quel est le nom du protagoniste de Re:Zero ?",
+        "option1": "Subaru Natsuki",
+        "option2": "Kazuma Satou",
+        "option3": "Naofumi Iwatani",
+        "option4": "Kirito"
+      },
+      "q2": {
+        "question": "Dans quel anime le protagoniste est transporté dans un monde avec une déesse inutile ?",
+        "option1": "Konosuba",
+        "option2": "No Game No Life",
+        "option3": "Overlord",
+        "option4": "Tensei Shitara Slime Datta Ken"
+      },
+      "q3": {
+        "question": "Comment s'appelle le protagoniste de That Time I Got Reincarnated as a Slime ?",
+        "option1": "Kazuto Kirigaya",
+        "option2": "Satoru Mikami",
+        "option3": "Naofumi Iwatani",
+        "option4": "Shiroe"
+      },
+      "q4": {
+        "question": "Lequel de ces animes N'EST PAS un isekai ?",
+        "option1": "Sword Art Online",
+        "option2": "Attack on Titan",
+        "option3": "Re:Zero",
+        "option4": "No Game No Life"
+      },
+      "q5": {
+        "question": "Quel objet commun invoque le protagoniste dans Re:Zero ?",
+        "option1": "Livre magique",
+        "option2": "Porte magique",
+        "option3": "Console de jeux vidéo",
+        "option4": "Aucun"
+      },
+      "q6": {
+        "question": "Qui est Ainz Ooal Gown ?",
+        "option1": "Le chef d'une guilde",
+        "option2": "Un slime",
+        "option3": "Un chevalier errant",
+        "option4": "Un professeur"
+      },
+      "q7": {
+        "question": "Quel anime présente un jeu où les frères protagonistes ne peuvent pas perdre ?",
+        "option1": "No Game No Life",
+        "option2": "Overlord",
+        "option3": "Log Horizon",
+        "option4": "Arifureta"
+      },
+      "q8": {
+        "question": "Quel est le genre de Arifureta ?",
+        "option1": "Isekai",
+        "option2": "Romance scolaire",
+        "option3": "Mystère",
+        "option4": "Comédie"
+      },
+      "q9": {
+        "question": "Dans quel anime le protagoniste est invoqué comme héros du bouclier ?",
+        "option1": "Tate no Yuusha",
+        "option2": "Re:Zero",
+        "option3": "DanMachi",
+        "option4": "Youjo Senki"
+      },
+      "q10": {
+        "question": "Quel type d’être est Rimuru Tempest ?",
+        "option1": "Un chevalier",
+        "option2": "Un dragon",
+        "option3": "Un slime",
+        "option4": "Un magicien"
+      },
+      "q11": {
+        "question": "Qui est l’auteur de Sword Art Online ?",
+        "option1": "Reki Kawahara",
+        "option2": "Aka Akasaka",
+        "option3": "Tappei Nagatsuki",
+        "option4": "ONE"
+      },
+      "q12": {
+        "question": "Quel anime isekai a Tanya Degurechaff comme protagoniste ?",
+        "option1": "Youjo Senki",
+        "option2": "No Game No Life",
+        "option3": "Konosuba",
+        "option4": "Overlord"
+      },
+      "q13": {
+        "question": "Quel est le surnom de Kazuma dans Konosuba ?",
+        "option1": "Kazutrash",
+        "option2": "Kazuluck",
+        "option3": "Kazugod",
+        "option4": "Kazumeme"
+      },
+      "q14": {
+        "question": "Quelle capacité possède Subaru dans Re:Zero ?",
+        "option1": "Revenir de la mort",
+        "option2": "Invocation",
+        "option3": "Télépathie",
+        "option4": "Magie de guérison"
+      },
+      "q15": {
+        "question": "Dans quel anime le protagoniste est piégé dans un jeu de réalité virtuelle ?",
+        "option1": "Sword Art Online",
+        "option2": "Bleach",
+        "option3": "Naruto",
+        "option4": "Death Note"
+      },
+      "q16": {
+        "question": "Quel est le nom de la guilde d’Ainz dans Overlord ?",
+        "option1": "Ainz Ooal Gown",
+        "option2": "Black Bulls",
+        "option3": "Knights of Blood",
+        "option4": "Crimson Blade"
+      },
+      "q17": {
+        "question": "Quel personnage de Konosuba est connu pour ses explosions ?",
+        "option1": "Aqua",
+        "option2": "Darkness",
+        "option3": "Megumin",
+        "option4": "Yunyun"
+      },
+      "q18": {
+        "question": "Quel est l’objectif de Shiroe dans Log Horizon ?",
+        "option1": "Contrôler le jeu",
+        "option2": "Libérer les joueurs",
+        "option3": "Retrouver sa sœur",
+        "option4": "Construire une nouvelle société"
+      },
+      "q19": {
+        "question": "Quel type de monde apparaît dans Isekai Cheat Magician ?",
+        "option1": "Moderne",
+        "option2": "Futuriste",
+        "option3": "Médiéval fantastique",
+        "option4": "Post-apocalyptique"
+      },
+      "q20": {
+        "question": "Quel anime isekai commence par un accident de voiture ?",
+        "option1": "Re:Zero",
+        "option2": "Konosuba",
+        "option3": "Youjo Senki",
+        "option4": "Overlord"
+      }
+    },
+    "seinen": {
+  "q1": {
+    "question": "Qui est le protagoniste de Berserk ?",
+    "option1": "Guts",
+    "option2": "Griffith",
+    "option3": "Casca",
+    "option4": "Skull Knight"
+  },
+  "q2": {
+    "question": "Quelle est la profession du protagoniste dans Monster ?",
+    "option1": "Chirurgien",
+    "option2": "Détective",
+    "option3": "Avocat",
+    "option4": "Professeur"
+  },
+  "q3": {
+    "question": "Dans quelle ville commence l'histoire de Monster ?",
+    "option1": "Berlin",
+    "option2": "Düsseldorf",
+    "option3": "Tokyo",
+    "option4": "Prague"
+  },
+  "q4": {
+    "question": "Quel anime explore principalement le traumatisme psychologique et le vide existentiel ?",
+    "option1": "Naruto",
+    "option2": "Shingeki no Kyojin",
+    "option3": "Paranoia Agent",
+    "option4": "Death Parade"
+  },
+  "q5": {
+    "question": "Quel est l'objectif de Johan dans Monster ?",
+    "option1": "Devenir roi",
+    "option2": "Détruire le monde",
+    "option3": "Chercher la vengeance",
+    "option4": "Créer le chaos"
+  },
+  "q6": {
+    "question": "Quel est le thème principal de 'Ghost in the Shell' ?",
+    "option1": "Cybernétique et identité",
+    "option2": "Romance",
+    "option3": "Comédie",
+    "option4": "Sport"
+  },
+  "q7": {
+    "question": "Quel auteur est connu pour son travail sur 'Vagabond' ?",
+    "option1": "Takehiko Inoue",
+    "option2": "Naoki Urasawa",
+    "option3": "Kentaro Miura",
+    "option4": "Satoshi Kon"
+  },
+  "q8": {
+    "question": "Dans 'Paranoia Agent', qui est le personnage principal ?",
+    "option1": "Lil' Slugger",
+    "option2": "Shonen Bat",
+    "option3": "Akira",
+    "option4": "Tsukiko"
+  },
+  "q9": {
+    "question": "Quel anime est connu pour ses thèmes sombres et sa narration complexe ?",
+    "option1": "Ergo Proxy",
+    "option2": "One Piece",
+    "option3": "Naruto",
+    "option4": "Fairy Tail"
+  },
+  "q10": {
+    "question": "Qui est le créateur de 'Berserk' ?",
+    "option1": "Kentaro Miura",
+    "option2": "Yoshihiro Togashi",
+    "option3": "Masashi Kishimoto",
+    "option4": "Eiichiro Oda"
+  },
+  "q11": {
+    "question": "Dans 'Black Lagoon', quel est le nom du groupe principal ?",
+    "option1": "Lagoon Company",
+    "option2": "Black Lagoon",
+    "option3": "Red Sharks",
+    "option4": "Iron Blood"
+  },
+  "q12": {
+    "question": "Quel est le genre principal de 'Monster' ?",
+    "option1": "Thriller psychologique",
+    "option2": "Comédie romantique",
+    "option3": "Fantastique",
+    "option4": "Sport"
+  },
+  "q13": {
+    "question": "Dans 'Ergo Proxy', quel est le nom de la protagoniste ?",
+    "option1": "Re-L Mayer",
+    "option2": "Vincent Law",
+    "option3": "Pino",
+    "option4": "Romdeau"
+  },
+  "q14": {
+    "question": "Quelle œuvre est célèbre pour ses scènes de combats graphiques et intenses ?",
+    "option1": "Berserk",
+    "option2": "Naruto",
+    "option3": "Dragon Ball",
+    "option4": "Bleach"
+  },
+  "q15": {
+    "question": "Dans 'Ghost in the Shell', quelle est la profession de Motoko Kusanagi ?",
+    "option1": "Agent de sécurité",
+    "option2": "Professeur",
+    "option3": "Médecin",
+    "option4": "Pilote"
+  },
+  "q16": {
+    "question": "Quel anime est reconnu pour sa réflexion sur la société et la technologie ?",
+    "option1": "Psycho-Pass",
+    "option2": "One Piece",
+    "option3": "Naruto",
+    "option4": "Fairy Tail"
+  },
+  "q17": {
+    "question": "Quel est le thème principal de 'Black Lagoon' ?",
+    "option1": "Crime et survie",
+    "option2": "Magie",
+    "option3": "Romance",
+    "option4": "Sports"
+  },
+  "q18": {
+    "question": "Quel manga a été écrit par Naoki Urasawa ?",
+    "option1": "Monster",
+    "option2": "Naruto",
+    "option3": "Bleach",
+    "option4": "One Piece"
+  },
+  "q19": {
+    "question": "Dans 'Ergo Proxy', quel est le nom de la cité principale ?",
+    "option1": "Romdeau",
+    "option2": "Neo-Tokyo",
+    "option3": "Midgar",
+    "option4": "Zalem"
+  },
+  "q20": {
+    "question": "Quel est l'élément récurrent dans les œuvres seinen ?",
+    "option1": "Thèmes matures et complexes",
+    "option2": "Comédie légère",
+    "option3": "Magie et aventures",
+    "option4": "Sport et compétition"
+  }
+},"shojo": {
+  "q1": {
+    "question": "Qui est l'héroïne de Sailor Moon ?",
+    "option1": "Usagi Tsukino",
+    "option2": "Ami Mizuno",
+    "option3": "Rei Hino",
+    "option4": "Makoto Kino"
+  },
+  "q2": {
+    "question": "Quel personnage devient la princesse du Royaume de la Lune ?",
+    "option1": "Ami Mizuno",
+    "option2": "Usagi Tsukino",
+    "option3": "Makoto Kino",
+    "option4": "Rei Hino"
+  },
+  "q3": {
+    "question": "Quel manga est célèbre pour son histoire d'amour et de magie ?",
+    "option1": "Fruits Basket",
+    "option2": "Nana",
+    "option3": "Cardcaptor Sakura",
+    "option4": "Sailor Moon"
+  },
+  "q4": {
+    "question": "Qui est le protagoniste masculin de Fruits Basket ?",
+    "option1": "Kyo Sohma",
+    "option2": "Yuki Sohma",
+    "option3": "Shigure Sohma",
+    "option4": "Hatsuharu Sohma"
+  },
+  "q5": {
+    "question": "Dans quel manga le protagoniste cherche à libérer un prince emprisonné ?",
+    "option1": "Kimi ni Todoke",
+    "option2": "Yona of the Dawn",
+    "option3": "Kare Kano",
+    "option4": "Ouran High School Host Club"
+  },
+  "q6": {
+    "question": "Quelle est la profession de l'héroïne dans 'Nana' ?",
+    "option1": "Chanteuse",
+    "option2": "Étudiante",
+    "option3": "Professeur",
+    "option4": "Artiste"
+  },
+  "q7": {
+    "question": "Quel est le thème principal de 'Cardcaptor Sakura' ?",
+    "option1": "Magie et aventures",
+    "option2": "Drame familial",
+    "option3": "Romance scolaire",
+    "option4": "Sport"
+  },
+  "q8": {
+    "question": "Qui est l'ami proche d'Usagi dans Sailor Moon ?",
+    "option1": "Ami Mizuno",
+    "option2": "Rei Hino",
+    "option3": "Makoto Kino",
+    "option4": "Minako Aino"
+  },
+  "q9": {
+    "question": "Quel manga raconte l'histoire d'une fille qui découvre ses pouvoirs magiques ?",
+    "option1": "Cardcaptor Sakura",
+    "option2": "Nana",
+    "option3": "Fruits Basket",
+    "option4": "Sailor Moon"
+  },
+  "q10": {
+    "question": "Dans 'Fruits Basket', quelle malédiction affecte la famille Sohma ?",
+    "option1": "Ils se transforment en animaux du zodiaque chinois",
+    "option2": "Ils deviennent invisibles",
+    "option3": "Ils vieillissent lentement",
+    "option4": "Ils perdent la mémoire"
+  },
+  "q11": {
+    "question": "Quel est le genre principal de 'Ouran High School Host Club' ?",
+    "option1": "Comédie romantique",
+    "option2": "Action",
+    "option3": "Science-fiction",
+    "option4": "Horreur"
+  },
+  "q12": {
+    "question": "Qui est le rival amoureux dans 'Kimi ni Todoke' ?",
+    "option1": "Shota Kazehaya",
+    "option2": "Ryuu Sanada",
+    "option3": "Kento Yamazaki",
+    "option4": "Haru Yoshida"
+  },
+  "q13": {
+    "question": "Quel manga parle d'une princesse en exil cherchant à reprendre son trône ?",
+    "option1": "Yona of the Dawn",
+    "option2": "Sailor Moon",
+    "option3": "Nana",
+    "option4": "Fruits Basket"
+  },
+  "q14": {
+    "question": "Dans quel manga trouve-t-on un club d'hôtes dans un lycée prestigieux ?",
+    "option1": "Ouran High School Host Club",
+    "option2": "Kare Kano",
+    "option3": "Fruits Basket",
+    "option4": "Nana"
+  },
+  "q15": {
+    "question": "Quel est le thème principal de 'Kare Kano' ?",
+    "option1": "Romance et psychologie",
+    "option2": "Fantastique",
+    "option3": "Sport",
+    "option4": "Comédie"
+  },
+  "q16": {
+    "question": "Qui est la meilleure amie d'Usagi dans 'Sailor Moon' ?",
+    "option1": "Ami Mizuno",
+    "option2": "Makoto Kino",
+    "option3": "Rei Hino",
+    "option4": "Minako Aino"
+  },
+  "q17": {
+    "question": "Quel manga est connu pour ses thèmes sur l'adolescence et la découverte de soi ?",
+    "option1": "Nana",
+    "option2": "Sailor Moon",
+    "option3": "Fruits Basket",
+    "option4": "Cardcaptor Sakura"
+  },
+  "q18": {
+    "question": "Quel est le style artistique caractéristique des mangas shojo ?",
+    "option1": "Grands yeux expressifs et traits délicats",
+    "option2": "Traits anguleux et scènes d'action",
+    "option3": "Style réaliste et sombre",
+    "option4": "Style cartoon simple"
+  },
+  "q19": {
+    "question": "Quel manga shojo célèbre a été adapté en anime en 2000 ?",
+    "option1": "Fruits Basket",
+    "option2": "Nana",
+    "option3": "Sailor Moon",
+    "option4": "Cardcaptor Sakura"
+  },
+  "q20": {
+    "question": "Quel manga shojo raconte l'histoire d'une fille timide qui se fait des amis ?",
+    "option1": "Kimi ni Todoke",
+    "option2": "Ouran High School Host Club",
+    "option3": "Kare Kano",
+    "option4": "Yona of the Dawn"
+  }
+},"shonen": {
+  "q1": {
+    "question": "Qui est le protagoniste de Dragon Ball ?",
+    "option1": "Vegeta",
+    "option2": "Gohan",
+    "option3": "Goku",
+    "option4": "Piccolo"
+  },
+  "q2": {
+    "question": "Quel personnage cherche à devenir le Roi des Pirates ?",
+    "option1": "Luffy",
+    "option2": "Zoro",
+    "option3": "Naruto",
+    "option4": "Ichigo"
+  },
+  "q3": {
+    "question": "Quel est l'objectif de Naruto ?",
+    "option1": "Devenir Hokage",
+    "option2": "Devenir pirate",
+    "option3": "Venger sa famille",
+    "option4": "Trouver les boules de cristal"
+  },
+  "q4": {
+    "question": "Comment s'appelle l'esprit d'Ichigo dans Bleach ?",
+    "option1": "Hollow",
+    "option2": "Zangetsu",
+    "option3": "Bankai",
+    "option4": "Shinigami"
+  },
+  "q5": {
+    "question": "Quel fruit Luffy a-t-il mangé ?",
+    "option1": "Fruit du démon",
+    "option2": "Fruit de feu",
+    "option3": "Fruit caoutchouc",
+    "option4": "Fruit du dragon"
+  },
+  "q6": {
+    "question": "Quel est le nom du village natal de Naruto ?",
+    "option1": "Konoha",
+    "option2": "Suna",
+    "option3": "Kiri",
+    "option4": "Iwa"
+  },
+  "q7": {
+    "question": "Qui est le meilleur ami de Luffy dans One Piece ?",
+    "option1": "Zoro",
+    "option2": "Sanji",
+    "option3": "Nami",
+    "option4": "Usopp"
+  },
+  "q8": {
+    "question": "Quel est le style de combat de Goku ?",
+    "option1": "Arts martiaux",
+    "option2": "Épée",
+    "option3": "Magie",
+    "option4": "Tir à l'arc"
+  },
+  "q9": {
+    "question": "Quel est le pouvoir de Naruto ?",
+    "option1": "Renard à neuf queues",
+    "option2": "Dragon",
+    "option3": "Dieu du feu",
+    "option4": "Fantôme"
+  },
+  "q10": {
+    "question": "Dans One Piece, quel est le rêve de Luffy ?",
+    "option1": "Trouver le One Piece",
+    "option2": "Devenir samouraï",
+    "option3": "Devenir ninja",
+    "option4": "Trouver un trésor magique"
+  },
+  "q11": {
+    "question": "Quel est le nom du capitaine des Heart Pirates dans One Piece ?",
+    "option1": "Trafalgar Law",
+    "option2": "Luffy",
+    "option3": "Zoro",
+    "option4": "Sanji"
+  },
+  "q12": {
+    "question": "Quel est le fruit du démon de Luffy ?",
+    "option1": "Gomu Gomu no Mi",
+    "option2": "Mera Mera no Mi",
+    "option3": "Hie Hie no Mi",
+    "option4": "Gura Gura no Mi"
+  },
+  "q13": {
+    "question": "Qui est le rival de Naruto ?",
+    "option1": "Sasuke",
+    "option2": "Kakashi",
+    "option3": "Sakura",
+    "option4": "Itachi"
+  },
+  "q14": {
+    "question": "Quel est le nom de l'école de sorcellerie dans My Hero Academia ?",
+    "option1": "U.A. High School",
+    "option2": "Konoha Academy",
+    "option3": "Xavier School",
+    "option4": "Jujutsu High"
+  },
+  "q15": {
+    "question": "Quel est le pouvoir principal de Deku dans My Hero Academia ?",
+    "option1": "One For All",
+    "option2": "Explosion",
+    "option3": "Téléportation",
+    "option4": "Contrôle du feu"
+  },
+  "q16": {
+    "question": "Quel est le nom du capitaine de la 13e division dans Bleach ?",
+    "option1": "Jushiro Ukitake",
+    "option2": "Ichigo Kurosaki",
+    "option3": "Kenpachi Zaraki",
+    "option4": "Byakuya Kuchiki"
+  },
+  "q17": {
+    "question": "Qui est le personnage principal de Hunter x Hunter ?",
+    "option1": "Gon Freecss",
+    "option2": "Killua Zoldyck",
+    "option3": "Leorio Paradinight",
+    "option4": "Hisoka"
+  },
+  "q18": {
+    "question": "Quel est le style de combat de Zoro ?",
+    "option1": "Escrime à trois épées",
+    "option2": "Arts martiaux",
+    "option3": "Magie",
+    "option4": "Tir à l'arc"
+  },
+  "q19": {
+    "question": "Quel est le nom du monde dans One Piece ?",
+    "option1": "Grand Line",
+    "option2": "New World",
+    "option3": "East Blue",
+    "option4": "West Blue"
+  },
+  "q20": {
+    "question": "Quel est le rêve de Gon dans Hunter x Hunter ?",
+    "option1": "Devenir Hunter professionnel",
+    "option2": "Trouver un trésor",
+    "option3": "Venger sa famille",
+    "option4": "Devenir ninja"
+  }
+},"spokon": {
+  "q1": {
+    "question": "Quel est le sport principal dans Slam Dunk ?",
+    "option1": "Basket-ball",
+    "option2": "Football",
+    "option3": "Baseball",
+    "option4": "Tennis"
+  },
+  "q2": {
+    "question": "Qui est le protagoniste de Haikyuu!! ?",
+    "option1": "Hinata Shoyo",
+    "option2": "Kageyama Tobio",
+    "option3": "Nishinoya Yuu",
+    "option4": "Tsukishima Kei"
+  },
+  "q3": {
+    "question": "Dans quel sport excelle Kuroko ?",
+    "option1": "Basket-ball",
+    "option2": "Football",
+    "option3": "Baseball",
+    "option4": "Volley-ball"
+  },
+  "q4": {
+    "question": "Quel est l'objectif de Hinata dans Haikyuu!! ?",
+    "option1": "Devenir le meilleur attaquant",
+    "option2": "Devenir capitaine",
+    "option3": "Devenir entraîneur",
+    "option4": "Devenir arbitre"
+  },
+  "q5": {
+    "question": "Quel est le surnom de Sakuragi dans Slam Dunk ?",
+    "option1": "Le monstre rouge",
+    "option2": "Le géant vert",
+    "option3": "Le roi du terrain",
+    "option4": "Le rapide"
+  },
+  "q6": {
+    "question": "Dans quel sport excelle Ippo dans Hajime no Ippo ?",
+    "option1": "Boxe",
+    "option2": "Karate",
+    "option3": "Judo",
+    "option4": "Kickboxing"
+  },
+  "q7": {
+    "question": "Quel est le thème principal de 'Hajime no Ippo' ?",
+    "option1": "Boxe et persévérance",
+    "option2": "Football",
+    "option3": "Baseball",
+    "option4": "Basket-ball"
+  },
+  "q8": {
+    "question": "Qui est le capitaine de l'équipe de Karasuno dans Haikyuu!! ?",
+    "option1": "Daichi Sawamura",
+    "option2": "Kageyama Tobio",
+    "option3": "Hinata Shoyo",
+    "option4": "Sugawara Koushi"
+  },
+  "q9": {
+    "question": "Quel est le rival principal de Kuroko ?",
+    "option1": "Aomine Daiki",
+    "option2": "Kise Ryouta",
+    "option3": "Midorima Shintarou",
+    "option4": "Murasakibara Atsushi"
+  },
+  "q10": {
+    "question": "Quel est le style de combat de Ippo ?",
+    "option1": "Boxe",
+    "option2": "Karate",
+    "option3": "Judo",
+    "option4": "Kickboxing"
+  },
+  "q11": {
+    "question": "Dans quel sport excelle Tsubasa Ozora ?",
+    "option1": "Football",
+    "option2": "Basket-ball",
+    "option3": "Baseball",
+    "option4": "Tennis"
+  },
+  "q12": {
+    "question": "Quel est le rêve de Tsubasa Ozora dans Captain Tsubasa ?",
+    "option1": "Devenir joueur professionnel",
+    "option2": "Devenir entraîneur",
+    "option3": "Devenir arbitre",
+    "option4": "Devenir commentateur"
+  },
+  "q13": {
+    "question": "Quel est le thème principal de Slam Dunk ?",
+    "option1": "Basket-ball et travail d'équipe",
+    "option2": "Football",
+    "option3": "Boxe",
+    "option4": "Volley-ball"
+  },
+  "q14": {
+    "question": "Qui est le coach de l'équipe de Karasuno dans Haikyuu!! ?",
+    "option1": "Keishin Ukai",
+    "option2": "Daichi Sawamura",
+    "option3": "Kageyama Tobio",
+    "option4": "Hinata Shoyo"
+  },
+  "q15": {
+    "question": "Quel est le surnom de Ippo ?",
+    "option1": "Le poisson",
+    "option2": "Le tigre",
+    "option3": "Le lion",
+    "option4": "Le requin"
+  },
+  "q16": {
+    "question": "Dans quel sport excelle Ashita no Joe ?",
+    "option1": "Boxe",
+    "option2": "Karate",
+    "option3": "Judo",
+    "option4": "Lutte"
+  },
+  "q17": {
+    "question": "Quel est le nom du rival de Joe Yabuki ?",
+    "option1": "Rikiishi Tōru",
+    "option2": "Ippo Makunouchi",
+    "option3": "Takeshi Sendō",
+    "option4": "Kyoji Nagashima"
+  },
+  "q18": {
+    "question": "Quel est le thème principal de 'Captain Tsubasa' ?",
+    "option1": "Football et rêves",
+    "option2": "Basket-ball",
+    "option3": "Boxe",
+    "option4": "Volley-ball"
+  },
+  "q19": {
+    "question": "Quel est le nom de l'équipe de basket dans Slam Dunk ?",
+    "option1": "Shohoku",
+    "option2": "Karasuno",
+    "option3": "Seirin",
+    "option4": "Yokohama"
+  },
+  "q20": {
+    "question": "Quel est le rêve principal d'Hinata dans Haikyuu!! ?",
+    "option1": "Devenir un grand attaquant",
+    "option2": "Devenir capitaine",
+    "option3": "Devenir entraîneur",
+    "option4": "Devenir arbitre"
+  }
+}
+}
+}
+
+

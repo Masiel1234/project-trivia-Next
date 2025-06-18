@@ -1,0 +1,808 @@
+{
+  "common": {
+    "language_selector_label": "Select Language",
+    "goBack": "Go Back"
+  },
+  "menuButton": {
+    "h2title": "Are you sure?",
+    "confirmButton": "yes",
+    "cancelButton": "no"
+  },
+  "home": {
+    "sign_in_button": "Sign In",
+    "sign_up_button": "Sign Up"
+  },
+  "index": {
+    "random_button": "Random",
+    "category_title": "Category"
+  },
+  "login": {
+    "title": "Log In",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "enterButton": "Enter",
+    "emailRequired": "Please enter your email and password.",
+    "emailInvalid": "Please enter a valid email address.",
+    "passwordTooShort": "Password must be at least 6 characters long."
+  },
+  "register": {
+    "title": "Sign Up",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "signUpButton": "Sign Up",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required.",
+    "passwordRequired": "Password is required."
+  },
+  "isekaiPage": {
+    "title": "Isekai Quiz",
+    "loadingQuestions": "Loading questions..."
+  },
+  "seinenPage": {
+    "title": "Seinen Quiz",
+    "loadingQuestions": "Loading questions..."
+  },
+  "shonenPage": {
+    "title": "Shonen Quiz",
+    "loadingQuestions": "Loading questions..."
+  },
+  "shojoPage": {
+    "title": "Shojo Quiz",
+    "loadingQuestions": "Loading questions..."
+  },
+  "spokonPage": {
+    "title": "Spokon Quiz",
+    "loadingQuestions": "Loading questions..."
+  },
+  "buttonLeave": {
+    "Leave_Game": "Leave Game",
+    "message": "Are you sure you want to leave the game? You will lose your progress.",
+    "confirmButtonText": "Yes, leave",
+    "cancelButtonText": "No, continue",
+    "title": "Leave Game"
+  },
+  "quiz": {
+    "noQuestionsAvailable": "No questions available.",
+    "congratulationsTitle": "🎉 Congratulations! 🎉",
+    "congratulationsMessage": "You have completed all the quiz questions!",
+    "backToHome": "Back to home",
+    "correctFeedback": "✅ Correct!",
+    "incorrectFeedback": "❌ Incorrect. The correct answer is: ",
+    "nextQuestion": "Next question"
+  },
+  "plans": {
+    "name": "our plans",
+    "basic_plan": "Basic Plan",
+    "premium_plan": "Premium Plan",
+    "pro_plan": "Pro Plan",
+    "selectButton": "select"
+  },
+  "our_plans_title": "Our Plans",
+  "loading_prices": "Loading prices...",
+  "error_loading_prices": "Error loading prices. Please try again later.",
+  "trivia": {
+    "title": "Anime Trivia",
+    "correct": "Correct!",
+    "incorrect": "Incorrect!",
+    "correct_answer": "Correct answer",
+    "next_question": "Next question"
+  },
+  "questions": {
+  "isekai": {
+    "q1": {
+      "question": "What is the name of the protagonist of Re:Zero?",
+      "option1": "Subaru Natsuki",
+      "option2": "Kazuma Satou",
+      "option3": "Naofumi Iwatani",
+      "option4": "Kirito"
+    },
+    "q2": {
+      "question": "In which anime is the protagonist transported to a world with a useless goddess?",
+      "option1": "Konosuba",
+      "option2": "No Game No Life",
+      "option3": "Overlord",
+      "option4": "That Time I Got Reincarnated as a Slime"
+    },
+    "q3": {
+      "question": "What is the name of the protagonist of That Time I Got Reincarnated as a Slime?",
+      "option1": "Kazuto Kirigaya",
+      "option2": "Satoru Mikami",
+      "option3": "Naofumi Iwatani",
+      "option4": "Shiroe"
+    },
+    "q4": {
+      "question": "Which of these anime is NOT isekai?",
+      "option1": "Sword Art Online",
+      "option2": "Attack on Titan",
+      "option3": "Re:Zero",
+      "option4": "No Game No Life"
+    },
+    "q5": {
+      "question": "What common object summons the protagonist in Re:Zero?",
+      "option1": "Magic book",
+      "option2": "Magic door",
+      "option3": "Video game console",
+      "option4": "None"
+    },
+    "q6": {
+      "question": "Who is Ainz Ooal Gown?",
+      "option1": "The leader of a guild",
+      "option2": "A slime",
+      "option3": "A wandering knight",
+      "option4": "A school teacher"
+    },
+    "q7": {
+      "question": "Which anime features a game where the protagonist siblings cannot lose?",
+      "option1": "No Game No Life",
+      "option2": "Overlord",
+      "option3": "Log Horizon",
+      "option4": "Arifureta"
+    },
+    "q8": {
+      "question": "What genre is Arifureta?",
+      "option1": "Isekai",
+      "option2": "School romance",
+      "option3": "Mystery",
+      "option4": "Comedy"
+    },
+    "q9": {
+      "question": "In which anime is the protagonist summoned as the Shield Hero?",
+      "option1": "The Rising of the Shield Hero",
+      "option2": "Re:Zero",
+      "option3": "DanMachi",
+      "option4": "Youjo Senki"
+    },
+    "q10": {
+      "question": "What kind of being is Rimuru Tempest?",
+      "option1": "A knight",
+      "option2": "A dragon",
+      "option3": "A slime",
+      "option4": "A mage"
+    },
+    "q11": {
+      "question": "Who is the author of Sword Art Online?",
+      "option1": "Reki Kawahara",
+      "option2": "Aka Akasaka",
+      "option3": "Tappei Nagatsuki",
+      "option4": "ONE"
+    },
+    "q12": {
+      "question": "Which isekai anime has Tanya Degurechaff as the protagonist?",
+      "option1": "Youjo Senki",
+      "option2": "No Game No Life",
+      "option3": "Konosuba",
+      "option4": "Overlord"
+    },
+    "q13": {
+      "question": "What is Kazuma's nickname in Konosuba?",
+      "option1": "Kazutrash",
+      "option2": "Kazuluck",
+      "option3": "Kazugod",
+      "option4": "Kazumeme"
+    },
+    "q14": {
+      "question": "What ability does Subaru have in Re:Zero?",
+      "option1": "Return from death",
+      "option2": "Summoning",
+      "option3": "Telepathy",
+      "option4": "Healing magic"
+    },
+    "q15": {
+      "question": "In which anime is the protagonist trapped in a virtual reality game?",
+      "option1": "Sword Art Online",
+      "option2": "Bleach",
+      "option3": "Naruto",
+      "option4": "Death Note"
+    },
+    "q16": {
+      "question": "What is the name of Ainz's guild in Overlord?",
+      "option1": "Ainz Ooal Gown",
+      "option2": "Black Bulls",
+      "option3": "Knights of Blood",
+      "option4": "Crimson Blade"
+    },
+    "q17": {
+      "question": "Which Konosuba character is known for explosions?",
+      "option1": "Aqua",
+      "option2": "Darkness",
+      "option3": "Megumin",
+      "option4": "Yunyun"
+    },
+    "q18": {
+      "question": "What is Shiroe's goal in Log Horizon?",
+      "option1": "Control the game",
+      "option2": "Free the players",
+      "option3": "Find his sister",
+      "option4": "Build a new society"
+    },
+    "q19": {
+      "question": "What kind of world appears in Isekai Cheat Magician?",
+      "option1": "Modern",
+      "option2": "Futuristic",
+      "option3": "Medieval fantasy",
+      "option4": "Post-apocalyptic"
+    },
+    "q20": {
+      "question": "Which isekai anime starts with a traffic accident?",
+      "option1": "Re:Zero",
+      "option2": "Konosuba",
+      "option3": "Youjo Senki",
+      "option4": "Overlord"
+    }
+  },
+  
+  "seinen": {
+    "q1": {
+      "question": "Who is the protagonist of Berserk?",
+      "option1": "Guts",
+      "option2": "Griffith",
+      "option3": "Casca",
+      "option4": "Skull Knight"
+    },
+    "q2": {
+      "question": "What is the protagonist's profession in Monster?",
+      "option1": "Surgeon",
+      "option2": "Detective",
+      "option3": "Lawyer",
+      "option4": "Teacher"
+    },
+    "q3": {
+      "question": "In which city does the story of Monster begin?",
+      "option1": "Berlin",
+      "option2": "Düsseldorf",
+      "option3": "Tokyo",
+      "option4": "Prague"
+    },
+    "q4": {
+      "question": "Which anime mainly explores psychological trauma and existential emptiness?",
+      "option1": "Naruto",
+      "option2": "Attack on Titan",
+      "option3": "Paranoia Agent",
+      "option4": "Death Parade"
+    },
+    "q5": {
+      "question": "What is Johan's goal in Monster?",
+      "option1": "Become king",
+      "option2": "Destroy the world",
+      "option3": "Seek revenge",
+      "option4": "Create chaos"
+    },
+    "q6": {
+      "question": "Who wrote the manga Vagabond?",
+      "option1": "Naoki Urasawa",
+      "option2": "Inio Asano",
+      "option3": "Takehiko Inoue",
+      "option4": "Kentaro Miura"
+    },
+    "q7": {
+      "question": "What is Vinland Saga about?",
+      "option1": "Space travel",
+      "option2": "Vikings",
+      "option3": "Samurais",
+      "option4": "Zombies"
+    },
+    "q8": {
+      "question": "Which Tokyo Ghoul character has a rinkaku-type kagune?",
+      "option1": "Kaneki",
+      "option2": "Touka",
+      "option3": "Amon",
+      "option4": "Uta"
+    },
+    "q9": {
+      "question": "In which anime does a mangaka face his dark past?",
+      "option1": "Bakuman",
+      "option2": "Goodnight Punpun",
+      "option3": "ReLife",
+      "option4": "A Silent Voice"
+    },
+    "q10": {
+      "question": "What is the name of the organization in Psycho-Pass?",
+      "option1": "Sibyl System",
+      "option2": "Homunculi",
+      "option3": "Shie Hassaikai",
+      "option4": "Agency"
+    },
+    "q11": {
+      "question": "What weapon does Guts mainly use?",
+      "option1": "Katana",
+      "option2": "Spear",
+      "option3": "Giant sword",
+      "option4": "Hammer"
+    },
+    "q12": {
+      "question": "Who wrote the manga Monster?",
+      "option1": "Takehiko Inoue",
+      "option2": "Naoki Urasawa",
+      "option3": "Sui Ishida",
+      "option4": "Kentaro Miura"
+    },
+    "q13": {
+      "question": "What is the main theme of 20th Century Boys?",
+      "option1": "Friendship and conspiracy",
+      "option2": "Sports competition",
+      "option3": "Romantic comedy",
+      "option4": "Time travel"
+    },
+    "q14": {
+      "question": "Which anime features an investigator with a scythe?",
+      "option1": "Erased",
+      "option2": "Bleach",
+      "option3": "Tokyo Ghoul",
+      "option4": "Death Note"
+    },
+    "q15": {
+      "question": "Who is the author of Vinland Saga?",
+      "option1": "Makoto Yukimura",
+      "option2": "Hajime Isayama",
+      "option3": "Kentaro Miura",
+      "option4": "Naoki Urasawa"
+    },
+    "q16": {
+      "question": "Which seinen anime focuses on yakuza and mafia conflicts?",
+      "option1": "91 Days",
+      "option2": "Black Lagoon",
+      "option3": "Psycho-Pass",
+      "option4": "Erased"
+    },
+    "q17": {
+      "question": "What is the tone of Paranoia Agent?",
+      "option1": "Psychological thriller",
+      "option2": "Comedy",
+      "option3": "Romance",
+      "option4": "Slice of life"
+    },
+    "q18": {
+      "question": "Who is the protagonist of Death Note?",
+      "option1": "Light Yagami",
+      "option2": "L",
+      "option3": "Ryuk",
+      "option4": "Near"
+    },
+    "q19": {
+      "question": "What kind of series is Black Lagoon?",
+      "option1": "Action and crime",
+      "option2": "Romantic comedy",
+      "option3": "School life",
+      "option4": "Fantasy"
+    },
+    "q20": {
+      "question": "Which anime features a dystopian future ruled by a system called Sibyl?",
+      "option1": "Psycho-Pass",
+      "option2": "Akira",
+      "option3": "Ghost in the Shell",
+      "option4": "Erased"
+    }
+  },
+  "shojo": {
+    "q1": {
+      "question": "Who is the protagonist of Sailor Moon?",
+      "option1": "Usagi Tsukino",
+      "option2": "Ami Mizuno",
+      "option3": "Rei Hino",
+      "option4": "Makoto Kino"
+    },
+    "q2": {
+      "question": "Which character becomes the Princess of the Moon Kingdom?",
+      "option1": "Ami Mizuno",
+      "option2": "Usagi Tsukino",
+      "option3": "Makoto Kino",
+      "option4": "Rei Hino"
+    },
+    "q3": {
+      "question": "Which manga is famous for its story of romance and magic?",
+      "option1": "Fruits Basket",
+      "option2": "Nana",
+      "option3": "Cardcaptor Sakura",
+      "option4": "Sailor Moon"
+    },
+    "q4": {
+      "question": "Who is the male protagonist of Fruits Basket?",
+      "option1": "Kyo Sohma",
+      "option2": "Yuki Sohma",
+      "option3": "Shigure Sohma",
+      "option4": "Hatsuharu Sohma"
+    },
+    "q5": {
+      "question": "In which manga does the protagonist seek to free a trapped prince?",
+      "option1": "Kimi ni Todoke",
+      "option2": "Yona of the Dawn",
+      "option3": "Kare Kano",
+      "option4": "Ouran High School Host Club"
+    },
+    "q6": {
+      "question": "In which anime is the protagonist trapped in a parallel world?",
+      "option1": "Inuyasha",
+      "option2": "Fruits Basket",
+      "option3": "Skip Beat!",
+      "option4": "Nodame Cantabile"
+    },
+    "q7": {
+      "question": "In which series does the protagonist become a famous idol?",
+      "option1": "Lovely★Complex",
+      "option2": "Nodame Cantabile",
+      "option3": "Maid-Sama!",
+      "option4": "Skip Beat!"
+    },
+    "q8": {
+      "question": "Which character in Cardcaptor Sakura has a cat named Keroberos?",
+      "option1": "Sakura Kinomoto",
+      "option2": "Tomoyo Daidouji",
+      "option3": "Li Syaoran",
+      "option4": "Kero"
+    },
+    "q9": {
+      "question": "Who is the protagonist's best friend in Kamisama Kiss?",
+      "option1": "Mikage",
+      "option2": "Kurama",
+      "option3": "Daikoku",
+      "option4": "Tomoe"
+    },
+    "q10": {
+      "question": "Which character in Hana Yori Dango is the most introverted?",
+      "option1": "Tsukushi Makino",
+      "option2": "Rui Hanazawa",
+      "option3": "Domyoji Tsukasa",
+      "option4": "Sojiro Nishikado"
+    },
+    "q11": {
+      "question": "In which anime does the protagonist have a special ability to see ghosts?",
+      "option1": "Nodame Cantabile",
+      "option2": "Sailor Moon",
+      "option3": "Yamato Nadeshiko Shichihenge",
+      "option4": "Maid-Sama!"
+    },
+    "q12": {
+      "question": "Which anime is about a girl who falls in love with a cold but protective boy?",
+      "option1": "Kimi ni Todoke",
+      "option2": "Lovely★Complex",
+      "option3": "Fruits Basket",
+      "option4": "Say I Love You"
+    },
+    "q13": {
+      "question": "In which story do boys fight for the heart of a single girl?",
+      "option1": "Ouran High School Host Club",
+      "option2": "Kimi ni Todoke",
+      "option3": "Skip Beat!",
+      "option4": "Yona of the Dawn"
+    },
+    "q14": {
+      "question": "Which character is known for their indifferent attitude in Ouran High School Host Club?",
+      "option1": "Haruhi Fujioka",
+      "option2": "Tamaki Suoh",
+      "option3": "Kyoya Ohtori",
+      "option4": "Mitsukuni Haninozuka"
+    },
+    "q15": {
+      "question": "In which anime is the protagonist a student who pretends to be a boy?",
+      "option1": "Nodame Cantabile",
+      "option2": "Fruits Basket",
+      "option3": "Ouran High School Host Club",
+      "option4": "Kimi ni Todoke"
+    },
+    "q16": {
+      "question": "Which character in Yona of the Dawn has special powers?",
+      "option1": "Yona",
+      "option2": "Hak",
+      "option3": "Kija",
+      "option4": "Jaeha"
+    },
+    "q17": {
+      "question": "Which manga is about the life of a woman who becomes an idol?",
+      "option1": "Skip Beat!",
+      "option2": "Nodame Cantabile",
+      "option3": "Lovely★Complex",
+      "option4": "Ouran High School Host Club"
+    },
+    "q18": {
+      "question": "Which anime is about the romance between two boys from different worlds?",
+      "option1": "Yuri on Ice",
+      "option2": "Fruits Basket",
+      "option3": "Kimi ni Todoke",
+      "option4": "Say I Love You"
+    },
+    "q19": {
+      "question": "In which series is the protagonist a girl with a strong temper?",
+      "option1": "Maid-Sama!",
+      "option2": "Nodame Cantabile",
+      "option3": "Skip Beat!",
+      "option4": "Lovely★Complex"
+    },
+    "q20": {
+      "question": "Which character in Cardcaptor Sakura has an unrequited love?",
+      "option1": "Sakura Kinomoto",
+      "option2": "Li Syaoran",
+      "option3": "Tomoyo Daidouji",
+      "option4": "Meilin"
+    }
+  },
+
+  "shonen": {
+    "q1": {
+      "question": "Who is the protagonist of Dragon Ball?",
+      "option1": "Vegeta",
+      "option2": "Gohan",
+      "option3": "Goku",
+      "option4": "Piccolo"
+    },
+    "q2": {
+      "question": "Which character seeks to become the Pirate King?",
+      "option1": "Luffy",
+      "option2": "Zoro",
+      "option3": "Naruto",
+      "option4": "Ichigo"
+    },
+    "q3": {
+      "question": "What is Naruto's goal?",
+      "option1": "To become Hokage",
+      "option2": "To become a pirate",
+      "option3": "To avenge his family",
+      "option4": "To find the Dragon Balls"
+    },
+    "q4": {
+      "question": "What is the name of Ichigo's spirit in Bleach?",
+      "option1": "Hollow",
+      "option2": "Zangetsu",
+      "option3": "Bankai",
+      "option4": "Shinigami"
+    },
+    "q5": {
+      "question": "What fruit did Luffy eat?",
+      "option1": "Devil Fruit",
+      "option2": "Fire Fruit",
+      "option3": "Gum Fruit",
+      "option4": "Dragon Fruit"
+    },
+    "q6": {
+      "question": "What technique is characteristic of Goku?",
+      "option1": "Chidori",
+      "option2": "Rasengan",
+      "option3": "Kamehameha",
+      "option4": "Getsuga Tensho"
+    },
+    "q7": {
+      "question": "Who is Naruto's main rival?",
+      "option1": "Sasuke",
+      "option2": "Kakashi",
+      "option3": "Madara",
+      "option4": "Obito"
+    },
+    "q8": {
+      "question": "Which anime has guilds like Fairy Tail and Sabertooth?",
+      "option1": "Bleach",
+      "option2": "One Piece",
+      "option3": "Fairy Tail",
+      "option4": "Black Clover"
+    },
+    "q9": {
+      "question": "Who is All Might in My Hero Academia?",
+      "option1": "Villain",
+      "option2": "Izuku's teacher",
+      "option3": "Bakugo's brother",
+      "option4": "Shoto's father"
+    },
+    "q10": {
+      "question": "What is the name of the protagonist in Jujutsu Kaisen?",
+      "option1": "Gojo",
+      "option2": "Yuji Itadori",
+      "option3": "Megumi",
+      "option4": "Nanami"
+    },
+    "q11": {
+      "question": "What is a Bankai?",
+      "option1": "Power level",
+      "option2": "Final transformation",
+      "option3": "Maximum release of a zanpakuto",
+      "option4": "Fire technique"
+    },
+    "q12": {
+      "question": "Who is the main villain in Naruto?",
+      "option1": "Orochimaru",
+      "option2": "Madara Uchiha",
+      "option3": "Kaguya",
+      "option4": "Pain"
+    },
+    "q13": {
+      "question": "What is the name of the captain of the Straw Hat Pirates?",
+      "option1": "Luffy",
+      "option2": "Zoro",
+      "option3": "Sanji",
+      "option4": "Nami"
+    },
+    "q14": {
+      "question": "Which character uses the technique Rasengan?",
+      "option1": "Naruto",
+      "option2": "Sasuke",
+      "option3": "Kakashi",
+      "option4": "Itachi"
+    },
+    "q15": {
+      "question": "Which anime features giant humanoid creatures called Titans?",
+      "option1": "Naruto",
+      "option2": "Attack on Titan",
+      "option3": "One Piece",
+      "option4": "Bleach"
+    },
+    "q16": {
+      "question": "Who is the protagonist of My Hero Academia?",
+      "option1": "Izuku Midoriya",
+      "option2": "Shoto Todoroki",
+      "option3": "Bakugo Katsuki",
+      "option4": "All Might"
+    },
+    "q17": {
+      "question": "What is the name of the demon inside Inuyasha?",
+      "option1": "Sesshomaru",
+      "option2": "Kikyo",
+      "option3": "Naraku",
+      "option4": "Kagome"
+    },
+    "q18": {
+      "question": "Which anime is about a boy who wants to become the strongest ninja?",
+      "option1": "Naruto",
+      "option2": "Bleach",
+      "option3": "One Piece",
+      "option4": "Dragon Ball"
+    },
+    "q19": {
+      "question": "What is the main goal of Goku in Dragon Ball?",
+      "option1": "To protect the Earth",
+      "option2": "To conquer planets",
+      "option3": "To become rich",
+      "option4": "To become a master chef"
+    },
+    "q20": {
+      "question": "Which anime features a school for heroes?",
+      "option1": "Naruto",
+      "option2": "My Hero Academia",
+      "option3": "One Piece",
+      "option4": "Bleach"
+    }
+  },
+  "spokon": {
+    "q1": {
+      "question": "Who is the main character in Slam Dunk?",
+      "option1": "Hanamichi Sakuragi",
+      "option2": "Kaede Rukawa",
+      "option3": "Takenori Akagi",
+      "option4": "Ryota Miyagi"
+    },
+    "q2": {
+      "question": "Which sport is featured in Haikyuu!!?",
+      "option1": "Basketball",
+      "option2": "Volleyball",
+      "option3": "Baseball",
+      "option4": "Soccer"
+    },
+    "q3": {
+      "question": "What position does Hinata Shoyo play in Haikyuu!!?",
+      "option1": "Setter",
+      "option2": "Libero",
+      "option3": "Middle Blocker",
+      "option4": "Wing Spiker"
+    },
+    "q4": {
+      "question": "Who is the coach of Karasuno High School's volleyball team?",
+      "option1": "Ukai Keishin",
+      "option2": "Kageyama Tobio",
+      "option3": "Daichi Sawamura",
+      "option4": "Asahi Azumane"
+    },
+    "q5": {
+      "question": "Which manga features a young boxer named Ippo Makunouchi?",
+      "option1": "Hajime no Ippo",
+      "option2": "Kuroko's Basketball",
+      "option3": "Eyeshield 21",
+      "option4": "Yuri on Ice"
+    },
+    "q6": {
+      "question": "What is the main sport in Kuroko's Basketball?",
+      "option1": "Volleyball",
+      "option2": "Basketball",
+      "option3": "Soccer",
+      "option4": "Baseball"
+    },
+    "q7": {
+      "question": "Who is known as the 'Phantom Sixth Man' in Kuroko's Basketball?",
+      "option1": "Tetsuya Kuroko",
+      "option2": "Taiga Kagami",
+      "option3": "Seijuro Akashi",
+      "option4": "Shintarō Midorima"
+    },
+    "q8": {
+      "question": "Which sport does Yuri on Ice focus on?",
+      "option1": "Figure Skating",
+      "option2": "Ice Hockey",
+      "option3": "Skiing",
+      "option4": "Snowboarding"
+    },
+    "q9": {
+      "question": "What is the goal of the main character in Hajime no Ippo?",
+      "option1": "To become the world champion",
+      "option2": "To become a soccer player",
+      "option3": "To become a coach",
+      "option4": "To become a referee"
+    },
+    "q10": {
+      "question": "Who is the rival of Hinata Shoyo in Haikyuu!!?",
+      "option1": "Kageyama Tobio",
+      "option2": "Asahi Azumane",
+      "option3": "Daichi Sawamura",
+      "option4": "Sugawara Koushi"
+    },
+    "q11": {
+      "question": "Which sport is the focus of Ace of Diamond?",
+      "option1": "Baseball",
+      "option2": "Basketball",
+      "option3": "Volleyball",
+      "option4": "Soccer"
+    },
+    "q12": {
+      "question": "Who is the protagonist of Ace of Diamond?",
+      "option1": "Eijun Sawamura",
+      "option2": "Kazuya Miyuki",
+      "option3": "Satoru Furuya",
+      "option4": "Haruno Yoshida"
+    },
+    "q13": {
+      "question": "What is the name of the volleyball team in Haikyuu!!?",
+      "option1": "Karasuno High School",
+      "option2": "Nekoma High School",
+      "option3": "Fukurodani Academy",
+      "option4": "Date Tech High School"
+    },
+    "q14": {
+      "question": "Who is the captain of Karasuno's volleyball team?",
+      "option1": "Daichi Sawamura",
+      "option2": "Kageyama Tobio",
+      "option3": "Hinata Shoyo",
+      "option4": "Asahi Azumane"
+    },
+    "q15": {
+      "question": "What sport does Prince of Tennis feature?",
+      "option1": "Tennis",
+      "option2": "Basketball",
+      "option3": "Soccer",
+      "option4": "Baseball"
+    },
+    "q16": {
+      "question": "Who is the main rival of Eijun Sawamura in Ace of Diamond?",
+      "option1": "Kazuya Miyuki",
+      "option2": "Satoru Furuya",
+      "option3": "Haruno Yoshida",
+      "option4": "Seido High"
+    },
+    "q17": {
+      "question": "Which anime features a protagonist who is a genius volleyball player?",
+      "option1": "Haikyuu!!",
+      "option2": "Kuroko's Basketball",
+      "option3": "Yuri on Ice",
+      "option4": "Slam Dunk"
+    },
+    "q18": {
+      "question": "What is the main theme of Yuri on Ice?",
+      "option1": "Figure skating competition",
+      "option2": "Basketball rivalry",
+      "option3": "Boxing training",
+      "option4": "Volleyball championship"
+    },
+    "q19": {
+      "question": "Which sport is featured in Eyeshield 21?",
+      "option1": "American Football",
+      "option2": "Basketball",
+      "option3": "Baseball",
+      "option4": "Soccer"
+    },
+    "q20": {
+      "question": "Who is the coach of the Seido High baseball team in Ace of Diamond?",
+      "option1": "Coach Kataoka",
+      "option2": "Coach Ukai",
+      "option3": "Coach Furudate",
+      "option4": "Coach Daichi"
+    }
+  }
+
+}
+}

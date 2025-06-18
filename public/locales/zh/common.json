@@ -1,0 +1,803 @@
+{
+  "common": {
+    "language_selector_label": "选择语言",
+    "goBack": "返回"
+  },
+  "menuButton": {
+    "h2title": "你确定吗？",
+    "confirmButton": "是",
+    "cancelButton": "否"
+  },
+  "home": {
+    "sign_in_button": "登录",
+    "sign_up_button": "注册"
+  },
+  "index": {
+    "random_button": "随机",
+    "category_title": "类别"
+  },
+  "login": {
+    "title": "登录",
+    "emailPlaceholder": "电子邮箱",
+    "passwordPlaceholder": "密码",
+    "enterButton": "进入",
+    "emailRequired": "请输入您的邮箱和密码。",
+    "emailInvalid": "请输入有效的邮箱地址。",
+    "passwordTooShort": "密码至少需要6个字符。"
+  },
+  "register": {
+    "title": "注册",
+    "namePlaceholder": "姓名",
+    "emailPlaceholder": "电子邮箱",
+    "passwordPlaceholder": "密码",
+    "confirmPasswordPlaceholder": "确认密码",
+    "signUpButton": "注册",
+    "passwordsDoNotMatch": "密码不匹配",
+    "nameRequired": "姓名为必填项",
+    "emailRequired": "邮箱为必填项。",
+    "passwordRequired": "密码为必填项。"
+  },
+  "isekaiPage": {
+    "title": "异世界测验",
+    "loadingQuestions": "正在加载问题..."
+  },
+  "seinenPage": {
+    "title": "青年漫画测验",
+    "loadingQuestions": "正在加载问题..."
+  },
+  "shonenPage": {
+    "title": "少年漫画测验",
+    "loadingQuestions": "正在加载问题..."
+  },
+  "shojoPage": {
+    "title": "少女漫画测验",
+    "loadingQuestions": "正在加载问题..."
+  },
+  "spokonPage": {
+    "title": "体育漫画测验",
+    "loadingQuestions": "正在加载问题..."
+  },
+  "buttonLeave": {
+    "Leave_Game": "退出游戏",
+    "message": "你确定要退出游戏吗？你将失去所有进度。",
+    "confirmButtonText": "是，退出",
+    "cancelButtonText": "不，继续",
+    "title": "退出游戏"
+  },
+  "quiz": {
+    "noQuestionsAvailable": "没有可用的问题。",
+    "congratulationsTitle": "🎉 恭喜！ 🎉",
+    "congratulationsMessage": "你已完成所有测验问题！",
+    "backToHome": "返回首页",
+    "correctFeedback": "✅ 正确！",
+    "incorrectFeedback": "❌ 错误。正确答案是：",
+    "nextQuestion": "下一个问题"
+  },
+  "plans": {
+    "name": "我们的计划",
+    "basic_plan": "基础计划",
+    "premium_plan": "高级计划",
+    "pro_plan": "专业计划",
+    "selectButton": "选择"
+  },
+  "our_plans_title": "我们的计划",
+  "loading_prices": "正在加载价格...",
+  "error_loading_prices": "加载价格时出错。请稍后再试。",
+  "trivia": {
+    "title": "动漫测验",
+    "correct": "正确！",
+    "incorrect": "错误！",
+    "correct_answer": "正确答案",
+    "next_question": "下一个问题"
+  },
+  "questions": {
+  "isekai": {
+    "q1": {
+      "question": "Re:Zero 主角的名字是什么？",
+      "option1": "菜月昴",
+      "option2": "佐藤和真",
+      "option3": "岩谷尚文",
+      "option4": "桐人"
+    },
+    "q2": {
+      "question": "哪个动漫的主角被传送到一个有一个无用女神的世界？",
+      "option1": "为美好的世界献上祝福！",
+      "option2": "游戏人生",
+      "option3": "霸王勇者",
+      "option4": "转生成史莱姆"
+    },
+    "q3": {
+      "question": "《关于我转生变成史莱姆这档事》的主角叫什么名字？",
+      "option1": "桐谷和人",
+      "option2": "三上悟",
+      "option3": "岩谷尚文",
+      "option4": "白鸦"
+    },
+    "q4": {
+      "question": "以下哪个动漫不是异世界题材？",
+      "option1": "刀剑神域",
+      "option2": "进击的巨人",
+      "option3": "Re:Zero",
+      "option4": "游戏人生"
+    },
+    "q5": {
+      "question": "在 Re:Zero 中，主角被召唤时使用了什么常见物品？",
+      "option1": "魔法书",
+      "option2": "魔法门",
+      "option3": "游戏机",
+      "option4": "无"
+    },
+    "q6": {
+      "question": "安兹·乌尔·恭是谁？",
+      "option1": "公会领袖",
+      "option2": "史莱姆",
+      "option3": "游侠",
+      "option4": "老师"
+    },
+    "q7": {
+      "question": "哪个动漫描述了主角兄妹无法输的游戏？",
+      "option1": "游戏人生",
+      "option2": "霸王勇者",
+      "option3": "记录的地平线",
+      "option4": "从零开始的异世界生活"
+    },
+    "q8": {
+      "question": "《Arifureta》的类型是什么？",
+      "option1": "异世界",
+      "option2": "校园恋爱",
+      "option3": "悬疑",
+      "option4": "喜剧"
+    },
+    "q9": {
+      "question": "在哪个动漫中，主角被召唤为盾之勇者？",
+      "option1": "盾之勇者成名录",
+      "option2": "Re:Zero",
+      "option3": "关于我转生变成史莱姆这档事",
+      "option4": "幼女战记"
+    },
+    "q10": {
+      "question": "利姆路·特恩佩斯特是什么生物？",
+      "option1": "骑士",
+      "option2": "龙",
+      "option3": "史莱姆",
+      "option4": "魔法师"
+    },
+    "q11": {
+      "question": "《刀剑神域》的作者是谁？",
+      "option1": "川原砾",
+      "option2": "赤坂明",
+      "option3": "长月达平",
+      "option4": "ONE"
+    },
+    "q12": {
+      "question": "哪个异世界动漫的主角是丹雅·德古雷查夫？",
+      "option1": "幼女战记",
+      "option2": "游戏人生",
+      "option3": "为美好的世界献上祝福！",
+      "option4": "霸王勇者"
+    },
+    "q13": {
+      "question": "佐藤和真在《为美好的世界献上祝福！》的昵称是什么？",
+      "option1": "Kazutrash",
+      "option2": "Kazuluck",
+      "option3": "Kazugod",
+      "option4": "Kazumeme"
+    },
+    "q14": {
+      "question": "菜月昴在 Re:Zero 拥有什么能力？",
+      "option1": "死亡回归",
+      "option2": "召唤术",
+      "option3": "心灵感应",
+      "option4": "治疗魔法"
+    },
+    "q15": {
+      "question": "在哪个动漫中，主角被困在虚拟现实游戏中？",
+      "option1": "刀剑神域",
+      "option2": "死神",
+      "option3": "火影忍者",
+      "option4": "死亡笔记"
+    },
+    "q16": {
+      "question": "《霸王勇者》中安兹公会的名字是什么？",
+      "option1": "安兹·乌尔·恭",
+      "option2": "黑牛公会",
+      "option3": "血之骑士",
+      "option4": "深红之刃"
+    },
+    "q17": {
+      "question": "《为美好的世界献上祝福！》中哪个角色以爆炸著称？",
+      "option1": "阿库娅",
+      "option2": "达克尼斯",
+      "option3": "惠惠",
+      "option4": "由乃"
+    },
+    "q18": {
+      "question": "《记录的地平线》中白鸦的目标是什么？",
+      "option1": "控制游戏",
+      "option2": "解放玩家",
+      "option3": "寻找妹妹",
+      "option4": "建立新社会"
+    },
+    "q19": {
+      "question": "《异世界作弊魔术师》的世界是什么类型？",
+      "option1": "现代",
+      "option2": "未来",
+      "option3": "中世纪奇幻",
+      "option4": "末世"
+    },
+    "q20": {
+      "question": "哪个异世界动漫以车祸开场？",
+      "option1": "Re:Zero",
+      "option2": "为美好的世界献上祝福！",
+      "option3": "幼女战记",
+      "option4": "霸王勇者"
+    }
+  },
+  
+  "seinen": {
+    "q1": {
+      "question": "《烙印勇士》的主角是谁？",
+      "option1": "格斯",
+      "option2": "格里菲斯",
+      "option3": "卡斯卡",
+      "option4": "骷髅骑士"
+    },
+    "q2": {
+      "question": "《怪物》中主角的职业是什么？",
+      "option1": "外科医生",
+      "option2": "侦探",
+      "option3": "律师",
+      "option4": "教授"
+    },
+    "q3": {
+      "question": "《怪物》的故事开始于哪座城市？",
+      "option1": "柏林",
+      "option2": "杜塞尔多夫",
+      "option3": "东京",
+      "option4": "布拉格"
+    },
+    "q4": {
+      "question": "哪个动漫主要探讨心理创伤和存在虚无？",
+      "option1": "火影忍者",
+      "option2": "进击的巨人",
+      "option3": "妄想代理人",
+      "option4": "死亡游行"
+    },
+    "q5": {
+      "question": "《怪物》中约翰的目标是什么？",
+      "option1": "成为国王",
+      "option2": "毁灭世界",
+      "option3": "复仇",
+      "option4": "制造混乱"
+    },
+    "q6": {
+      "question": "《浪客行》的作者是谁？",
+      "option1": "浦泽直树",
+      "option2": "浅野一二〇",
+      "option3": "井上雄彦",
+      "option4": "三浦建太郎"
+    },
+    "q7": {
+      "question": "《芬兰传奇》讲述什么内容？",
+      "option1": "太空旅行",
+      "option2": "维京人",
+      "option3": "武士",
+      "option4": "僵尸"
+    },
+    "q8": {
+      "question": "《东京喰种》中哪个角色拥有轮廓型的赫子？",
+      "option1": "金木研",
+      "option2": "月山习",
+      "option3": "阿蒙",
+      "option4": "乌塔"
+    },
+    "q9": {
+      "question": "哪个动漫讲述了一位漫画家面对他的黑暗过去？",
+      "option1": "废柴兄弟",
+      "option2": "晚安，彭彭",
+      "option3": "ReLife",
+      "option4": "声之形"
+    },
+    "q10": {
+      "question": "《心理测量者》中组织叫什么名字？",
+      "option1": "西布尔系统",
+      "option2": "人造人",
+      "option3": "雾雨八海会",
+      "option4": "局"
+    },
+    "q11": {
+      "question": "格斯主要使用什么武器？",
+      "option1": "武士刀",
+      "option2": "长矛",
+      "option3": "巨剑",
+      "option4": "锤子"
+    },
+    "q12": {
+      "question": "《怪物》的作者是谁？",
+      "option1": "井上雄彦",
+      "option2": "浦泽直树",
+      "option3": "石田翠",
+      "option4": "谏山创"
+    },
+    "q13": {
+      "question": "哪部动漫有荒塔良仓这个角色？",
+      "option1": "灵能百分百",
+      "option2": "死亡笔记",
+      "option3": "黑礁",
+      "option4": "妖精的旋律"
+    },
+    "q14": {
+      "question": "《寄生兽》的主题是什么？",
+      "option1": "友情",
+      "option2": "外星人",
+      "option3": "爱情",
+      "option4": "时间旅行"
+    },
+    "q15": {
+      "question": "哪个主角的身体与外星寄生虫共存？",
+      "option1": "新一",
+      "option2": "L",
+      "option3": "夜神月",
+      "option4": "真嗣"
+    },
+    "q16": {
+      "question": "《Ergo Proxy》中Re-L Mayer的职业是什么？",
+      "option1": "侦探",
+      "option2": "警官",
+      "option3": "调查员",
+      "option4": "士兵"
+    },
+    "q17": {
+      "question": "哪部作品被认为是心理惊悚类青年漫画经典？",
+      "option1": "火影忍者",
+      "option2": "新世纪福音战士",
+      "option3": "怪物",
+      "option4": "海贼王"
+    },
+    "q18": {
+      "question": "《东京喰种》中重要的城市是哪座？",
+      "option1": "大阪",
+      "option2": "横滨",
+      "option3": "东京",
+      "option4": "京都"
+    },
+    "q19": {
+      "question": "《20世纪少年》的作者是谁？",
+      "option1": "浦泽直树",
+      "option2": "井上雄彦",
+      "option3": "石田翠",
+      "option4": "谏山创"
+    },
+    "q20": {
+      "question": "《怪物》的故事主题是什么？",
+      "option1": "正义与邪恶",
+      "option2": "爱情故事",
+      "option3": "友情与成长",
+      "option4": "时间旅行"
+    }
+  },
+  "shojo": {
+  "q1": {
+    "question": "《美少女战士》的主角是谁？",
+    "option1": "月野兔",
+    "option2": "水野亚美",
+    "option3": "火野玲",
+    "option4": "木野真琴"
+  },
+  "q2": {
+    "question": "哪个角色成为了月之王国的公主？",
+    "option1": "水野亚美",
+    "option2": "月野兔",
+    "option3": "木野真琴",
+    "option4": "火野玲"
+  },
+  "q3": {
+    "question": "哪部漫画以恋爱和魔法故事著称？",
+    "option1": "水果篮子",
+    "option2": "娜娜",
+    "option3": "百变小樱",
+    "option4": "美少女战士"
+  },
+  "q4": {
+    "question": "《水果篮子》中的男性主角是谁？",
+    "option1": "草摩夾",
+    "option2": "草摩由希",
+    "option3": "草摩紫呉",
+    "option4": "草摩初春"
+  },
+  "q5": {
+    "question": "哪部漫画中主角试图解救被困的王子？",
+    "option1": "好想告诉你",
+    "option2": "曙光少女",
+    "option3": "我们摇曳的青春",
+    "option4": "樱兰高校男公关部"
+  },
+  "q6": {
+    "question": "哪部动画中女主角被困在平行世界？",
+    "option1": "犬夜叉",
+    "option2": "水果篮子",
+    "option3": "重击！",
+    "option4": "交响情人梦"
+  },
+  "q7": {
+    "question": "在哪个系列中女主角变成了著名偶像？",
+    "option1": "甜蜜★复仇",
+    "option2": "交响情人梦",
+    "option3": "女仆咖啡厅",
+    "option4": "重击！"
+  },
+  "q8": {
+    "question": "《百变小樱》中哪个角色有一只叫克洛贝洛斯的猫？",
+    "option1": "木之本樱",
+    "option2": "大道寺知世",
+    "option3": "李小狼",
+    "option4": "小可"
+  },
+  "q9": {
+    "question": "《神样的吻》中女主角最好的朋友是谁？",
+    "option1": "御影",
+    "option2": "藏马",
+    "option3": "大黑",
+    "option4": "巴卫"
+  },
+  "q10": {
+    "question": "《花样男子》中哪个角色最内向？",
+    "option1": "牧野杉菜",
+    "option2": "花泽类",
+    "option3": "道明寺司",
+    "option4": "西门总二郎"
+  },
+  "q11": {
+    "question": "哪部动画女主角拥有看见幽灵的特殊能力？",
+    "option1": "交响情人梦",
+    "option2": "美少女战士",
+    "option3": "大和拜金女",
+    "option4": "女仆咖啡厅"
+  },
+  "q12": {
+    "question": "哪部动画讲述一位女孩爱上了冷酷但保护她的男孩？",
+    "option1": "好想告诉你",
+    "option2": "甜蜜★复仇",
+    "option3": "水果篮子",
+    "option4": "告诉我我爱你"
+  },
+  "q13": {
+    "question": "哪部故事中男孩们为争夺一个女孩的心而战？",
+    "option1": "樱兰高校男公关部",
+    "option2": "好想告诉你",
+    "option3": "重击！",
+    "option4": "曙光少女"
+  },
+  "q14": {
+    "question": "《樱兰高校男公关部》中哪个角色以冷漠著称？",
+    "option1": "藤冈春辉",
+    "option2": "须王琉璃",
+    "option3": "大鸟圭也",
+    "option4": "执事蜂须贺"
+  },
+  "q15": {
+    "question": "哪部动画的女主角是伪装成男生的学生？",
+    "option1": "交响情人梦",
+    "option2": "水果篮子",
+    "option3": "樱兰高校男公关部",
+    "option4": "好想告诉你"
+  },
+  "q16": {
+    "question": "《曙光少女》中哪个角色拥有特殊力量？",
+    "option1": "尤娜",
+    "option2": "哈克",
+    "option3": "奇佳",
+    "option4": "在贺"
+  },
+  "q17": {
+    "question": "哪部漫画讲述一名女性成为偶像的生活？",
+    "option1": "重击！",
+    "option2": "交响情人梦",
+    "option3": "甜蜜★复仇",
+    "option4": "樱兰高校男公关部"
+  },
+  "q18": {
+    "question": "哪部动画讲述两个来自不同世界的男孩之间的恋爱？",
+    "option1": "冰上的尤里",
+    "option2": "水果篮子",
+    "option3": "好想告诉你",
+    "option4": "告诉我我爱你"
+  },
+  "q19": {
+    "question": "在哪个系列中女主角脾气很倔强？",
+    "option1": "女仆咖啡厅",
+    "option2": "交响情人梦",
+    "option3": "重击！",
+    "option4": "甜蜜★复仇"
+  },
+  "q20": {
+    "question": "《百变小樱》中哪个角色有暗恋？",
+    "option1": "木之本樱",
+    "option2": "李小狼",
+    "option3": "大道寺知世",
+    "option4": "美琳"
+  }
+},"shonen": {
+  "q1": {
+    "question": "龙珠的主角是谁？",
+    "option1": "贝吉塔",
+    "option2": "悟饭",
+    "option3": "悟空",
+    "option4": "比克罗"
+  },
+  "q2": {
+    "question": "哪个角色想成为海贼王？",
+    "option1": "路飞",
+    "option2": "索隆",
+    "option3": "鸣人",
+    "option4": "一护"
+  },
+  "q3": {
+    "question": "鸣人的目标是什么？",
+    "option1": "成为火影",
+    "option2": "成为海贼",
+    "option3": "为家人复仇",
+    "option4": "寻找龙珠"
+  },
+  "q4": {
+    "question": "一护在《死神》中他的灵魂叫什么？",
+    "option1": "虚",
+    "option2": "斩月",
+    "option3": "卍解",
+    "option4": "死神"
+  },
+  "q5": {
+    "question": "路飞吃了什么果实？",
+    "option1": "恶魔果实",
+    "option2": "火果实",
+    "option3": "橡胶果实",
+    "option4": "龙果实"
+  },
+  "q6": {
+    "question": "悟空的代表技能是什么？",
+    "option1": "千鸟",
+    "option2": "螺旋丸",
+    "option3": "龟波气功",
+    "option4": "月牙天冲"
+  },
+  "q7": {
+    "question": "鸣人的主要对手是谁？",
+    "option1": "佐助",
+    "option2": "卡卡西",
+    "option3": "斑",
+    "option4": "带土"
+  },
+  "q8": {
+    "question": "哪部动漫里有公会，比如妖精的尾巴和雷牙？",
+    "option1": "死神",
+    "option2": "海贼王",
+    "option3": "妖精的尾巴",
+    "option4": "黑色四叶草"
+  },
+  "q9": {
+    "question": "我的英雄学院中的全能（All Might）是谁？",
+    "option1": "反派",
+    "option2": "绿谷的老师",
+    "option3": "爆豪的哥哥",
+    "option4": "轰的爸爸"
+  },
+  "q10": {
+    "question": "咒术回战的主角叫什么？",
+    "option1": "五条",
+    "option2": "虎杖悠仁",
+    "option3": "惠",
+    "option4": "七海"
+  },
+  "q11": {
+    "question": "什么是卍解？",
+    "option1": "力量等级",
+    "option2": "最终变身",
+    "option3": "斩魄刀的最大释放",
+    "option4": "火焰技能"
+  },
+  "q12": {
+    "question": "悟饭的父亲是谁？",
+    "option1": "贝吉塔",
+    "option2": "悟天",
+    "option3": "悟空",
+    "option4": "克林"
+  },
+  "q13": {
+    "question": "什么是写轮眼？",
+    "option1": "武器",
+    "option2": "特殊的眼睛",
+    "option3": "火遁忍术",
+    "option4": "忍者村"
+  },
+  "q14": {
+    "question": "妖精的尾巴的对手公会是哪一个？",
+    "option1": "幻影旅团",
+    "option2": "雷牙",
+    "option3": "蓝天马",
+    "option4": "美人鱼的足迹"
+  },
+  "q15": {
+    "question": "绿谷出久的个性（Quirk）是什么？",
+    "option1": "爆炸",
+    "option2": "半冷半热",
+    "option3": "一拳全开",
+    "option4": "无"
+  },
+  "q16": {
+    "question": "鬼灭之刃中持有黑色日轮刀的是谁？",
+    "option1": "善逸",
+    "option2": "伊之助",
+    "option3": "炭治郎",
+    "option4": "炼狱"
+  },
+  "q17": {
+    "question": "猎人×猎人中使用的能量是什么？",
+    "option1": "查克拉",
+    "option2": "念",
+    "option3": "灵压",
+    "option4": "魔法"
+  },
+  "q18": {
+    "question": "钢之炼金术师中爱德华的姓氏是什么？",
+    "option1": "史密斯",
+    "option2": "艾尔利克",
+    "option3": "沃克",
+    "option4": "马斯坦"
+  },
+  "q19": {
+    "question": "哪个角色会使用螺旋丸？",
+    "option1": "佐助",
+    "option2": "悟空",
+    "option3": "鸣人",
+    "option4": "一护"
+  },
+  "q20": {
+    "question": "哪部动漫有敌人联盟（Liga de Villanos）？",
+    "option1": "我的英雄学院",
+    "option2": "海贼王",
+    "option3": "火影忍者",
+    "option4": "死神"
+  }
+},"spokon": {
+  "q1": {
+    "question": "《排球少年！！》的主角打什么运动？",
+    "option1": "排球",
+    "option2": "足球",
+    "option3": "篮球",
+    "option4": "棒球"
+  },
+  "q2": {
+    "question": "《黑子的篮球》队长是谁？",
+    "option1": "火神大我",
+    "option2": "黑子哲也",
+    "option3": "青峰大辉",
+    "option4": "绿间真太郎"
+  },
+  "q3": {
+    "question": "《钻石王牌》讲什么运动？",
+    "option1": "足球",
+    "option2": "棒球",
+    "option3": "网球",
+    "option4": "篮球"
+  },
+  "q4": {
+    "question": "《灌篮高手》主要讲什么运动？",
+    "option1": "篮球",
+    "option2": "足球",
+    "option3": "排球",
+    "option4": "棒球"
+  },
+  "q5": {
+    "question": "哪部动漫的主角是游泳选手？",
+    "option1": "Free! 泳装男子",
+    "option2": "排球少年！！",
+    "option3": "黑子的篮球",
+    "option4": "钻石王牌"
+  },
+  "q6": {
+    "question": "《网球王子》主要讲什么运动？",
+    "option1": "网球",
+    "option2": "篮球",
+    "option3": "足球",
+    "option4": "排球"
+  },
+  "q7": {
+    "question": "《Major》讲的是哪个棒球队？",
+    "option1": "东京",
+    "option2": "青峰",
+    "option3": "冲绳",
+    "option4": "湘南"
+  },
+  "q8": {
+    "question": "哪部动漫主角想成为最强拳击手？",
+    "option1": "第一神拳",
+    "option2": "钻石王牌",
+    "option3": "黑子的篮球",
+    "option4": "排球少年！！"
+  },
+  "q9": {
+    "question": "《弱虫ペダル》关注什么运动？",
+    "option1": "自行车",
+    "option2": "足球",
+    "option3": "篮球",
+    "option4": "网球"
+  },
+  "q10": {
+    "question": "哪部动漫主角们参加赛车比赛？",
+    "option1": "头文字D",
+    "option2": "弱虫ペダル",
+    "option3": "排球少年！！",
+    "option4": "网球王子"
+  },
+  "q11": {
+    "question": "《第一神拳》主要讲什么运动？",
+    "option1": "拳击",
+    "option2": "足球",
+    "option3": "网球",
+    "option4": "篮球"
+  },
+  "q12": {
+    "question": "哪部动漫讲的是足球队？",
+    "option1": "闪电十一人",
+    "option2": "钻石王牌",
+    "option3": "排球少年！！",
+    "option4": "灌篮高手"
+  },
+  "q13": {
+    "question": "《闪电十一人》足球队队长是谁？",
+    "option1": "马克·埃文斯",
+    "option2": "豪炎寺",
+    "option3": "远野守",
+    "option4": "青山"
+  },
+  "q14": {
+    "question": "《ALL OUT!!》主角打什么运动？",
+    "option1": "橄榄球",
+    "option2": "足球",
+    "option3": "篮球",
+    "option4": "排球"
+  },
+  "q15": {
+    "question": "哪部动漫以校篮球队为主角？",
+    "option1": "黑子的篮球",
+    "option2": "排球少年！！",
+    "option3": "网球王子",
+    "option4": "弱虫ペダル"
+  },
+  "q16": {
+    "question": "哪部动漫主题是排球？",
+    "option1": "排球少年！！",
+    "option2": "灌篮高手",
+    "option3": "钻石王牌",
+    "option4": "黑子的篮球"
+  },
+  "q17": {
+    "question": "哪部动漫主角想成为最强足球选手？",
+    "option1": "闪电十一人",
+    "option2": "排球少年！！",
+    "option3": "钻石王牌",
+    "option4": "黑子的篮球"
+  },
+  "q18": {
+    "question": "哪部动漫主角用特殊技能赢得篮球比赛？",
+    "option1": "黑子的篮球",
+    "option2": "排球少年！！",
+    "option3": "钻石王牌",
+    "option4": "弱虫ペダル"
+  },
+  "q19": {
+    "question": "哪部动漫讲的是高中足球队？",
+    "option1": "闪电十一人",
+    "option2": "闪电十一人",
+    "option3": "排球少年！！",
+    "option4": "钻石王牌"
+  }
+}
+
+
+
+  
+
+}
+
+}
