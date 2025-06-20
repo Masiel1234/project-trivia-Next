@@ -1,14 +1,14 @@
-'use client';
-import { useTranslation } from 'react-i18next';
-import LanguageSelector from '@/components/button/LanguageSelector'
-
-export default function Home() {
-  const { t } = useTranslation('common');
-
+import {useTranslations} from 'next-intl';
+import {Link} from '@/i18n/navigation';
+import LanguageSelector from '@/components/button/LanguageSelector';
+ 
+export default function HomePage() {
+  const t = useTranslations('HomePage');
   return (
-    <main className="p-6 text-center">
-      <LanguageSelector />
-      <h1 className="text-4xl">{t('title')}</h1>
-    </main>
+    <div>
+      <h1>{t('title')}</h1>
+      <Link href="/home">{t('about')}</Link>
+      <LanguageSelector/>
+    </div>
   );
 }
