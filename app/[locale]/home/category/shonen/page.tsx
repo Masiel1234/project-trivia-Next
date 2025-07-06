@@ -3,13 +3,13 @@
 import React, { useEffect, useState } from 'react';
 import Quiz from '@/components/quiz/Quiz'; 
 import ShonenData from '@/data/question-shonen.json'; 
-import BackgroundShonen from '@/components/background/BackgroundShonen';
-import { useTranslation } from 'react-i18next';
+import Background from '@/components/background/Background';
+import { useTranslations } from 'next-intl';
 import ButtonLeave from '@/components/button/ButtonLeave';
 import type { Question } from '@/components/quiz/Question';
 
 const Shonen: React.FC = () => {
-  const { t } = useTranslation ();
+  const  t  = useTranslations();
   const [questions, setQuestions] = useState<Question[]>([]);
 
    useEffect(() => {
@@ -22,8 +22,10 @@ const Shonen: React.FC = () => {
     setQuestions(formattedQuestions)
   }, []);
   return (
-    <BackgroundShonen>
-      <ButtonLeave/>
+    <> 
+    <ButtonLeave/>
+    <Background variant='shonen'>
+     
       <div className="min-h-screen flex flex-col items-center justify-center py-8 px-4">
         <h2 className="text-4xl font-extrabold text-white text-center mb-8 drop-shadow-lg">{t('shonenPage.title')}</h2>
         {questions.length > 0 ? (
@@ -32,7 +34,8 @@ const Shonen: React.FC = () => {
           <p className="text-white text-lg">{t('shonenPage.loadingQuestions')}</p>
         )}
       </div>
-    </BackgroundShonen>
+    </Background>
+    </>
   );
 };
 

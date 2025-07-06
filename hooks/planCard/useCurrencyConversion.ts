@@ -1,6 +1,7 @@
+'use client'
 import { useState, useEffect } from "react";
-import { useTranslation } from "react-i18next";
-import { getDisplayCurrencyCode, convertCurrency } from "../../utils/currencyUtils";
+import { useLocale } from 'next-intl';
+import { getDisplayCurrencyCode, convertCurrency } from "@/utils/currencyUtils";
 
 interface PlanData {
   name: string;
@@ -9,21 +10,17 @@ interface PlanData {
 }
 
 export const useCurrencyConversion = (basePlans: PlanData[]) => {
-  const { i18n } = useTranslation();
+  const locale = useLocale();
   const [convertedPlans, setConvertedPlans] = useState<PlanData[]>([]);
 
   useEffect(() => {
-    const targetDisplayCurrencyCode = getDisplayCurrencyCode(i18n.language);
+    const targetDisplayCurrencyCode = getDisplayCurrencyCode(locale);
     const convertAndSetPlans = async () => {
       const newConvertedPlans = await Promise.all(
         basePlans.map(async (plan) => {
           if (plan.originalCurrency === targetDisplayCurrencyCode) {
-            return {
-              ...plan,
-              price: plan.price,
-            };
+            return {...plan};
           } else {
-           
             const finalPrice = await convertCurrency(
               plan.price,
               plan.originalCurrency,
@@ -40,7 +37,7 @@ export const useCurrencyConversion = (basePlans: PlanData[]) => {
     };
 
     convertAndSetPlans();
-  }, [i18n.language, basePlans]); 
+  }, [basePlans,locale]); 
 
   return convertedPlans;
 };

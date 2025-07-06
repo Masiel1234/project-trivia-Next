@@ -3,14 +3,14 @@
 import React, { useEffect, useState } from 'react';
 import Quiz from '@/components/quiz/Quiz'; 
 import SpokonData from '@/data/question-spokon.json'; 
-import BackgroundSpokon from '@/components/background/BackgroundSpokon';
-import { useTranslation } from 'react-i18next';
+import Background from '@/components/background/Background';
+import { useTranslations } from 'next-intl';
 import ButtonLeave from '@/components/button/ButtonLeave';
 import LanguageSelector from '@/components/button/LanguageSelector';
 import type { Question } from '@/components/quiz/Question';
 
 const Spokon: React.FC = () => {
-  const { t } = useTranslation ();
+  const  t  = useTranslations();
   const [questions, setQuestions] = useState<Question[]>([]);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ const Spokon: React.FC = () => {
   }, []);
 
   return (
-    <BackgroundSpokon>
+    <Background variant='sponko'>
      <ButtonLeave/>
      <LanguageSelector/>
       <div className="min-h-screen flex flex-col items-center justify-center py-8 px-4">
@@ -35,7 +35,7 @@ const Spokon: React.FC = () => {
           <p className="text-white text-lg">{t('spokonPage.loadingQuestions')}</p>
         )}
       </div>
-    </BackgroundSpokon>
+    </Background>
   );
 };
 

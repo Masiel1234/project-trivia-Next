@@ -7,7 +7,6 @@ interface ButtonCurrencyProps{
     to: string;
 
 }
-
 const ButtonCurrency: React.FC<ButtonCurrencyProps> = ({name,to}) =>{
 const navigate = useRouter();
 const handClick = () =>{
@@ -15,7 +14,7 @@ const handClick = () =>{
 }
 
 return(
-    <button className="fixed top-4 left-4 w-12 h-12 bg-pink-600 rounded-full flex items-center justify-center text-white shadow-lg hover:bg-pink-700 transition-all duration-300 ease-in-out"  onClick={handClick}>
+    <button className="lex items-center justify-center gap-2 from-pink-500 text-black px-4 py-3 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 ease-in-out"  onClick={handClick}>
        <CgDollar className="w-5 h-5 text-black" />{name && <span className="ml-2">{name}</span>}
     </button>
 );

@@ -3,13 +3,13 @@
 import { useEffect, useState } from 'react';
 import Quiz from '@/components/quiz/Quiz'; 
 import ShojoData from '@/data/question-shojo.json'; 
-import BackgroundShojo from '@/components/background/BackgroundShojo';
-import { useTranslation } from 'react-i18next';
+import Background from '@/components/background/Background';
+import { useTranslations } from 'next-intl';
 import ButtonLeave from '@/components/button/ButtonLeave';
 import LanguageSelector from '@/components/button/LanguageSelector';
 import type { Question } from '@/components/quiz/Question';
 const Shojo: React.FC = () => {
-  const { t } = useTranslation ();  
+  const  t  = useTranslations();  
   const [questions, setQuestions] = useState<Question[]>([]);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ const Shojo: React.FC = () => {
   }, []);
 
   return (
-    <BackgroundShojo>
+    <Background variant='shojo'>
      <ButtonLeave/>
      <LanguageSelector/>
       <div className="min-h-screen flex flex-col items-center justify-center py-8 px-4"> 
@@ -34,7 +34,7 @@ const Shojo: React.FC = () => {
           <p className="text-white text-lg">{t('shojoPage.loadingQuestions')}</p>
         )}
       </div>
-    </BackgroundShojo>
+    </Background>
   );
 };
 

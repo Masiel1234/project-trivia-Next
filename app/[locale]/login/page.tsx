@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { Form } from "@/components/Forms/Form";
-import BackgroundIndex from "@/components/background/BackgroundIndex";
+import Background from "@/components/background/Background";
 const Login: React.FC = () => {
 const router = useRouter()
   const handleLogin = (data: { email: string; password: string; }) => {
@@ -14,11 +14,11 @@ const router = useRouter()
     }
 }
   return (
-    <BackgroundIndex>
+    <Background variant="home">
 <div>
  <Form mode="login" onSubmit={handleLogin}/>
 </div>
-    </BackgroundIndex>
+    </Background>
     
   )}
   export default Login;

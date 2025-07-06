@@ -8,14 +8,30 @@
     "confirmButton": "oui",
     "cancelButton": "non"
   },
-  "home": {
+  "index": {
     "sign_in_button": "Se connecter",
     "sign_up_button": "S'inscrire"
   },
-  "index": {
+  "home": {
     "random_button": "Aléatoire",
-    "category_title": "Catégorie"
+    "category_title": "Catégorie",
+    "infomation_home_p1": "Tu es fan d'anime ? Tu penses tout savoir sur tes séries préférées ? Tu es au bon endroit ! Sur AnimeQuiz Arena, nous t'invitons à tester tes connaissances avec nos quiz interactifs remplis de défis, de curiosités et de fun.",
+    "infomation_home_p2": "Explore des questions sur Naruto, One Piece, L'Attaque des Titans, Demon Slayer, Dragon Ball et bien d'autres. Défie-toi toi-même ou affronte tes amis pour voir qui est le vrai expert otaku. 🧠✨",
+    "infomation_home_p3": "Prépare-toi à revivre des moments épiques, à te rappeler des détails cachés et à prouver que le monde de l'anime n'a aucun secret pour toi.",
+    "information_li_p1": "📌 De nouveaux quiz chaque semaine !",
+    "information_li_p2": "🏆 Gagne des points, monte de niveau et débloque des succès uniques.",
+    "information_li_p3": "👥 Inscris-toi pour sauvegarder ta progression et entrer dans le classement mondial.",
+    "articule_1_title": "Visite notre blog",
+    "articule_1_information_p1": "Découvre des anecdotes, des théories, des analyses et des actualités du monde de l'anime.",
+    "articule_1_information_p2": "Notre blog est rempli de contenu exclusif pour les vrais fans comme toi.",
+    "articule_1_information_p3": "Explore de nouveaux articles chaque semaine et reste à jour avec tout ce qui se passe dans ton univers otaku préféré !",
+    "alt_img_1": "image du blog",
+    "articule_2_title": "Personnages dans les animes",
+    "articule_2_information_p1": "Le monde de l’anime est rempli de personnages inoubliables qui ont marqué des générations. Des héros courageux aux méchants complexes, chacun a son histoire, son style unique et ses phrases cultes qui nous accompagnent toujours.",
+    "articule_2_information_p2": "Dans cette section, nous explorerons les origines, les pouvoirs, les anecdotes et l’héritage des personnages les plus populaires des animes. Prépare-toi à découvrir des infos que tu ne connaissais peut-être pas et à raviver ta passion pour tes protagonistes préférés !",
+    "alt_img_2": "image du blog"
   },
+  
   "login": {
     "title": "Connexion",
     "emailPlaceholder": "Adresse e-mail",

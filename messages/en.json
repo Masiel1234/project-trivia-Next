@@ -8,13 +8,28 @@
     "confirmButton": "yes",
     "cancelButton": "no"
   },
-  "home": {
+  "index": {
     "sign_in_button": "Sign In",
     "sign_up_button": "Sign Up"
   },
-  "index": {
+  "home": {
     "random_button": "Random",
-    "category_title": "Category"
+    "category_title": "Category",
+    "infomation_home_p1": "Are you an anime fan? Do you think you know everything about your favorite series? You're in the right place! At AnimeQuiz Arena, we invite you to test your knowledge with our interactive trivia full of challenges, fun facts, and excitement.",
+    "infomation_home_p2": "Explore questions about Naruto, One Piece, Attack on Titan, Demon Slayer, Dragon Ball, and many more. Compete against yourself or challenge your friends to see who the true otaku expert is. 🧠✨",
+    "infomation_home_p3": "Get ready to relive epic moments, recall hidden details, and prove that the anime world has no secrets for you.",
+    "information_li_p1": "📌 New trivia every week!",
+    "information_li_p2": "🏆 Earn points, level up, and unlock unique achievements.",
+    "information_li_p3": "👥 Sign up to save your progress and join the global ranking.",
+    "articule_1_title": "Visit our Blog",
+    "articule_1_information_p1": "Discover fun facts, theories, analysis, and news from the anime world.",
+    "articule_1_information_p2": "Our blog is full of exclusive content for true fans like you.",
+    "articule_1_information_p3": "Explore new articles every week and stay up to date with everything happening in your favorite otaku universe!",
+    "alt_img_1": "blog image",
+    "articule_2_title": "Anime Characters",
+    "articule_2_information_p1": "The anime world is full of unforgettable characters who have marked generations. From brave heroes to complex villains, each has their own story, unique style, and epic quotes that stay with us forever.",
+    "articule_2_information_p2": "In this section, we’ll explore the origins, powers, fun facts, and legacy of the most popular anime characters. Get ready to discover facts you might not have known and reignite your passion for your favorite protagonists!",
+    "alt_img_2": "blog image"
   },
   "login": {
     "title": "Log In",
@@ -64,15 +79,6 @@
     "cancelButtonText": "No, continue",
     "title": "Leave Game"
   },
-  "quiz": {
-    "noQuestionsAvailable": "No questions available.",
-    "congratulationsTitle": "🎉 Congratulations! 🎉",
-    "congratulationsMessage": "You have completed all the quiz questions!",
-    "backToHome": "Back to home",
-    "correctFeedback": "✅ Correct!",
-    "incorrectFeedback": "❌ Incorrect. The correct answer is: ",
-    "nextQuestion": "Next question"
-  },
   "plans": {
     "name": "our plans",
     "basic_plan": "Basic Plan",
@@ -90,6 +96,16 @@
     "correct_answer": "Correct answer",
     "next_question": "Next question"
   },
+  "quiz": {
+    "noQuestionsAvailable": "No questions available.",
+    "congratulationsTitle": "🎉 Congratulations! 🎉",
+    "congratulationsMessage": "You have completed all the quiz questions!",
+    "backToHome": "Back to home",
+    "correctFeedback": "✅ Correct!",
+    "incorrectFeedback": "❌ Incorrect. The correct answer is: ",
+    "nextQuestion": "Next question"
+  },
+  
   "questions": {
   "isekai": {
     "q1": {

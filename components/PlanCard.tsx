@@ -1,6 +1,8 @@
+'use client'
+
 import React from "react";
-import { useTranslation } from "react-i18next";
-import { useFormattedPrice } from "../hooks/planCard/useFormattedPrice"
+import { useTranslations } from "next-intl";
+import { useFormattedPrice } from "@/hooks/planCard/useFormattedPrice"
 
 
 interface PlanCardProps {
@@ -9,7 +11,7 @@ interface PlanCardProps {
 }
 
 const PlanCard: React.FC<PlanCardProps> = ({ name, price }) => {
-  const { t } = useTranslation();
+  const  t  = useTranslations();
   const formattedPrice = useFormattedPrice(price); 
 
   return (

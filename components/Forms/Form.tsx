@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import { useState } from "react";
 import Button from "../button/Button";
@@ -31,8 +32,9 @@ const handleSubmit = (e: React.FormEvent) =>{
 return(
 
     <div className="w-full max-w-xs">
-        <Button name="" variant="return" to="/"/>
+        
     <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <Button name="" variant="return" to="/"/>
         <h2 className="text-2xl font-semibold mb-4 text-center">
         {mode === 'login' ? 'login' : 'Sign up'}
         </h2>

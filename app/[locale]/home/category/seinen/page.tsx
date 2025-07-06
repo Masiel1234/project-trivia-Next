@@ -3,14 +3,13 @@
 import React, { useEffect, useState } from 'react';
 import Quiz from '@/components/quiz/Quiz'; 
 import seinenData from '@/data/question-seinen.json'; 
-import BackgroundSeinen from '@/components/background/BackgroundSeinen';
+import Background from '@/components/background/Background';
 import ButtonLeave from '@/components/button/ButtonLeave';
-import LanguageSelector from '@/components/button/LanguageSelector';
-import { useTranslation } from 'react-i18next';
+import { useTranslations } from 'next-intl';
 import type {Question} from "@/components/quiz/Question";
 const Seinen: React.FC = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
-  const { t } = useTranslation ();
+  const  t  = useTranslations();
 
   useEffect(() => {
    const formattedQuestions: Question[] = seinenData.map((q, index) => ({
@@ -23,10 +22,10 @@ const Seinen: React.FC = () => {
   }, []); 
 
   return (
-    <BackgroundSeinen>
-      <ButtonLeave/>
-      <LanguageSelector/>
-      <div className="min-h-screen flex flex-col items-center justify-center py-8 px-4">
+    <Background variant='seinen'>
+    
+      <div className="min-h-screen flex flex-col items-center justify-center py-8 px-4">  
+        <ButtonLeave/>
         <h2 className="text-4xl font-extrabold text-white text-center mb-8 drop-shadow-lg">{t('seinenPage.title')}</h2>
         {questions.length > 0 ? (
           <Quiz questions={questions} />
@@ -34,7 +33,7 @@ const Seinen: React.FC = () => {
           <p className="text-white text-lg">{t('seinenPage.loadingQuestions')}</p>
         )}
       </div>
-    </BackgroundSeinen>
+    </Background>
   );
 };
 

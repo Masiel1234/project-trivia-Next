@@ -8,13 +8,30 @@
     "confirmButton": "sí",
     "cancelButton": "no"
   },
-  "home": {
+  "index": {
     "sign_in_button": "Iniciar sesión",
     "sign_up_button": "Registrarse"
   },
-  "index": {
+  "home": {
     "random_button": "Aleatorio",
-    "category_title": "Categoría"
+    "category_title": "Categoría",
+    "title_2":"Otras Sugerencias ",
+    "infomation_home_p1": "¿Eres fan del anime? ¿Crees que sabes todo sobre tus series favoritas? ¡Estás en el lugar correcto! En AnimeQuiz Arena te invitamos a poner a prueba tus conocimientos con nuestras trivias interactivas llenas de retos, curiosidades y diversión.",
+  "infomation_home_p2": "Explora preguntas sobre Naruto, One Piece, Attack on Titan, Demon Slayer, Dragon Ball, y muchos más. Compite contra ti mismo o desafía a tus amigos para ver quién es el verdadero otaku experto. 🧠✨",
+  "infomation_home_p3":" Prepárate para revivir momentos épicos, recordar detalles ocultos y demostrar que el mundo del anime no tiene secretos para ti.",
+  "information_li_p1":"📌 ¡Nuevas trivias cada semana!",
+  "information_li_p2":"🏆 Gana puntos, sube de nivel y desbloquea logros únicos.",
+  "information_li_p3":"👥 Regístrate para guardar tu progreso y entrar al ranking global.",
+  "articule_1_title": "Visita nuestro Blog",
+  "articule_1_information_p1":" Descubre curiosidades, teorías, análisis y noticias del mundo del anime." ,
+  "articule_1_information_p2": " Nuestro blog está lleno de contenido exclusivo para verdaderos fanáticos como tú.",
+  "articule_1_information_p3": "¡Explora nuevos artículos cada semana y mantente al día con todo lo que sucede en tu universo otaku favorito!",
+  "alt_img_1":"imagen blog",
+
+  "articule_2_title": "Personajes en animes",
+  "articule_2_information_p1":" El mundo del anime está lleno de personajes inolvidables que han marcado generaciones. Desde héroes valientes hasta villanos complejos, cada uno tiene su historia, su estilo único y sus frases épicas que nos acompañan para siempre." ,
+  "articule_2_information_p2": "  En esta sección exploraremos los orígenes, poderes, curiosidades y legado de los personajes más populares del anime. ¡Prepárate para descubrir datos que tal vez no sabías y revive tu pasión por tus protagonistas favoritos!",
+  "alt_img_2":"imagen blog"
   },
   "login": {
     "title": "Iniciar Sesión",

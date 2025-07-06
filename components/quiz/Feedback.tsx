@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { useTranslations } from "next-intl";
 import type { Question } from "./Question";
 
 interface Props{
@@ -7,7 +7,7 @@ interface Props{
     onNext: ()=> void;
 }
 const Feedback:React.FC<Props> = ({ question, selectedOptionIndex,onNext}) => {
-    const { t } = useTranslation();
+    const  t  = useTranslations();
     const isCorrect = selectedOptionIndex === question.correctAnswerIndex;
 
     return(

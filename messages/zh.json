@@ -8,13 +8,28 @@
     "confirmButton": "是",
     "cancelButton": "否"
   },
-  "home": {
+  "index": {
     "sign_in_button": "登录",
     "sign_up_button": "注册"
   },
-  "index": {
+  "home": {
     "random_button": "随机",
-    "category_title": "类别"
+    "category_title": "分类",
+    "infomation_home_p1": "你是动漫迷吗？你觉得你对自己最爱的动漫了如指掌？那你来对地方了！在 AnimeQuiz Arena，欢迎来挑战我们的互动问答，充满趣味、挑战与惊喜！",
+    "infomation_home_p2": "探索关于《火影忍者》、《海贼王》、《进击的巨人》、《鬼灭之刃》、《龙珠》等热门动漫的问题。你可以和自己比拼，也可以挑战朋友，看看谁才是真正的御宅族高手！🧠✨",
+    "infomation_home_p3": "准备好重温那些令人热血沸腾的瞬间，回忆被你忽略的细节，证明整个动漫世界对你来说毫无秘密！",
+    "information_li_p1": "📌 每周都会有全新问答更新！",
+    "information_li_p2": "🏆 获取积分，升级角色，解锁独特成就！",
+    "information_li_p3": "👥 注册账号，保存进度，加入全球排行榜！",
+    "articule_1_title": "查看我们的博客",
+    "articule_1_information_p1": "发现关于动漫的趣闻轶事、理论分析、深度解读和最新资讯。",
+    "articule_1_information_p2": "我们的博客专为真正的动漫迷打造，内容丰富独家。",
+    "articule_1_information_p3": "每周更新新文章，第一时间了解你所爱的御宅世界最新动态！",
+    "alt_img_1": "博客图片",
+    "articule_2_title": "动漫角色介绍",
+    "articule_2_information_p1": "动漫的世界充满了令人难忘的角色，他们影响了好几代人。从勇敢的英雄到复杂的反派，每个角色都有自己的故事、独特的风格和令人印象深刻的经典台词。",
+    "articule_2_information_p2": "在这个版块中，我们将探索最受欢迎动漫角色的起源、能力、趣事以及他们的传奇故事。准备好挖掘你从未听说过的冷知识，重新点燃你对这些主角们的热情吧！",
+    "alt_img_2": "博客图片"
   },
   "login": {
     "title": "登录",

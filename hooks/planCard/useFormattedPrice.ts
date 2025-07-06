@@ -1,11 +1,12 @@
-import { useTranslation } from "react-i18next";
-import { getDisplayCurrencyCode } from "../../utils/currencyUtils";
+'use client'
+import { useLocale } from "next-intl";
+import { getDisplayCurrencyCode } from "@/utils/currencyUtils";
 
 export const useFormattedPrice = (price: number) => {
-  const { i18n } = useTranslation();
-  const currencyCodeToDisplay = getDisplayCurrencyCode(i18n.language);
+  const Locale = useLocale();
+  const currencyCodeToDisplay = getDisplayCurrencyCode(Locale);
 
-  const formattedPrice = new Intl.NumberFormat(i18n.language, {
+  const formattedPrice = new Intl.NumberFormat(Locale, {
     style: "currency",
     currency: currencyCodeToDisplay,
     minimumFractionDigits: currencyCodeToDisplay === "JPY" ? 0 : 2,

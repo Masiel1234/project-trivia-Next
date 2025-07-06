@@ -1,7 +1,7 @@
-
-import { useTranslation } from 'react-i18next';
-import { useRouter } from 'next/navigation';
-import { useQuiz } from '../../hooks/useQuiz';
+'use client'
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
+import { useQuiz } from '@/hooks/useQuiz';
 import type { Question } from "./Question";
 import QuestionCard from './QuestionCard';
 import Feedback from './Feedback';
@@ -12,8 +12,7 @@ interface QuizProps {
 }
 
 const Quiz: React.FC<QuizProps> = ({ questions }) => {
-  const router = useRouter();
-  const { t } = useTranslation();
+  const  t  = useTranslations('quiz');
 
   const{
     shuffledQuestions,
@@ -26,11 +25,11 @@ const Quiz: React.FC<QuizProps> = ({ questions }) => {
   } = useQuiz(questions);
 
   if (!shuffledQuestions.length) {
-    return <p className="text-white text-lg">{t('quiz.noQuestionsAvailable')}</p>
+    return <p className="text-white text-lg">{t('noQuestionsAvailable')}</p>
   }
   
   if (showCongrats) {
-    return <Congrats onReturn={()=> router.push('/index')} />;    
+    return <Congrats onReturn={()=> (<Link href="/home"/>)}/>;    
   }
 
   return (

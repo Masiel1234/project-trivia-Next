@@ -1,16 +1,15 @@
 'use client'
 import React, { useEffect, useState } from 'react';
-import BackgroundIsekai from '@/components/background/BackgroundIsekai'; 
+import Background from '@/components/background/Background'; 
 import Quiz from '@/components/quiz/Quiz'; 
 import isekaiData from '@/data/question-isekai.json'
 import ButtonLeave from '@/components/button/ButtonLeave';
-import LanguageSelector from '@/components/button/LanguageSelector';
 import type { Question } from '@/components/quiz/Question';
-import { useTranslation } from 'react-i18next';
+import { useTranslations } from 'next-intl';
 
 const Isekai: React.FC = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
-  const { t } = useTranslation ();
+  const  t  = useTranslations('isekaiPage');
 
   useEffect(() => {
     const formattedQuestions: Question[] = isekaiData.map((q, index) => ({
@@ -23,19 +22,18 @@ const Isekai: React.FC = () => {
   }, []); 
 
   return (
-    <BackgroundIsekai>
+    <Background variant="isekai">  
+    <ButtonLeave/>
       <div className="min-h-screen flex flex-col items-center justify-center py-8 px-4">
-         <LanguageSelector/>
-         <h2 className="text-4xl font-extrabold text-black text-center mb-8 drop-shadow-lg">{t('isekaiPage.title')}</h2>
+         <h2 className="text-4xl font-extrabold text-black text-center mb-8 drop-shadow-lg">{t('title')}</h2>
         {questions.length > 0 ? (
           <Quiz questions={questions} />
         ) : (
-          <p className="text-white text-lg">{t('isekaiPage.loadingQuestions')}</p>
+          <p className="text-white text-lg">{t('loadingQuestions')}</p>
         )}
       </div>
-      <ButtonLeave/>
-    </BackgroundIsekai>
+    
+    </Background>
   );
 };
-
 export default Isekai;
