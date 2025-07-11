@@ -15,6 +15,8 @@
   "home": {
     "random_button": "随机",
     "category_title": "分类",
+    "title_2":"其他建議",
+    "button_go":"🎮 ¡立即開始!",
     "infomation_home_p1": "你是动漫迷吗？你觉得你对自己最爱的动漫了如指掌？那你来对地方了！在 AnimeQuiz Arena，欢迎来挑战我们的互动问答，充满趣味、挑战与惊喜！",
     "infomation_home_p2": "探索关于《火影忍者》、《海贼王》、《进击的巨人》、《鬼灭之刃》、《龙珠》等热门动漫的问题。你可以和自己比拼，也可以挑战朋友，看看谁才是真正的御宅族高手！🧠✨",
     "infomation_home_p3": "准备好重温那些令人热血沸腾的瞬间，回忆被你忽略的细节，证明整个动漫世界对你来说毫无秘密！",
@@ -98,12 +100,19 @@
   "our_plans_title": "我们的计划",
   "loading_prices": "正在加载价格...",
   "error_loading_prices": "加载价格时出错。请稍后再试。",
+
+"game_over" :{ 
+  "game_over_title":"遊戲結束",
+  "game_over_return":"返回起點"
+} ,
+
   "trivia": {
     "title": "动漫测验",
     "correct": "正确！",
     "incorrect": "错误！",
     "correct_answer": "正确答案",
-    "next_question": "下一个问题"
+    "next_question": "下一个问题",
+    "loading": "正在加載問題..."
   },
   "questions": {
   "isekai": {
@@ -808,11 +817,27 @@
     "option4": "钻石王牌"
   }
 }
-
-
-
-  
-
-}
-
+},
+"blog": {
+    "title_h1": "按年份分类的动漫",
+    "text_p": "选择一个年份查看当年上映的动漫。",
+    "see_more": "查看更多...",
+    "title_h2": "上映年份：",
+    "filtro_title": "所有类型",
+    "anime": {
+      "detail_p1": "年份：",
+      "detail_p2": "类型：",
+      "detail_p3": "集数：",
+      "detail_p4": "评分：",
+      "detail_p5": "简介："
+    },
+    "button_pagination": {
+      "previous": "← 上一页",
+      "next": "下一页 →",
+      "num_page": "第 页"
+    }
+  },
+  "personajes":{
+    
+  }
 }

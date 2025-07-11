@@ -16,6 +16,7 @@
     "random_button": "Aleatorio",
     "category_title": "Categoría",
     "title_2":"Otras Sugerencias ",
+    "button_go":"🎮 ¡Empieza ahora!",
     "infomation_home_p1": "¿Eres fan del anime? ¿Crees que sabes todo sobre tus series favoritas? ¡Estás en el lugar correcto! En AnimeQuiz Arena te invitamos a poner a prueba tus conocimientos con nuestras trivias interactivas llenas de retos, curiosidades y diversión.",
   "infomation_home_p2": "Explora preguntas sobre Naruto, One Piece, Attack on Titan, Demon Slayer, Dragon Ball, y muchos más. Compite contra ti mismo o desafía a tus amigos para ver quién es el verdadero otaku experto. 🧠✨",
   "infomation_home_p3":" Prepárate para revivir momentos épicos, recordar detalles ocultos y demostrar que el mundo del anime no tiene secretos para ti.",
@@ -27,7 +28,6 @@
   "articule_1_information_p2": " Nuestro blog está lleno de contenido exclusivo para verdaderos fanáticos como tú.",
   "articule_1_information_p3": "¡Explora nuevos artículos cada semana y mantente al día con todo lo que sucede en tu universo otaku favorito!",
   "alt_img_1":"imagen blog",
-
   "articule_2_title": "Personajes en animes",
   "articule_2_information_p1":" El mundo del anime está lleno de personajes inolvidables que han marcado generaciones. Desde héroes valientes hasta villanos complejos, cada uno tiene su historia, su estilo único y sus frases épicas que nos acompañan para siempre." ,
   "articule_2_information_p2": "  En esta sección exploraremos los orígenes, poderes, curiosidades y legado de los personajes más populares del anime. ¡Prepárate para descubrir datos que tal vez no sabías y revive tu pasión por tus protagonistas favoritos!",
@@ -54,7 +54,6 @@
     "emailRequired": "El correo es obligatorio.",
     "passwordRequired": "La contraseña es obligatoria."
   },
-  
   "isekaiPage": {
     "title": "Quiz de Isekai",
     "loadingQuestions": "Cargando preguntas..."
@@ -91,6 +90,10 @@
     "incorrectFeedback": "❌ Incorrecto. La respuesta correcta es: ",
     "nextQuestion": "Siguiente pregunta"
   },
+"game_over" :{
+  "game_over_title":"Game Over",
+  "game_over_return":"Volver al inicio"
+  },
   "plans": {
     "name": "nuestros planes",
     "basic_plan": "Plan Básico",
@@ -101,8 +104,10 @@
   "our_plans_title": "Nuestros Planes",
   "loading_prices": "Cargando precios...",
   "error_loading_prices": "Error al cargar los precios. Por favor, inténtalo más tarde.",
+  
   "trivia": {
     "title": "Trivia de Anime",
+    "loading":"Cargando pregunta...",
     "correct": "¡Correcto!",
     "incorrect": "¡Incorrecto!",
     "correct_answer": "Respuesta correcta",
@@ -816,5 +821,28 @@
     "option4": "Ace of Diamond"
   }
 }
+},
+"blog": {
+  "title_h1": "Anime por año",
+  "text_p":" Selecciona un año para ver los animes estrenados.",
+  "see_more": "Ver mas..",
+  "title_h2":" Animes estrenados en",
+  "filtro_title":"Todos los tipos",
+  "anime":{
+    "detail_p1": "Año:",
+    "detail_p2": "Tipo:",
+    "detail_p3": "Episodios:",
+    "detail_p4": "Score:",
+    "detail_p5": "Sinopsis:"
+  },
+  "button_pagination":{
+    "previous": "← Anterior",
+    "next":"Siguiente →",
+    "num_page":"Pagina"
+  }
+},
+"personajes":{
+  "title_h1": "Personajes por Categoría",
+  "text_p": "Explora animes por género o demografía y conoce a sus personajes."
 }
 }

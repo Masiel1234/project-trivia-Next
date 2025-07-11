@@ -22,12 +22,9 @@ const Shonen: React.FC = () => {
     setQuestions(formattedQuestions)
   }, []);
   return (
-    <> 
-    <ButtonLeave/>
     <Background variant='shonen'>
-     
       <div className="min-h-screen flex flex-col items-center justify-center py-8 px-4">
-        <h2 className="text-4xl font-extrabold text-white text-center mb-8 drop-shadow-lg">{t('shonenPage.title')}</h2>
+          <ButtonLeave/><h2 className="text-4xl font-extrabold text-white text-center mb-8 drop-shadow-lg">{t('shonenPage.title')}</h2>
         {questions.length > 0 ? (
           <Quiz questions={questions} />
         ) : (
@@ -35,7 +32,6 @@ const Shonen: React.FC = () => {
         )}
       </div>
     </Background>
-    </>
   );
 };
 

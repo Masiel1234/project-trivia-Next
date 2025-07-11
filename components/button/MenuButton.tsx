@@ -52,7 +52,8 @@ const MenuButton: React.FC<MenuProps> = ({ title, items }) => {
         <span className="hidden sm:inline text-sm sm:text-base font-medium">
           {title}
          
-        </span> <svg
+        </span> 
+        <svg
           className="w-3 h-4 text-gray-800 dark:text-black transition-transform duration-300"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
@@ -61,9 +62,6 @@ const MenuButton: React.FC<MenuProps> = ({ title, items }) => {
         >
           <path
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
             d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"
           />
         </svg>

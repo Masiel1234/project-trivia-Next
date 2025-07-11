@@ -6,7 +6,6 @@ import ShojoData from '@/data/question-shojo.json';
 import Background from '@/components/background/Background';
 import { useTranslations } from 'next-intl';
 import ButtonLeave from '@/components/button/ButtonLeave';
-import LanguageSelector from '@/components/button/LanguageSelector';
 import type { Question } from '@/components/quiz/Question';
 const Shojo: React.FC = () => {
   const  t  = useTranslations();  
@@ -24,10 +23,9 @@ const Shojo: React.FC = () => {
 
   return (
     <Background variant='shojo'>
-     <ButtonLeave/>
-     <LanguageSelector/>
       <div className="min-h-screen flex flex-col items-center justify-center py-8 px-4"> 
-        <h2 className="text-4xl font-extrabold text-white text-center mb-8 drop-shadow-lg">{t('shojoPage.title')}</h2>
+         <ButtonLeave/>
+         <h2 className="text-4xl font-extrabold text-black text-center mb-8 drop-shadow-lg">{t('shojoPage.title')}</h2>
         {questions.length > 0 ? (
           <Quiz questions={questions} />
         ) : (

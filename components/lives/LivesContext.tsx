@@ -32,7 +32,7 @@ export const LivesProvider = ({ children }: { children: React.ReactNode }) => {
   useEffect(() => {
     const time = setInterval(() => {
       resetLives();
-    }, 30000); // 50 minutos
+    }, 30000); 
 
     return () => clearInterval(time);
   }, []);

@@ -85,7 +85,7 @@
     "correct": 2
   },
   {
-    "question": "questions.sekai.q18.question",
+    "question": "questions.isekai.q18.question",
     "options": ["questions.isekai.q18.option1", "questions.isekai.q18.option2", "questions.isekai.q18.option3", "questions.isekai.q18.option4"],
     "correct": 3
   },

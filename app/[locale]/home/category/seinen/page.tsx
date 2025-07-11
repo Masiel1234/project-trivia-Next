@@ -23,7 +23,6 @@ const Seinen: React.FC = () => {
 
   return (
     <Background variant='seinen'>
-    
       <div className="min-h-screen flex flex-col items-center justify-center py-8 px-4">  
         <ButtonLeave/>
         <h2 className="text-4xl font-extrabold text-white text-center mb-8 drop-shadow-lg">{t('seinenPage.title')}</h2>

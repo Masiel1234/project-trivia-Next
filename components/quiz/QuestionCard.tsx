@@ -26,7 +26,7 @@ const QuestionCard: React.FC<Props> = ({
   const hasLostLifeRef = useRef(false);
   useEffect(() => {
     if (isGameOver) {
-      router.push('/home');
+      router.push('/home/game_over');
     }
   }, [isGameOver, router]);
 

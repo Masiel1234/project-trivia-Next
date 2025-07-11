@@ -32,7 +32,6 @@ const Isekai: React.FC = () => {
           <p className="text-white text-lg">{t('loadingQuestions')}</p>
         )}
       </div>
-    
     </Background>
   );
 };

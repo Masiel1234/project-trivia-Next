@@ -36,7 +36,7 @@ const Index: React.FC = () => {
   </p>
 
   <div className="flex justify-center">
-    <Button name="🎮 ¡Empieza ahora!" to="home/trivia" />
+    <Button name={t("button_go")} to="home/trivia" />
   </div>
 
 </section>
@@ -46,7 +46,7 @@ const Index: React.FC = () => {
   </h2>
 
   <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
-    <Link href="/home/blog" className="block max-w-sm">
+    <Link href="/blog" className="block max-w-sm">
       <div className="bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-pink-200 transition hover:-translate-y-1 hover:shadow-lg">
         <Image
           className="rounded-t-lg"
@@ -67,7 +67,7 @@ const Index: React.FC = () => {
       </div>
     </Link>
 
-    <Link href="/home/personajes" className="block max-w-sm">
+    <Link href="/personajes" className="block max-w-sm">
       <div className="bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-pink-200 transition hover:-translate-y-1 hover:shadow-lg">
         <Image
           className="rounded-t-lg"

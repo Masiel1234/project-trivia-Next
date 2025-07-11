@@ -22,7 +22,7 @@ const t = useTranslations();
         <MenuButton
         title={t("home.category_title")}
         items={[
-          { label: t("home.random_button"), to: "home/trivia"},
+          { label: t("home.random_button"), to: "/home/trivia"},
           { label: "Isekai", to: "/home/category/isekai"},
           { label: "Seinen", to: "/home/category/seinen"},
           { label: "Shonen", to: "/home/category/shonen" },

@@ -14,7 +14,9 @@
   },
   "home": {
     "random_button": "Aléatoire",
+     "title_2":"Autres suggestions",
     "category_title": "Catégorie",
+    "button_go":"🎮 ¡Commencez maintenant",
     "infomation_home_p1": "Tu es fan d'anime ? Tu penses tout savoir sur tes séries préférées ? Tu es au bon endroit ! Sur AnimeQuiz Arena, nous t'invitons à tester tes connaissances avec nos quiz interactifs remplis de défis, de curiosités et de fun.",
     "infomation_home_p2": "Explore des questions sur Naruto, One Piece, L'Attaque des Titans, Demon Slayer, Dragon Ball et bien d'autres. Défie-toi toi-même ou affronte tes amis pour voir qui est le vrai expert otaku. 🧠✨",
     "infomation_home_p3": "Prépare-toi à revivre des moments épiques, à te rappeler des détails cachés et à prouver que le monde de l'anime n'a aucun secret pour toi.",
@@ -814,7 +816,26 @@
     "option4": "Devenir arbitre"
   }
 }
-}
+},
+ "blog": {
+    "title_h1": "Anime par année",
+    "text_p": "Sélectionnez une année pour voir les animes sortis.",
+    "see_more": "Voir plus...",
+    "title_h2": "Animes sortis en",
+    "filtro_title": "Tous les types",
+    "anime": {
+      "detail_p1": "Année :",
+      "detail_p2": "Type :",
+      "detail_p3": "Épisodes :",
+      "detail_p4": "Note :",
+      "detail_p5": "Synopsis :"
+    },
+    "button_pagination": {
+      "previous": "← Précédent",
+      "next": "Suivant →",
+      "num_page": "Page"
+    }
+  }
 }
 
 

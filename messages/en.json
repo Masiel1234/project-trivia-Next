@@ -15,6 +15,8 @@
   "home": {
     "random_button": "Random",
     "category_title": "Category",
+    "title_2":"Other Suggestions",
+    "button_go":"🎮 ¡Start now!",
     "infomation_home_p1": "Are you an anime fan? Do you think you know everything about your favorite series? You're in the right place! At AnimeQuiz Arena, we invite you to test your knowledge with our interactive trivia full of challenges, fun facts, and excitement.",
     "infomation_home_p2": "Explore questions about Naruto, One Piece, Attack on Titan, Demon Slayer, Dragon Ball, and many more. Compete against yourself or challenge your friends to see who the true otaku expert is. 🧠✨",
     "infomation_home_p3": "Get ready to relive epic moments, recall hidden details, and prove that the anime world has no secrets for you.",
@@ -819,6 +821,24 @@
       "option4": "Coach Daichi"
     }
   }
-
-}
+},
+ "blog": {
+    "title_h1": "Anime by Year",
+    "text_p": "Select a year to see the anime released.",
+    "see_more": "See more...",
+    "title_h2": "Animes released in",
+    "filtro_title": "All types",
+    "anime": {
+      "detail_p1": "Year:",
+      "detail_p2": "Type:",
+      "detail_p3": "Episodes:",
+      "detail_p4": "Score:",
+      "detail_p5": "Synopsis:"
+    },
+    "button_pagination": {
+      "previous": "← Previous",
+      "next": "Next →",
+      "num_page": "Page"
+    }
+  }
 }
