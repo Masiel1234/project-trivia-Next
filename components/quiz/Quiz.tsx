@@ -2,7 +2,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { useQuiz } from '@/hooks/useQuiz';
-import type { Question } from "./Question";
+import type { Question } from "../../types/question/Question";
 import QuestionCard from './QuestionCard';
 import Feedback from './Feedback';
 import Congrats from './Congrats';

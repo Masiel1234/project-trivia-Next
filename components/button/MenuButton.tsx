@@ -31,6 +31,8 @@ const MenuButton: React.FC<MenuProps> = ({ title, items }) => {
       router.push(pendingRoute);
       setPendingRoute(null);
       setShowModal(false);
+    }else{
+      
     }
   };
 
@@ -49,9 +51,8 @@ const MenuButton: React.FC<MenuProps> = ({ title, items }) => {
         onClick={toggleDropdown}
         className="flex items-center justify-center gap-2 from-pink-500 text-black px-4 py-3 rounded-3xl shadow-md hover:shadow-xl transition-all duration-300 ease-in-out"
       >
-        <span className="hidden sm:inline text-sm sm:text-base font-medium">
+        <span className="sm:inline text-sm sm:text-base font-medium">
           {title}
-         
         </span> 
         <svg
           className="w-3 h-4 text-gray-800 dark:text-black transition-transform duration-300"

@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { useLives } from '@/components/lives/LivesContext';
 import { useRouter } from 'next/navigation';
 import { useRef, useEffect } from 'react';
-import type { Question } from './Question';
+import type { Question } from '../../types/question/Question';
 
 interface Props {
   question: Question;

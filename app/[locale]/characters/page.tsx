@@ -58,7 +58,7 @@ export default function PersonajesHome() {
   {categories.map((cat) => (
     <Link
       key={cat.slug}
-      href={`/personajes/${cat.slug}`}
+      href={`/characters/${cat.slug}`}
       className="bg-gradient-to-br from-white to-indigo-50 rounded-2xl p-6 shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300 text-center"
     >
       <Image

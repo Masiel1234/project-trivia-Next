@@ -4,7 +4,7 @@ import Background from '@/components/background/Background';
 import Quiz from '@/components/quiz/Quiz'; 
 import isekaiData from '@/data/question-isekai.json'
 import ButtonLeave from '@/components/button/ButtonLeave';
-import type { Question } from '@/components/quiz/Question';
+import type { Question } from '@/types/question/Question';
 import { useTranslations } from 'next-intl';
 
 const Isekai: React.FC = () => {

@@ -33,23 +33,23 @@ export default function ProfileDropdown() {
   };
 
   return (
-    <div className="fixed top-4 right-4 z-50">
+    <div className="top-4 right-4 z-50">
       <div className="relative">
         <button
           onClick={() => setOpen(!open)}
-          className="focus:border-pink-600 border-opacity-100 rounded-full overflow-hidden border-2 border-pink-300 w-12 h-12"
+          className="focus:border-pink-600 border-opacity-100 rounded-full border-2 border-pink-300 w-12 h-12"
         >
           <Image
             alt="photo profile"
             src="/icons/profile.png"
             width={48}
             height={48}
-            className="object-cover w-full h-full"
+            className="w-full h-full"
           />
         </button>
 
         {open && (
-          <div className="absolute right-0 mt-2 w-40 bg-white rounded-md shadow-lg">
+          <div className="absolute left-0 mt-2 w-40 bg-white rounded-md shadow-lg">
             <Button
               name={t("edit_profile")}
               to="/home/profile/edit"
@@ -60,10 +60,10 @@ export default function ProfileDropdown() {
             <Button
               onClick={handleLogout}
               to=""
- name={t("closed_profile")}
+              name={t("closed_profile")}
               variant="profile"
             >
-              <FaSignOutAlt className="text-red-500" /> 
+              <FaSignOutAlt className="text-red-500" />
             </Button>
           </div>
         )}

@@ -19,7 +19,7 @@ const BlogSection = () => {
       />
 
       <Card
-        href="/personajes"
+        href="/characters"
         img="/images/background/personajes.avif"
         alt={t("alt_img_2")}
         title={t("articule_2_title")}

@@ -1,5 +1,5 @@
 import { useEffect , useState } from "react";
-import type { Question } from "../components/quiz/Question";
+import type { Question } from "../types/question/Question";
 
 export const useQuiz = (questions: Question[])=>{
       const [shuffledQuestions, setShuffledQuestions] = useState<Question[]>([]);

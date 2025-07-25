@@ -7,7 +7,7 @@ import Background from '@/components/background/Background';
 import { useTranslations } from 'next-intl';
 import ButtonLeave from '@/components/button/ButtonLeave';
 import LanguageSelector from '@/components/button/LanguageSelector';
-import type { Question } from '@/components/quiz/Question';
+import type { Question } from '@/types/question/Question';
 
 const Spokon: React.FC = () => {
   const  t  = useTranslations();

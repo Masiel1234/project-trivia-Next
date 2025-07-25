@@ -6,7 +6,7 @@ import ShonenData from '@/data/question-shonen.json';
 import Background from '@/components/background/Background';
 import { useTranslations } from 'next-intl';
 import ButtonLeave from '@/components/button/ButtonLeave';
-import type { Question } from '@/components/quiz/Question';
+import type { Question } from '@/types/question/Question';
 
 const Shonen: React.FC = () => {
   const  t  = useTranslations();

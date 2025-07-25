@@ -1,13 +1,10 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { CgDollar } from "react-icons/cg";
 import { buttonVariants } from "@/utils/buttons/buttonStyle";
-interface ButtonCurrencyProps {
-  name: string;
-  to: string;
-}
-const ButtonCurrency: React.FC<ButtonCurrencyProps> = ({ name, to }) => {
+import { CurrencyButtonProps } from "@/types/buttons/ButtonProps";
+
+const ButtonCurrency: React.FC<CurrencyButtonProps> = ({ to ,children}) => {
   const navigate = useRouter();
   const handClick = () => {
     navigate.push(to);
@@ -18,8 +15,7 @@ const ButtonCurrency: React.FC<ButtonCurrencyProps> = ({ name, to }) => {
       className={buttonVariants.currency}
       onClick={handClick}
     >
-      <CgDollar className="w-5 h-5 text-black" />
-      {name && <span className="ml-2">{name}</span>}
+        {children}
     </button>
   );
 };

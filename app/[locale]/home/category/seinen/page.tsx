@@ -6,7 +6,7 @@ import seinenData from '@/data/question-seinen.json';
 import Background from '@/components/background/Background';
 import ButtonLeave from '@/components/button/ButtonLeave';
 import { useTranslations } from 'next-intl';
-import type {Question} from "@/components/quiz/Question";
+import type {Question} from "@/types/question/Question";
 const Seinen: React.FC = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
   const  t  = useTranslations();

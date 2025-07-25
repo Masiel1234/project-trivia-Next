@@ -18,7 +18,7 @@ const HomeInfoSection = () => {
     <p className="text-base sm:text-lg text-center">{t("infomation_home_p3")}</p>
 
     <div className="flex justify-center">
-      <Button name={t("button_go")} to="home/trivia" />
+      <Button variant="primary" name={t("button_go")} to="home/trivia" />
     </div>
   </section>)
     };

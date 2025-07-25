@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import type { Question } from "./Question";
+import type { Question } from "../../types/question/Question";
 
 interface Props{
     question: Question;

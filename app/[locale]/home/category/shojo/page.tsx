@@ -6,7 +6,7 @@ import ShojoData from '@/data/question-shojo.json';
 import Background from '@/components/background/Background';
 import { useTranslations } from 'next-intl';
 import ButtonLeave from '@/components/button/ButtonLeave';
-import type { Question } from '@/components/quiz/Question';
+import type { Question } from '@/types/question/Question';
 const Shojo: React.FC = () => {
   const  t  = useTranslations();  
   const [questions, setQuestions] = useState<Question[]>([]);
