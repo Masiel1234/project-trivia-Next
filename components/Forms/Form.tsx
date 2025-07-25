@@ -1,8 +1,8 @@
 'use client'
 import React from "react";
 import { useState } from "react";
-import Button from "../button/Button";
-import type { FormProps , FormState} from "./types";
+import Button from "../button/Buttons/Button";
+import type { FormProps , FormState} from "../../types/froms_types";
 import { validateForm } from "@/utils/validateForm"
 import { renderFields } from "./renderFields";
 import { buildFormData } from "@/utils/buildFormData";

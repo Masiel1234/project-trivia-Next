@@ -1,5 +1,5 @@
 import InputField from "../input/InputField";
-import type { FormState } from "./types";
+import type { FormState } from "../../types/froms_types";
 
 export const renderFields = (
     form: FormState,

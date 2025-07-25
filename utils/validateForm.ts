@@ -1,4 +1,4 @@
-import type { FormState } from "../components/Forms/types";
+import type { FormState } from "../types/froms_types";
 
 export const validateForm = (form: FormState, mode: "login" | "register") => {
     if(mode === "register"){

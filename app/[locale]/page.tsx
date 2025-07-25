@@ -2,14 +2,16 @@
 import {useTranslations} from 'next-intl';
 import Background from '@/components/background/Background';
 import MainHeading from '@/components/heading/MainHeading';
-import Button from '@/components/button/Button';
+import Button from '@/components/button/Buttons/Button';
 import LanguageSelector from '@/components/button/LanguageSelector';
 import '@/app/globals.css'
 export default function HomePage() {
   const t = useTranslations('index');
   return (
     <>
+     <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6">
   <LanguageSelector/>
+  </div>
    <Background variant="index">
       <div className="min-h-screen flex flex-col items-center justify-center gap-6">
       <MainHeading title="Quiz Note"/>

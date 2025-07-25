@@ -46,7 +46,7 @@ const categories= [
 ];
 
 export default function PersonajesHome() {
-  const t = useTranslations('personajes')
+  const t = useTranslations('characters')
   return (
     <section className="p-10 min-h-screen bg-gradient-to-r from-indigo-100 to-purple-100">
         <LanguageSelector/>

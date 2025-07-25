@@ -7,7 +7,11 @@ const Login: React.FC = () => {
 const router = useRouter()
   const handleLogin = (data: { email: string; password: string; }) => {
    if (data.email === 'test@example.com' && data.password === '123') {
-      router.push('/home')
+    localStorage.setItem(
+      'user',
+      JSON.stringify({name: 'user', email:data.email})
+    );
+    router.push('/home')
     } else {
       alert('Correo o contraseña incorrectos')
       router.push('/');
@@ -15,7 +19,7 @@ const router = useRouter()
 }
   return (
     <Background variant="home">
-<div>
+<div className="h-full  ">
  <Form mode="login" onSubmit={handleLogin}/>
 </div>
     </Background>

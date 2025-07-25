@@ -17,6 +17,7 @@
     "category_title": "Categoría",
     "title_2":"Otras Sugerencias ",
     "button_go":"🎮 ¡Empieza ahora!",
+    "footer":"Trivia De Anime Pruebas",
     "infomation_home_p1": "¿Eres fan del anime? ¿Crees que sabes todo sobre tus series favoritas? ¡Estás en el lugar correcto! En AnimeQuiz Arena te invitamos a poner a prueba tus conocimientos con nuestras trivias interactivas llenas de retos, curiosidades y diversión.",
   "infomation_home_p2": "Explora preguntas sobre Naruto, One Piece, Attack on Titan, Demon Slayer, Dragon Ball, y muchos más. Compite contra ti mismo o desafía a tus amigos para ver quién es el verdadero otaku experto. 🧠✨",
   "infomation_home_p3":" Prepárate para revivir momentos épicos, recordar detalles ocultos y demostrar que el mundo del anime no tiene secretos para ti.",
@@ -31,8 +32,16 @@
   "articule_2_title": "Personajes en animes",
   "articule_2_information_p1":" El mundo del anime está lleno de personajes inolvidables que han marcado generaciones. Desde héroes valientes hasta villanos complejos, cada uno tiene su historia, su estilo único y sus frases épicas que nos acompañan para siempre." ,
   "articule_2_information_p2": "  En esta sección exploraremos los orígenes, poderes, curiosidades y legado de los personajes más populares del anime. ¡Prepárate para descubrir datos que tal vez no sabías y revive tu pasión por tus protagonistas favoritos!",
-  "alt_img_2":"imagen blog"
+  "alt_img_2":"imagen blog",
+  "checking_p":"Verificando sesión..."
+ 
+  }, 
+  "profile":{
+    "edit_profile":"Editar perfil",
+    "closed_profile":"Cerrar sesión"
+
   },
+
   "login": {
     "title": "Iniciar Sesión",
     "emailPlaceholder": "Correo Electrónico",
@@ -90,6 +99,7 @@
     "incorrectFeedback": "❌ Incorrecto. La respuesta correcta es: ",
     "nextQuestion": "Siguiente pregunta"
   },
+
 "game_over" :{
   "game_over_title":"Game Over",
   "game_over_return":"Volver al inicio"
@@ -841,8 +851,33 @@
     "num_page":"Pagina"
   }
 },
-"personajes":{
+"characters":{
   "title_h1": "Personajes por Categoría",
-  "text_p": "Explora animes por género o demografía y conoce a sus personajes."
+  "text_p": "Explora animes por género o demografía y conoce a sus personajes.",
+  "demografia" :{
+    "title_h1": "Animes de demografía: ",
+    "error_p": "No se encontraron animes para esta demografía.",
+    "next":"Ver personajes →"
+  }
+},
+
+
+
+
+
+
+
+"a11y":{
+  "home":{
+    "Layout":{
+      "header":{
+        "nav":"navegando en el header",
+        "langugeSelector": {
+          
+        }
+      }
+    }
+  }
 }
+
 }
