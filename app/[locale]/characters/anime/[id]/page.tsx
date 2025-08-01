@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
-import PersonajeCardWithModal from '@/components/personjes/PersonajeCardWithModal';
-
+import PersonajeCardWithModal from '@/components/characters/personjes/PersonajeCardWithModal';
+import Button from "@/components/button/Buttons/Button";
 interface Character {
   character: {
     mal_id: number;
@@ -28,7 +28,7 @@ export default async function PersonajesPage({ params }: { params: { id: string 
       <h1 className="text-4xl font-extrabold text-center mb-10 text-rose-700 tracking-wide">
         Personajes del Anime
       </h1>
-
+      <Button variant="return"/>
       {characters.length === 0 ? (
         <p className="text-center text-gray-500 text-lg">
           Este anime no tiene personajes registrados.

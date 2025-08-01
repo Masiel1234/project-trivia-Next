@@ -1,15 +1,16 @@
 // tailwind.config.js
 module.exports = {
+  darkMode: 'class',
   theme: {
     extend: {
       keyframes: {
         'jump-constant': {
-          '0%, 100%': { transform: 'translateY(0)' }, // Posición inicial y final
-          '50%': { transform: 'translateY(-10px)' }, // Salta 10px hacia arriba en la mitad de la animación
+          '0%, 100%': { transform: 'translateY(0)' }, 
+          '50%': { transform: 'translateY(-10px)' }, 
         },
       },
       animation: {
-        'jump-constant': 'jump-constant 1s ease-in-out infinite', // 1s de duración, suave, y se repite infinitamente
+        'jump-constant': 'jump-constant 1s ease-in-out infinite',
       },
     },
   },

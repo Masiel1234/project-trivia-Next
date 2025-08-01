@@ -18,9 +18,9 @@ export default async function LocaleLayout(props: Props){
 
   const messages = await getMessages({ locale }).catch(() => notFound());
 
-  return (
+  return ( 
     <html lang={locale}>
-      <body>
+      <body >
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>

@@ -15,7 +15,7 @@ export default function AnimeCard ({ anime }: Props){
   const t = useTranslations("characters");
   return(
   <Link
-    href={`/personajes/anime/${anime.mal_id}`}
+    href={`/characters/anime/${anime.mal_id}`}
     className="bg-white rounded-2xl shadow-md hover:shadow-xl hover:scale-[1.02] transition duration-300 overflow-hidden flex flex-col"
   >
     <Image

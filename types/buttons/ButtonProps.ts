@@ -16,6 +16,7 @@ export interface LinkButtonProps extends BaseProps {
 }
 export interface ProfileButtonProps extends BaseProps {
   onClick?: () => void;
+  to?: string;
   children: React.ReactNode;
 }
 
@@ -23,3 +24,4 @@ export interface CurrencyButtonProps extends BaseProps {
   to: string;
   children: React.ReactNode;
 }
+

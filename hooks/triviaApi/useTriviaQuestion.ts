@@ -1,24 +1,24 @@
-import { useState, useEffect } from 'react';
-import { getTriviaQuestion, TriviaResponse } from '@/utils/getTriviaQuestion';
+import { useEffect, useState } from 'react';
+import { getTriviaQuestion, TriviaResponse } from '@/services/trivia_services/triviaService';
 
 export function useTriviaQuestion() {
   const [pregunta, setPregunta] = useState<TriviaResponse | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  const cargarPregunta = async () => {
+  const fetchPregunta = async () => {
     setIsLoading(true);
-    const data = await getTriviaQuestion();
-    if (data) setPregunta(data);
+    const trivia = await getTriviaQuestion();
+    setPregunta(trivia);
     setIsLoading(false);
   };
 
   useEffect(() => {
-    cargarPregunta();
+    fetchPregunta();
   }, []);
 
   return {
     pregunta,
     isLoading,
-    recargar: cargarPregunta,
+    recargar: fetchPregunta,
   };
 }

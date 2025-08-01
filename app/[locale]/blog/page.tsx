@@ -2,29 +2,9 @@
 import TimelineYears from '@/components/blog/TimelineYears';
 import TopAnimeCards from '@/components/blog/TopAnimeCards'; 
 import { getTranslations } from 'next-intl/server';
-
-interface Anime {
-  mal_id: number;
-  title: string;
-  synopsis: string;
-  images: {
-    jpg: {
-      image_url: string;
-    };
-  };
-  type: string;
-  episodes: number;
-  score: number;
-}
+import { getTopAnimes } from '@/services/blog_Services/animeServiceTop';
 
 
-async function getTopAnimes(): Promise<Anime[]> {
-  const res = await fetch('https://api.jikan.moe/v4/top/anime?limit=', {
-    next: { revalidate: 3600 }, 
-  });
-  const data = await res.json();
-  return data.data;
-}
 
 export default async function LineaDeTiempoPage() {
   const topAnimes = await getTopAnimes();

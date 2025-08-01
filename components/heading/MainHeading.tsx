@@ -6,7 +6,7 @@ interface MainHeadingProps{
 
 const MainHeading: React.FC<MainHeadingProps> = ({title}) =>{
     return(
-        <h1 className="text-7xl mb-6 text-center mx-auto font-bold">{title}</h1>
+        <h1 className="text-7xl text-black mb-6 text-center mx-auto font-bold">{title}</h1>
     );
 }
 export default MainHeading;

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { BlogAnimeId } from '@/types/blog_anime_id';
+import { BlogAnimeId } from '@/types/blog/blog_anime_id';
 import { useTranslations } from 'next-intl';
 
 interface Props {

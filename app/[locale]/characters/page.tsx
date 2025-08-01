@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import LanguageSelector from '@/components/button/LanguageSelector';
+import Button from "@/components/button/Buttons/Button";
+
 const categories= [
   {
     name: 'Shounen',
@@ -49,11 +50,11 @@ export default function PersonajesHome() {
   const t = useTranslations('characters')
   return (
     <section className="p-10 min-h-screen bg-gradient-to-r from-indigo-100 to-purple-100">
-        <LanguageSelector/>
       <h1 className="text-4xl font-bold text-center mb-6">{t('title_h1')}</h1>
       <p className="text-center mb-8 text-gray-700">
        {t('text_p')}
       </p>
+      <Button variant="return" to="/home"/>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto p-6">
   {categories.map((cat) => (
     <Link

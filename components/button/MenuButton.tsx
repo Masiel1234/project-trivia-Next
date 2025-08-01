@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
@@ -31,8 +32,6 @@ const MenuButton: React.FC<MenuProps> = ({ title, items }) => {
       router.push(pendingRoute);
       setPendingRoute(null);
       setShowModal(false);
-    }else{
-      
     }
   };
 
@@ -49,7 +48,7 @@ const MenuButton: React.FC<MenuProps> = ({ title, items }) => {
     <div className="relative w-fit text-center font-semibold  ">
       <button
         onClick={toggleDropdown}
-        className="flex items-center justify-center gap-2 from-pink-500 text-black px-4 py-3 rounded-3xl shadow-md hover:shadow-xl transition-all duration-300 ease-in-out"
+        className="flex items-center cursor-pointer justify-center gap-2 from-pink-500 text-black px-4 py-3 rounded-3xl shadow-md hover:shadow-xl transition-all duration-300 ease-in-out"
       >
         <span className="sm:inline text-sm sm:text-base font-medium">
           {title}
@@ -73,7 +72,7 @@ const MenuButton: React.FC<MenuProps> = ({ title, items }) => {
             <button
               key={item.to}
               onClick={() => handleMenuClick(item.to)}
-              className="block w-full text-center px-4 py-2 text-sm hover:bg-pink-100 transition-colors text-gray-800"
+              className="block w-full text-center cursor-pointer px-4 py-2 text-sm hover:bg-pink-100 transition-colors text-gray-800"
             >
               {item.label}
             </button>

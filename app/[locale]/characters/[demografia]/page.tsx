@@ -1,6 +1,5 @@
 import { notFound } from 'next/navigation';
 import Button from '@/components/button/Buttons/Button';
-import LanguageSelector from '@/components/button/LanguageSelector';
 import AnimeCard from '@/components/characters/AnimeCard';
 import Pagination from '@/components/characters/Pagination';
 import { getAnimesByDemografia, DEMOGRAFIA_IDS } from '@/services/logic_characters/fetchAnime';
@@ -25,7 +24,6 @@ export default async function DemografiaPage({
 
   return (
     <section className="p-10 min-h-screen bg-gradient-to-br from-purple-100 via-indigo-100 to-blue-100">
-      <LanguageSelector />
       <Button name="" to="" variant="return" />
       <h1 className="text-4xl font-extrabold text-center mb-10 text-indigo-800 capitalize tracking-wide">
         {t('demografia.title_h1')}<span className="text-purple-700">{slug}</span>

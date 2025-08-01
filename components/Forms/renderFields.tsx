@@ -1,10 +1,11 @@
 import InputField from "../input/InputField";
 import type { FormState } from "../../types/froms_types";
 
+
 export const renderFields = (
     form: FormState,
     handleChange: (field: keyof FormState)=>(e: React.ChangeEvent<HTMLInputElement>) => void,
-    mode: "login"|"register"
+    mode: "login"|"register",
 )=> (
     <>
     {mode === "register" &&(

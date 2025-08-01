@@ -1,27 +1,31 @@
 type InputFieldProps = {
-    type: string;
-    placeholder: string;
-    value: string;
-    onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-    required?: boolean;
+  type: string;
+  name?: string;
+  placeholder: string;
+  value: string;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  required?: boolean;
 };
 
-const InputField: React.FC<InputFieldProps> = ({
+export default function InputField({
   type,
+  name,
   placeholder,
   value,
   onChange,
-  required = true,
-}) => (
+  required = false,
+}: InputFieldProps) {
+  return (
     <div className="mb-4">
-        <input
+      <input
         type={type}
-      className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-      placeholder={placeholder}
-      value={value}
-      onChange={onChange}
-      required={required}
+        name={name}
+        className="w-full px-4 py-2 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-200"
+        placeholder={placeholder}
+        value={value}
+        onChange={onChange}
+        required={required}
       />
     </div>
-);
-export default InputField;
+  );
+}

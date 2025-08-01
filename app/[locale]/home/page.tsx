@@ -6,10 +6,10 @@ import AuthChecker from "@/components/home/AuthChecker";
 import HomeInfoSection from "@/components/home/HomeInfoSection";
 import BlogSection from "@/components/home/BlogSection";
 
-const Index: React.FC = () => {
+export default function HomePage() {
   return (
     <AuthChecker>
-      <main role="main" className="flex flex-col items-center p-4">
+      <main role="main">
         <Background variant="home">
           <MainHeading title="Quiz Note" />
         </Background>
@@ -20,4 +20,4 @@ const Index: React.FC = () => {
   );
 };
 
-export default Index;
+

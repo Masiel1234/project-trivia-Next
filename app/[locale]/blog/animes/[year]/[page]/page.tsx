@@ -1,7 +1,7 @@
 import { FiltroTipos } from '@/components/blog/FiltroTipos';
 import { Paginacion } from '@/components/blog/Paginacion';
 import { AnimeCard } from '@/components/blog/AnimeCard';
-import { getAnimesByYearPage } from '@/services/blog_Services/animeService';
+import { getAnimesByYearPage } from '@/services/blog_Services/animeServiceYears';
 import { getTranslations } from 'next-intl/server';
 
 export default async function AnimesByYearPage({

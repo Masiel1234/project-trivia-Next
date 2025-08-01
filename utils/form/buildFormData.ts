@@ -1,4 +1,4 @@
-import type { FormState } from "../types/froms_types";
+import type { FormState } from "../../types/froms_types";
 
 export const buildFormData = (
     form: FormState,

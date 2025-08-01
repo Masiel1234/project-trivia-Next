@@ -29,7 +29,7 @@ export default function Header() {
               { label: "Spoko", to: "/home/category/sponko" },
             ]}
           />
-          <Button variant="currency">
+          <Button variant="currency" aria-label={t("home.currency_button")}>
             <CgDollar/>
           </Button>
         </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import { ButtonVariant } from "@/types/buttons/ButtonProps";
+import { ButtonVariant } from "../../../types/buttons/ButtonProps";
 import LinkButton from "./LinkButton";
 import ButtonCurrency from "../ButtonCurrency";
 import ProfileButton from "./ProfileButton";
@@ -23,7 +23,7 @@ const Button: React.FC<ButtonProps> = (props) => {
       return <ReturnButton />;
     case "profile":
       return (
-        <ProfileButton variant={variant} onClick={props.onClick}>
+        <ProfileButton to={props.to!} variant={variant} onClick={props.onClick}>
           {props.children}
         </ProfileButton>
       );
@@ -35,8 +35,9 @@ const Button: React.FC<ButtonProps> = (props) => {
         >{props.children}</ButtonCurrency>
       );
     default:
-      return <LinkButton to={props.to!} name={props.name!} variant={variant} />;
+       return <LinkButton to={props.to!} name={props.name!} variant={variant} />;
   }
+ 
 };
 
 export default Button;

@@ -1,4 +1,4 @@
-import { Blog_anime } from '@/types/blog_anime';
+import { Blog_anime } from '@/types/blog/blog_anime_years';
 
 export async function getAnimesByYearPage(year: string, page: string, type: string): Promise<Blog_anime[]> {
   const typeQuery = type !== 'All' ? `&type=${type}` : '';

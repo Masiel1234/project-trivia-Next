@@ -13,17 +13,24 @@ const PlansPage: React.FC = () => {
 
   return (
     <Background variant="index">
-      <div className="w-full max-w-7xl  h-full p-30 mx-auto px-10 sm:px-8 lg:px-15">
-         <Button name="" variant="return" to="/home" />
-        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6 sm:mb-8 text-gray-800">
-          {t('our_plans_title')}
+      <main className="w-full max-w-7xl min-h-screen mx-auto px-6 sm:px-8 lg:px-16 py-10">
+        <Button
+          variant="return"
+          to="/home"
+          aria-label={t("return_home")} 
+        />
+        <h1
+          id="plans-title"
+          className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6 sm:mb-8 text-gray-800"
+        >
+          {t("our_plans_title")}
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {plansToDisplay.map((plan) => (
             <PlanCard key={plan.name} name={plan.name} price={plan.price} />
           ))}
         </div>
-      </div>
+      </main>
     </Background>
   );
 };

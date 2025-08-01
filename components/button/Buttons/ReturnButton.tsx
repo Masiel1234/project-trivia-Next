@@ -1,5 +1,5 @@
 'use client'
-import { buttonVariants } from "@/utils/buttons/buttonStyle"
+import { buttonVariants } from "../../../utils/buttons/buttonStyle"
 import { GoArrowLeft } from "react-icons/go"
 const ReturnButton: React.FC = () => {
     return(

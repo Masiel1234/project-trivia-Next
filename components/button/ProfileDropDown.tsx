@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { FaSignOutAlt, FaUserEdit } from "react-icons/fa";
+import { FaSignOutAlt, FaUser } from "react-icons/fa";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import Button from "./Buttons/Button";
@@ -10,7 +10,6 @@ import Button from "./Buttons/Button";
 interface UserData {
   name: string;
   email: string;
-  photo?: string;
 }
 
 export default function ProfileDropdown() {
@@ -37,7 +36,7 @@ export default function ProfileDropdown() {
       <div className="relative">
         <button
           onClick={() => setOpen(!open)}
-          className="focus:border-pink-600 border-opacity-100 rounded-full border-2 border-pink-300 w-12 h-12"
+          className="focus:border-pink-600 border-opacity-100 rounded-full cursor-pointer border-2 border-pink-300 w-12 h-12"
         >
           <Image
             alt="photo profile"
@@ -49,21 +48,20 @@ export default function ProfileDropdown() {
         </button>
 
         {open && (
-          <div className="absolute left-0 mt-2 w-40 bg-white rounded-md shadow-lg">
+          <div className="absolute text-black left-0 mt-2 w-40 bg-white rounded-md shadow-lg">
             <Button
-              name={t("edit_profile")}
-              to="/home/profile/edit"
-              variant="profile"
+               to="/home/profile"
+               variant="profile"
             >
-              <FaUserEdit className="text-blue-300" />
+              <FaUser className="text-blue-300" />  
+              <p>{t("view_profile")}</p>
             </Button>
             <Button
               onClick={handleLogout}
-              to=""
-              name={t("closed_profile")}
               variant="profile"
             >
               <FaSignOutAlt className="text-red-500" />
+              <p>{t("closed_profile")}</p>
             </Button>
           </div>
         )}
