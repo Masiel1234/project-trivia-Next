@@ -17,7 +17,6 @@ const PlansPage: React.FC = () => {
         <Button
           variant="return"
           to="/home"
-          aria-label={t("return_home")} 
         />
         <h1
           id="plans-title"

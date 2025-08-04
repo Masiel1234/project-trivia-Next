@@ -82,7 +82,7 @@ const MenuButton: React.FC<MenuProps> = ({ title, items }) => {
       {showModal && (
         <div className="fixed inset-0 flex items-center justify-center bg-pink-300/70 z-[9999] p-8">
           <div className="bg-white rounded-xl p-6 w-full max-w-sm text-center shadow-lg">
-            <h2 className="text- font-semibold mb-4">
+            <h2 className="text-black font-semibold mb-4">
               {t("menuButton.h2title")}
             </h2>
 

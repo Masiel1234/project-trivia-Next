@@ -1,34 +1,45 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { Form } from "@/components/Forms/Form";
 import Background from "@/components/background/Background";
 import LanguageSelector from "@/components/button/LanguageSelector";
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import { supabaseBrowser } from '@/utils/auth/supabaseBrowser';
+
 const Login: React.FC = () => {
+ const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const router = useRouter();
-  const handleLogin = (data: { email: string; password: string }) => {
-    if (data.email === "test@example.com" && data.password === "123") {
-      localStorage.setItem(
-        "user",
-        JSON.stringify({ name: "user", email: data.email })
-      );
-      router.push("/home");
-    } else {
-      alert("Correo o contraseña incorrectos");
-      router.push("/");
+
+  const handleLogin = async () => {
+    const { data, error } = await supabaseBrowser().auth.signInWithPassword({ email, password });
+
+    if (error) {
+      alert(error.message);
+    } else if (data.session) {
+      // Espera un momento para asegurar que el cookie de sesión se establezca
+      setTimeout(() => {
+        router.push('/home'); // o '/' si quieres ir al home
+      }, 200); // 200ms de delay opcional
     }
   };
+
+  
   return (
     <Background variant="home">
       <div className="h-screen w-screen flex items-center justify-center bg-transparent px-2">
         <div className="absolute top-6 right-6 z-10">
           <LanguageSelector />
         </div>
-        <div className="w-full max-w-md">
-          <Form mode="login" onSubmit={handleLogin} />
-        </div>
+        <div>
+      <h2>Iniciar Sesión</h2>
+      <input placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
+      <input placeholder="Password" type="password" onChange={(e) => setPassword(e.target.value)} />
+      <button onClick={handleLogin}>Login</button>
+    </div>
       </div>
     </Background>
   );
 };
+
 export default Login;

@@ -2,28 +2,26 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { useTranslations } from "next-intl";
+
 
 const AuthChecker = ({ children }: { children: React.ReactNode }) => {
-  const router = useRouter();
-  const t = useTranslations("home");
   const [checking, setChecking] = useState(true);
+  const router = useRouter();
 
   useEffect(() => {
-    const user = localStorage.getItem("user");
-    if (!user) {
-      router.push("/login");
-    } else {
-      setChecking(false);
-    }
+    const checkSession = async () => {
+      const { data } = await supabase.auth.getSession();
+      if (!data?.session) {
+        router.push("/login");
+      } else {
+        setChecking(false);
+      }
+    };
+    checkSession();
   }, []);
 
   if (checking) {
-    return (
-      <main className="p-10 text-center">
-        <p className="text-lg font-semibold text-gray-600">{t("checking_p")}</p>
-      </main>
-    );
+    return <p className="text-center mt-10 text-gray-600">Verificando sesión...</p>;
   }
 
   return <>{children}</>;

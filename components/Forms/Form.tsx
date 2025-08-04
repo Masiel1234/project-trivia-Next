@@ -36,11 +36,12 @@ export const Form: React.FC<FormProps> = ({ mode, onSubmit }) => {
 
   return (
     <div className="w-full max-w-xs">
-      <form
+      <Button name="" variant="return" to="/" />
+      <form 
         onSubmit={handleSubmit}
         className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
       >
-        <Button name="" variant="return" to="/" />
+       
         <h2 className="text-2xl font-semibold mb-4 text-center">
           {mode === "login" ? t('title_login') : t('title_register')}
         </h2>

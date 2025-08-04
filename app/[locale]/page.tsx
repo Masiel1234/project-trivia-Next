@@ -27,7 +27,7 @@ export default function Index() {
               {t("text_welcome")}
             </p>
             <Image
-              alt={t("gif_alt")}
+              alt="gif_alt"
               width={150}
               height={150}
               src="/images/gif.gif"

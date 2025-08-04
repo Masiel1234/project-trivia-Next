@@ -26,9 +26,9 @@ export default async function AnimesByYearPage({
 
       <FiltroTipos year={year} page={page} selected={type} />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-        {animes.map((anime) => (
+        {animes.map((anime, index) => (
           <AnimeCard
-            key={anime.mal_id}
+            key={`${anime.mal_id}-${index}`}
             id={anime.mal_id}
             title={anime.title}
             synopsis={anime.synopsis}

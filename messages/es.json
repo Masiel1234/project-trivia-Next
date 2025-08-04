@@ -40,31 +40,31 @@
   },
 
   "profile": {
-    "edit":{
-      "title":"Editar Perfil",
-      "save_changes":"Guardar cambios"
+    "edit": {
+      "title": "Editar Perfil",
+      "save_changes": "Guardar cambios"
     },
-    "!user":"No has iniciado sesión",
-    "go_to_login":"Ir al login",
-    "profile":"Perfil",
-    "information":"Gestiona la información de tu cuenta",
-    "name":"Nombre: ",
-    "email":"Correo electrónico: ",
+    "!user": "No has iniciado sesión",
+    "go_to_login": "Ir al login",
+    "profile": "Perfil",
+    "information": "Gestiona la información de tu cuenta",
+    "name": "Nombre: ",
+    "email": "Correo electrónico: ",
     "edit_profile": "Editar perfil",
     "closed_profile": "Cerrar sesión",
     "view_profile": "Ver perfil"
   },
 
-"froms": {
-  "title_login": "Inicio de sesion",
-  "title_register":"Registrarse",
-  "button_login": "Entrar",
-  "button_register": "Crear cuenta",
-  "name": "Nombre",
-  "email": "Correo electrónico",
-  "password": "Contraseña",
-  "confirm_password": "Confirmar contraseña"
-},
+  "froms": {
+    "title_login": "Inicio de sesion",
+    "title_register": "Registrarse",
+    "button_login": "Entrar",
+    "button_register": "Crear cuenta",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirm_password": "Confirmar contraseña"
+  },
   "isekaiPage": {
     "title": "Quiz de Isekai",
     "loadingQuestions": "Cargando preguntas..."
@@ -124,6 +124,35 @@
     "incorrect": "¡Incorrecto!",
     "correct_answer": "Respuesta correcta",
     "next_question": "Siguiente pregunta"
+  },
+
+  "blog": {
+    "title_h1": "Anime por año",
+    "text_p": " Selecciona un año para ver los animes estrenados.",
+    "see_more": "Ver mas..",
+    "title_h2": " Animes estrenados en",
+    "filtro_title": "Todos los tipos",
+    "anime": {
+      "detail_p1": "Año:",
+      "detail_p2": "Tipo:",
+      "detail_p3": "Episodios:",
+      "detail_p4": "Score:",
+      "detail_p5": "Sinopsis:"
+    },
+    "button_pagination": {
+      "previous": "← Anterior",
+      "next": "Siguiente →",
+      "num_page": "Pagina"
+    }
+  },
+  "characters": {
+    "title_h1": "Personajes por Categoría",
+    "text_p": "Explora animes por género o demografía y conoce a sus personajes.",
+    "demografia": {
+      "title_h1": "Animes de demografía: ",
+      "error_p": "No se encontraron animes para esta demografía.",
+      "next": "Ver personajes →"
+    }
   },
 
   "questions": {
@@ -831,45 +860,6 @@
         "option2": "Captain Tsubasa",
         "option3": "Haikyuu!!",
         "option4": "Ace of Diamond"
-      }
-    }
-  },
-  "blog": {
-    "title_h1": "Anime por año",
-    "text_p": " Selecciona un año para ver los animes estrenados.",
-    "see_more": "Ver mas..",
-    "title_h2": " Animes estrenados en",
-    "filtro_title": "Todos los tipos",
-    "anime": {
-      "detail_p1": "Año:",
-      "detail_p2": "Tipo:",
-      "detail_p3": "Episodios:",
-      "detail_p4": "Score:",
-      "detail_p5": "Sinopsis:"
-    },
-    "button_pagination": {
-      "previous": "← Anterior",
-      "next": "Siguiente →",
-      "num_page": "Pagina"
-    }
-  },
-  "characters": {
-    "title_h1": "Personajes por Categoría",
-    "text_p": "Explora animes por género o demografía y conoce a sus personajes.",
-    "demografia": {
-      "title_h1": "Animes de demografía: ",
-      "error_p": "No se encontraron animes para esta demografía.",
-      "next": "Ver personajes →"
-    }
-  },
-
-  "a11y": {
-    "home": {
-      "Layout": {
-        "header": {
-          "nav": "navegando en el header",
-          "langugeSelector": {}
-        }
       }
     }
   }
