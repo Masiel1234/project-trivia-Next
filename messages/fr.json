@@ -54,15 +54,20 @@
     "view_profile": "Voir le profil"
   },
   "froms": {
-    "title_login": "Connexion",
-    "title_register": "Inscription",
-    "button_login": "Entrer",
-    "button_register": "Créer un compte",
-    "name": "Nom",
-    "email": "E-mail",
-    "password": "Mot de passe",
-    "confirm_password": "Confirmer le mot de passe"
-  },
+  "title_login": "Connexion",
+  "title_register": "Inscription",
+  "button_login": "Se connecter",
+  "button_register": "Créer un compte",
+  "text_login": "Vous n'avez pas de compte ?",
+  "text_register": "Vous avez déjà un compte ?",
+  "link_go_register": "Inscrivez-vous ici",
+  "link_go_login": "Connectez-vous ici",
+  "name": "Nom",
+  "email": "E-mail",
+  "password": "Mot de passe",
+  "confirm_password": "Confirmer le mot de passe"
+},
+
   "isekaiPage": {
     "title": "Quiz Isekai",
     "loadingQuestions": "Chargement des questions..."

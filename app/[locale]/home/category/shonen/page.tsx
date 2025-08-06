@@ -6,7 +6,7 @@ import ShonenData from "@/data/question-shonen.json";
 import Background from "@/components/background/Background";
 import Lives from "@/components/lives/Lives";
 import { useTranslations } from "next-intl";
-import ButtonLeave from "@/components/button/ButtonLeave";
+import ButtonLeave from "@/components/LeaveQuizAlert";
 import type { Question } from "@/types/question/Question";
 import { formatQuestions } from "@/utils/questions";
 

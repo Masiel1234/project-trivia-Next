@@ -10,24 +10,16 @@ const PUBLIC_ROUTES = ['/', '/login', '/register'];
 export async function middleware(req: NextRequest) {
   const res = intlMiddleware(req);
   const supabase = createMiddlewareClient({ req, res });
-
   const {
     data: { session }
   } = await supabase.auth.getSession();
-
   const { pathname } = req.nextUrl;
-
-  // Extrae locale y ruta sin locale
   const pathWithoutLocale = pathname.replace(/^\/(es|en|fr|jp|zh)(\/)?/, '/') || '/';
-
-  // ✅ Solución clave: Permitir ruta `/` o `/es`, `/en`
   const isRootLocaleOnly = /^\/(es|en|fr|jp|zh)$/.test(pathname);
 
   if (PUBLIC_ROUTES.includes(pathWithoutLocale) || isRootLocaleOnly) {
     return res;
   }
-
-  // Si no está autenticado y la ruta es protegida
   if (!session) {
     const loginUrl = req.nextUrl.clone();
     loginUrl.pathname = `/${req.nextUrl.locale || 'en'}/login`;
@@ -36,7 +28,6 @@ export async function middleware(req: NextRequest) {
 
   return res;
 }
-
 
 export const config = {
   matcher: ['/((?!api|trpc|_next|_vercel|.*\\..*).*)'],

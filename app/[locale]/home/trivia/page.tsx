@@ -1,7 +1,7 @@
 "use client";
 import { useTranslations } from "next-intl";
 import Background from "@/components/background/Background";
-import ButtonLeave from "@/components/button/ButtonLeave";
+import ButtonLeave from "@/components/LeaveQuizAlert";
 import TriviaCard from "@/components/triviaApi/TriviaCard";
 import Lives from "@/components/lives/Lives";
 import TriviaFeedback from "@/components/triviaApi/TriviaFeedback";

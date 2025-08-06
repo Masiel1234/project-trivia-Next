@@ -54,15 +54,19 @@
     "view_profile": "查看资料"
   },
   "froms": {
-    "title_login": "登录",
-    "title_register": "注册",
-    "button_login": "进入",
-    "button_register": "创建账户",
-    "name": "姓名",
-    "email": "电子邮件",
-    "password": "密码",
-    "confirm_password": "确认密码"
-  },
+  "title_login": "登录",
+  "title_register": "注册",
+  "button_login": "登录",
+  "button_register": "创建账户",
+  "text_login": "还没有账户？",
+  "text_register": "已经有账户了？",
+  "link_go_register": "点击这里注册",
+  "link_go_login": "点击这里登录",
+  "name": "姓名",
+  "email": "电子邮件",
+  "password": "密码",
+  "confirm_password": "确认密码"
+},
   "isekaiPage": {
     "title": "异世界测验",
     "loadingQuestions": "正在加载问题..."

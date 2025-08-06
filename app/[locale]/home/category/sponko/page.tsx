@@ -6,7 +6,7 @@ import SpokonData from "@/data/question-spokon.json";
 import Background from "@/components/background/Background";
 import { useTranslations } from "next-intl";
 import Lives from "@/components/lives/Lives";
-import ButtonLeave from "@/components/button/ButtonLeave";
+import ButtonLeave from "@/components/LeaveQuizAlert";
 import type { Question } from "@/types/question/Question";
 import { formatQuestions } from "@/utils/questions";
 

@@ -8,4 +8,5 @@ export const buttonVariants = {
     "flex text-black items-center gap-2 w-full px-4 py-2 hover:bg-gray-100 text-left cursor-pointer",
   currency:
     "flex cursor-pointer items-center justify-center gap-2 from-pink-500 text-black px-4 py-3 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 ease-in-out",
+  link: "text-blue-600 hover:underline text-sm",
 };

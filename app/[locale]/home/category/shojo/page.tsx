@@ -6,7 +6,7 @@ import ShojoData from "@/data/question-shojo.json";
 import Lives from "@/components/lives/Lives";
 import Background from "@/components/background/Background";
 import { useTranslations } from "next-intl";
-import ButtonLeave from "@/components/button/ButtonLeave";
+import ButtonLeave from "@/components/LeaveQuizAlert";
 import type { Question } from "@/types/question/Question";
 import { formatQuestions } from "@/utils/questions";
 const Shojo: React.FC = () => {

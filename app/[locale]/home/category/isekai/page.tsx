@@ -4,7 +4,7 @@ import Background from "@/components/background/Background";
 import Quiz from "@/components/quiz/Quiz";
 import isekaiData from "@/data/question-isekai.json";
 import Lives from "@/components/lives/Lives";
-import ButtonLeave from "@/components/button/ButtonLeave";
+import ButtonLeave from "@/components/LeaveQuizAlert";
 import type { Question } from "@/types/question/Question";
 import { useTranslations } from "next-intl";
 import { formatQuestions } from "@/utils/questions";

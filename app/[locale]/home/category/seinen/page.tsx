@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Quiz from "@/components/quiz/Quiz";
 import seinenData from "@/data/question-seinen.json";
 import Background from "@/components/background/Background";
-import ButtonLeave from "@/components/button/ButtonLeave";
+import ButtonLeave from "@/components/LeaveQuizAlert";
 import Lives from "@/components/lives/Lives";
 import { useTranslations } from "next-intl";
 import type { Question } from "@/types/question/Question";

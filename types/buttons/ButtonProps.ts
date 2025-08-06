@@ -1,11 +1,11 @@
-
 export type ButtonVariant =
   | "primary"
   | "secondary"
   | "third"
   | "return"
   | "profile"
-  | "currency";
+  | "currency"
+  | "link";
 
 export interface BaseProps {
   variant: ButtonVariant;
@@ -25,3 +25,10 @@ export interface CurrencyButtonProps extends BaseProps {
   children: React.ReactNode;
 }
 
+export interface ButtonProps extends BaseProps {
+  variant: ButtonVariant;
+  name?: string;
+  to?: string;
+  onClick?: () => void;
+  children?: React.ReactNode;
+}

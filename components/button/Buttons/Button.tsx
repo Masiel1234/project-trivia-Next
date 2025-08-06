@@ -2,10 +2,9 @@
 
 import { ButtonVariant } from "../../../types/buttons/ButtonProps";
 import LinkButton from "./LinkButton";
-import ButtonCurrency from "../ButtonCurrency";
+import ButtonCurrency from "./ButtonCurrency";
 import ProfileButton from "./ProfileButton";
 import ReturnButton from "./ReturnButton";
-
 
 interface ButtonProps {
   variant: ButtonVariant;
@@ -29,15 +28,15 @@ const Button: React.FC<ButtonProps> = (props) => {
       );
     case "currency":
       return (
-        <ButtonCurrency
-          to="/home/currency"
-          variant={variant}
-        >{props.children}</ButtonCurrency>
+        <ButtonCurrency to="/home/currency" variant={variant}>
+          {props.children}
+        </ButtonCurrency>
       );
+    case "link":
+      return <LinkButton to={props.to!} name={props.name!} variant={variant} />;
     default:
-       return <LinkButton to={props.to!} name={props.name!} variant={variant} />;
+      return <LinkButton to={props.to!} name={props.name!} variant={variant} />;
   }
- 
 };
 
 export default Button;

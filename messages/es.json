@@ -56,14 +56,18 @@
   },
 
   "froms": {
-    "title_login": "Inicio de sesion",
-    "title_register": "Registrarse",
-    "button_login": "Entrar",
-    "button_register": "Crear cuenta",
-    "name": "Nombre",
-    "email": "Correo electrónico",
-    "password": "Contraseña",
-    "confirm_password": "Confirmar contraseña"
+  "title_login": "Iniciar Sesión",
+  "title_register": "Registrarse",
+  "button_login": "Iniciar Sesión",
+  "button_register": "Crear Cuenta",
+  "text_login": "¿No tienes una cuenta? ",
+  "text_register": "¿Ya tienes una cuenta? ",
+  "link_go_register": "Regístrate aquí",
+  "link_go_login": "Inicia sesión",
+  "name": "Nombre",
+  "email": "Correo Electrónico",
+  "password": "Contraseña",
+  "confirm_password": "Confirmar Contraseña"
   },
   "isekaiPage": {
     "title": "Quiz de Isekai",
