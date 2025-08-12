@@ -13,11 +13,13 @@ const Register: React.FC = () => {
   const [password, setPassword] = useState('');
   const router = useRouter();
   const t = useTranslations('froms')
+
+
   const handleRegister = async () => {
     const { error } = await supabaseBrowser().auth.signUp({ email, password });
+    
     if (error) alert(error.message);
     else {
-      alert('Revisa tu correo para confirmar el registro');
       router.push('/login');
     }
   };

@@ -53,17 +53,20 @@
     "closed_profile": "Déconnexion",
     "view_profile": "Voir le profil"
   },
-  "froms": {
+  
+"froms": {
   "title_login": "Connexion",
-  "title_register": "Inscription",
-  "button_login": "Se connecter",
+  "title_register": "S'inscrire",
+  "button_login": "Connexion",
   "button_register": "Créer un compte",
-  "text_login": "Vous n'avez pas de compte ?",
-  "text_register": "Vous avez déjà un compte ?",
+  "button_close": "Se déconnecter",
+  "load": "Chargement...",
+  "text_login": "Vous n'avez pas de compte ? ",
+  "text_register": "Vous avez déjà un compte ? ",
   "link_go_register": "Inscrivez-vous ici",
-  "link_go_login": "Connectez-vous ici",
+  "link_go_login": "Connectez-vous",
   "name": "Nom",
-  "email": "E-mail",
+  "email": "Adresse e-mail : ",
   "password": "Mot de passe",
   "confirm_password": "Confirmer le mot de passe"
 },

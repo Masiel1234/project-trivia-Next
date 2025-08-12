@@ -60,15 +60,18 @@
   "title_register": "Registrarse",
   "button_login": "Iniciar Sesión",
   "button_register": "Crear Cuenta",
+  "button_close": "Cerrar sesion",
+  "load":"Cargando...",
   "text_login": "¿No tienes una cuenta? ",
   "text_register": "¿Ya tienes una cuenta? ",
   "link_go_register": "Regístrate aquí",
   "link_go_login": "Inicia sesión",
   "name": "Nombre",
-  "email": "Correo Electrónico",
+  "email": "Correo Electrónico: ",
   "password": "Contraseña",
   "confirm_password": "Confirmar Contraseña"
   },
+  
   "isekaiPage": {
     "title": "Quiz de Isekai",
     "loadingQuestions": "Cargando preguntas..."

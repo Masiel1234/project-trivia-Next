@@ -5,7 +5,7 @@ import { routing } from './i18n/routing';
 
 const intlMiddleware = createMiddleware(routing);
 
-const PUBLIC_ROUTES = ['/', '/login', '/register'];
+const public_routes = ['/', '/login', '/register'];
 
 export async function middleware(req: NextRequest) {
   const res = intlMiddleware(req);
@@ -17,7 +17,7 @@ export async function middleware(req: NextRequest) {
   const pathWithoutLocale = pathname.replace(/^\/(es|en|fr|jp|zh)(\/)?/, '/') || '/';
   const isRootLocaleOnly = /^\/(es|en|fr|jp|zh)$/.test(pathname);
 
-  if (PUBLIC_ROUTES.includes(pathWithoutLocale) || isRootLocaleOnly) {
+  if (public_routes.includes(pathWithoutLocale) || isRootLocaleOnly) {
     return res;
   }
   if (!session) {
